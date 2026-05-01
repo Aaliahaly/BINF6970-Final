@@ -65,7 +65,7 @@ Input data is read from the `data/` folder.
 Each script writes its output to the corresponding step folder inside `data/`.  
 
 Final datasets are stored in:
-- `data/06_Final_Integrated_Data/`
+- `data/06_Final_Curated_Data/`
 - `data/07_Validation_Report/`
 
 ---
