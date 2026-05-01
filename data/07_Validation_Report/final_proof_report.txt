@@ -1,0 +1,12 @@
+Patients: 499
+Cancers: 3
+Diagnoses: 499
+Survival rows: 499
+Samples: 499
+Genes: 12311
+Mutations: 33653
+Sample_Mutation rows: 34282
+CNA rows: 1150724
+Expression rows: 5514987
+Feature definitions: 3
+Sample_Feature rows: 1497
