@@ -123,3 +123,7 @@ At this stage, the data is clean and standardized but not yet harmonized or inte
 ## Note
 
 At this stage, the data is clean and standardized but not yet harmonized or integrated across datasets. Further processing is required before database population and downstream analysis.
+
+## Additional Note
+
+The file `hgnc_complete_set.txt` is included in this stage because it serves as a required input for the upcoming gene harmonization step. It is placed here alongside the cleaned datasets to ensure all necessary inputs for harmonization are available in one location.
