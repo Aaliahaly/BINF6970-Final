@@ -17,4 +17,5 @@ The following files have been compressed (zipped) to enable upload to this repos
 - `data_log2_cna.txt`
 - `data_mrna_seq_v2_rsem_zscores_ref_all_samples.txt`
 - `data_mrna_seq_v2_rsem_zscores_ref_diploid_samples.txt`
-The files `data_methylation_hm27_hm450_merged.txt` and `data_mrna_seq_v2_rsem.txt` are not included in this repository due to their large size. These files should be downloaded directly from the original data source if full reproduction is required.
+
+Moreover, the files `data_methylation_hm27_hm450_merged.txt` and `data_mrna_seq_v2_rsem.txt` are not included in this repository due to their large size. These files should be downloaded directly from the original data source if full reproduction is required.
