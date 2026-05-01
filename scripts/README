@@ -1,8 +1,8 @@
-# Scripts
+#Scripts
 
 This folder contains all Python scripts used to execute the full multi-omics data processing pipeline.
 
-## Overview
+##Overview
 
 The scripts are organized to follow the full workflow from raw data processing to final dataset generation. Each script represents a specific stage in the pipeline and operates on the outputs of the previous step.
 
