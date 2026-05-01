@@ -1,1 +1,117 @@
+# Cleaned Data
 
+This folder contains datasets after the initial data cleaning and transformation stage of the pipeline.
+
+## Description
+At this stage, the data has been cleaned, standardized, and transformed into structured formats suitable for downstream processing. Each dataset has been aligned with the database schema, ensuring consistent naming conventions, data types, and formats across all data types.
+
+However, the following steps have NOT yet been applied:
+- sample-level harmonization  
+- gene-level harmonization  
+- HGNC mapping  
+- final integration  
+
+These datasets serve as input to the harmonization stages of the pipeline.
+
+---
+
+## Datasets and Processing Details
+
+### 1. Clinical and Sample Data
+
+- **Input:** Clinical&Sample(1).xlsx  
+- **Output:** Clinical&Sample.xlsx  
+- **Script:** Clin&Sample_Cleaning.py  
+
+#### Description
+Cleans and standardizes clinical and sample data into a structured format ready for analysis and database integration. Variables are renamed to match the database schema, survival variables are converted into clear clinical labels, and cancer-related attributes are standardized. Molecular subtype information is parsed to extract IDH and 1p/19q codeletion status.
+
+#### What Changed
+- Standardized all column names to database-friendly format  
+- Renamed survival variables to descriptive clinical terms  
+- Converted binary survival encodings (0/1) into explicit labels  
+- Rounded survival time variables to two decimal places  
+- Standardized cancer type and site naming  
+- Renamed histological classification field  
+- Extracted IDH_Status and Codeletion_Status from subtype  
+- Standardized additional variables without altering values  
+- Renamed hypoxia-related variables consistently  
+- Removed whitespace inconsistencies  
+- Verified no duplicate records based on Patient_ID and Sample_ID  
+
+---
+
+### 2. Copy Number Alteration (CNA)
+
+- **Input:** data_cna.txt  
+- **Output:** cna_long.csv  
+- **Script:** CNA_Transformation&Cleaning.py  
+
+#### Description
+Transforms CNA data from wide matrix format into long format, where each row represents a gene–sample pair. It standardizes gene identifiers, converts numeric values into biological categories, and removes duplicates.
+
+#### What Changed
+- Converted data from wide to long format (gene–sample pairs)  
+- Standardized gene identifiers and data types  
+- Renamed CNA value column to CNA_Status  
+- Converted CNA values to numeric format  
+- Mapped numeric values to biological labels (deep_loss, loss, neutral, gain, amplification)  
+- Removed duplicate rows  
+- Verified dataset integrity before and after cleaning  
+
+---
+
+### 3. Gene Expression Data
+
+- **Input:** data_mrna_seq_v2_rsem.txt  
+- **Output:** long_expression.csv  
+- **Script:** mRNA_Expression_Transformation&Cleaning.py  
+
+#### Description
+Transforms RNA-seq gene expression data into long format and prepares it for integration. Expression values are cleaned, standardized, and filtered to remove non-informative data.
+
+#### What Changed
+- Converted data from wide to long format (gene–sample pairs)  
+- Standardized gene identifiers and data types  
+- Renamed expression column to Expression  
+- Converted expression values to numeric format  
+- Rounded expression values to two decimal places  
+- Removed zero-expression rows  
+- Removed duplicate rows  
+- Verified dataset consistency after cleaning  
+
+---
+
+### 4. Mutation Data
+
+- **Input:** Mutation(1).xlsx  
+- **Output:** Mutation.xlsx  
+- **Script:** Mutations_Cleaning.py  
+
+#### Description
+Processes mutation data by standardizing annotations, selecting the most severe variant per mutation, and calculating Variant Allele Frequency (VAF).
+
+#### What Changed
+- Renamed columns to align with database schema  
+- Selected the most severe consequence using VEP ranking  
+- Standardized mutation annotation fields  
+- Converted read count fields to numeric format  
+- Calculated Variant Allele Frequency (VAF)  
+- Rounded VAF values to two decimal places  
+
+---
+
+## Role in Pipeline
+
+These cleaned datasets are the output of the initial data preparation stage and serve as input for:
+
+- sample-level harmonization  
+- gene-level harmonization  
+- identifier standardization (HGNC mapping)  
+- final dataset integration  
+
+---
+
+## Note
+
+At this stage, the data is clean and standardized but not yet harmonized or integrated across datasets. Further processing is required before database population and downstream analysis.
