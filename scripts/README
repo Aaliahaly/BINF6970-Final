@@ -42,11 +42,10 @@ The pipeline can be executed step-by-step or run بالكامل باستخدام
 
 ### Run full pipeline
 
-```bash
 python run_pipeline.py
 
 ### Run step-by-step
-```bash
+
 python clean_clinical_sample.py
 python clean_cna.py
 python clean_expression.py
