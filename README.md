@@ -1,245 +1,331 @@
 # Brain Lower Grade Glioma Multi-Omics Database  
-TCGA PanCancer Atlas | Fully Reproducible | SQL + Graph Integration
+**TCGA PanCancer Atlas | Fully Reproducible | Gene-Centered Data Architecture**
 
 ---
 
-## 1. Executive Summary
-This project delivers a rigorously engineered, gene-centered multi-omics database for Brain Lower Grade Glioma (LGG) using TCGA PanCancer Atlas data. The system resolves fragmentation across clinical, mutation, CNA, and expression datasets through a deterministic, reproducible pipeline.
+## Executive Overview
 
-Core contributions:
-- End-to-end harmonization of multi-omics data at sample and gene levels
-- Relational schema normalized to Fifth Normal Form (5NF)
-- Automated pipeline for data cleaning → harmonization → validation → SQL generation
-- Dual analytical framework:
+This project delivers a rigorously engineered, gene-centered multi-omics database for Brain Lower Grade Glioma (LGG) using TCGA PanCancer Atlas data.
+
+Multi-omics datasets are inherently fragmented. Clinical data, mutations, copy number alterations, and gene expression exist in separate formats with inconsistent identifiers. This project resolves that fragmentation through a deterministic and fully reproducible pipeline that produces a clean, integrated, and query-ready system.
+
+The core design rule is strict:
+
+**Every molecular observation must map to both a gene and a sample.**
+
+This guarantees consistency across all data layers and enables direct biological interpretation without additional preprocessing.
+
+---
+
+## Core Contributions
+
+- End-to-end integration of clinical and multi-omics datasets  
+- Strict gene–sample relational mapping  
+- Schema normalized to Fifth Normal Form (5NF)  
+- Fully reproducible pipeline for cleaning, validation, and harmonization  
+- Automated SQL generation for database population  
+- Dual analysis framework:
   - Relational querying (MySQL)
-  - Graph-based modeling (Neo4j)
-- Quantitative validation ensuring data integrity and reproducibility
-
-Outcome:
-A high-fidelity, scalable database enabling robust clinical-genomic integration and downstream biological discovery.
+  - Graph-based exploration (Neo4j)  
+- Quantitative validation of data integrity  
 
 ---
 
-## 2. System Architecture Overview
+## System Architecture
 
 ### Data Flow
-Raw Data → Cleaning → Harmonization → Validation → SQL Generation → MySQL → Neo4j
+
+```
+Raw Data → Cleaning → Validation → Harmonization → Integration → SQL → MySQL → Neo4j
+```
 
 ### Design Principles
-- Gene-centric integration
-- Strict normalization (5NF)
-- Deterministic transformations
-- Elimination of redundancy
-- Analytical scalability
+
+- Gene-centered structure  
+- Strict normalization  
+- Deterministic transformations  
+- No redundancy  
+- Scalable architecture  
 
 ---
 
-## 3. Technology Stack
+## Repository Structure
 
-### Core Systems
-- DBMS: MySQL
-- Programming: Python
-- Graph DB: Neo4j
-
-### Python Ecosystem
-- pandas
-- numpy
-- pathlib
-
-### Data Standards
-- HGNC gene mapping
-- TCGA sample identifiers
-- Simplified MAF mutation structure
-
----
-
-## 4. Repository Architecture
-
+```
 project_root/
 
-├── data_raw/              
-Original datasets  
-
-├── data_cleaned/          
-Cleaned datasets  
-
-├── scripts/               
-Pipeline scripts  
-
-├── sql/                  
-schema.sql  
-FINAL_POPULATE.sql  
-queries.sql  
-
-├── docs/                 
-ERD  
-Data Dictionary  
-Writeup  
-
-└── neo4j/                
-neo4j_import.cypher  
-For_Neo4j.csv  
+├── data/
+│   ├── Original_TCGA_LGG_Dataset/
+│   ├── Selected_Original_Files/
+│   ├── Selected_Raw_Data/
+│   ├── 01_Cleaned_Data/
+│   ├── 02_Validated_Data/
+│   ├── 03_Sample_Harmonized_Data/
+│   ├── 04_Gene_Harmonized_Data/
+│   ├── 05_HGNC_Mapped_Data/
+│   ├── 06_Final_Curated_Data/
+│   └── 07_Validation_Report/
+│
+├── scripts/
+│   ├── 01_clean_clinical_sample.py
+│   ├── 02_clean_cna.py
+│   ├── 03_clean_expression.py
+│   ├── 04_clean_mutations.py
+│   ├── 05_validator.py
+│   ├── 06_sample_harmonization.py
+│   ├── 07_gene_harmonization.py
+│   ├── 08_hgnc_mapping.py
+│   ├── 09_finalize.py
+│   ├── 10_report.py
+│   ├── run_pipeline.py
+│
+├── sql/
+│   ├── schema.sql
+│   ├── FINAL_POPULATE.sql
+│   └── queries.sql
+│
+├── diagrams/
+│   ├── conceptual_model.png
+│   └── logical_model_erd.png
+│
+├── docs/
+│   ├── full_report
+│   ├── data_dictionary
+│   └── ERD
+│
+└── README.md
+```
 
 ---
 
-## 5. Data Engineering Strategy
-
-### Inclusion Criteria
-- Direct biological interpretability
-- Gene-level compatibility
-- Cross-dataset linkage
-- Analytical value
-
-### Exclusion Criteria
-- Arm-level CNA
-- Segment-based CNA
-- Methylation
-- RPPA
-- Structural variants
-- Timeline and treatment data
-
-This ensures a clean, gene-centered dataset.
-
----
-
-## 6. Data Pipeline
+## Data Pipeline
 
 ### Stage 1: Cleaning
-- Clinical normalization
-- Mutation processing and VAF calculation
-- CNA and expression reshaping
 
-### Stage 2: Sample Harmonization
-- Intersection across all datasets
+- Clinical standardization  
+- Mutation processing with VAF calculation  
+- CNA and expression reshaping to gene–sample format  
 
-### Stage 3: Gene Harmonization
-- Common gene intersection
+### Stage 2: Validation
 
-### Stage 4: Identifier Standardization
-- HGNC mapping
+- Required field enforcement  
+- Removal of invalid records  
 
-### Stage 5: Final Integration
-- Fully matched datasets
+### Stage 3: Sample Harmonization
 
-### Stage 6: Validation
-- Patients: 499
-- Samples: 499
-- Genes: 12,311
-- Mutations: 33,653
+- Retain only samples present across all datasets  
 
-### Stage 7: SQL Generation
-- Automated INSERT statements
+### Stage 4: Gene Harmonization
 
-Run pipeline:
-python run_pipeline.py
+- Retain only shared genes across all omics layers  
 
----
+### Stage 5: HGNC Mapping
 
-## 7. Database Design
+- Standardize gene identifiers  
 
-Entities:
-- Patient
-- Diagnosis
-- Sample
-- Gene
-- Mutation
-- Copy_Number_Alteration
-- Expression
+### Stage 6: Final Integration
 
-Features:
-- 5NF normalization
-- Many-to-many relationships handled correctly
-- Strict constraints for integrity
+- Fully matched multi-omics dataset  
+
+### Stage 7: Validation Report
+
+Final dataset:
+
+- Patients: 499  
+- Samples: 499  
+- Genes: 12,311  
+- Mutations: 33,653  
 
 ---
 
-## 8. SQL Analysis
+## Important Note on Pipeline Execution
+
+`run_pipeline.py` executes only:
+
+- Sample harmonization  
+- Gene harmonization  
+- HGNC mapping  
+- Final dataset integration  
+- Validation reporting  
+
+It does NOT perform initial data cleaning.
+
+---
+
+## Database Design
+
+### Entities
+
+- Patient  
+- Diagnosis  
+- Sample  
+- Gene  
+- Mutation  
+- Copy_Number_Alteration  
+- Expression  
+- Survival  
+
+### Key Properties
+
+- Fully normalized to 5NF  
+- No redundancy  
+- Correct handling of many-to-many relationships  
+- Strong referential integrity  
+- Scalable structure aligned with clinical reality  
+
+---
+
+## SQL Analysis
 
 Supports:
-- Survival analysis
-- Mutation burden
-- Gene frequency
-- CNA analysis
-- High-VAF filtering
 
-All queries are scalable and non-redundant.
+- Survival analysis  
+- Mutation burden  
+- Gene mutation frequency  
+- Copy number analysis  
+- High-VAF filtering  
 
----
-
-## 9. Graph Database (Neo4j)
-
-Nodes:
-- Sample
-- Gene
-
-Relationships:
-- HAS_GENE
-
-Attributes:
-- IDH status
-- Codeletion status
-
-Purpose:
-- Network-based mutation analysis
-- Subtype visualization
+All queries are efficient and scalable.
 
 ---
 
-## 10. Biological Insights
+## Graph Analysis (Neo4j)
 
-- TP53 and ATRX enriched in IDH-mutant tumors
-- CIC and FUBP1 enriched in codeleted tumors
-- Strong subtype-specific mutation patterns
+### Nodes
 
----
+- Sample  
+- Gene  
 
-## 11. Validation
+### Relationships
 
-- Exact match between pipeline and database
-- No duplication
-- No orphan records
-- Verified population
+- HAS_GENE  
 
----
+### Attributes
 
-## 12. Reproducibility
+- IDH status  
+- 1p/19q codeletion  
 
-Includes:
-- Dataset selection table
-- ERD
-- 5NF schema
-- Python pipeline
-- SQL scripts
-- Query outputs
-- Neo4j analysis
+### Purpose
+
+- Network-based mutation analysis  
+- Subtype visualization  
+
+Note: Neo4j is used for analysis, not full data storage.
 
 ---
 
-## 13. How to Reproduce
+## Biological Insights
 
-1. Install:
-   - Python
-   - MySQL
+- TP53 and ATRX enriched in IDH-mutant tumors  
+- CIC and FUBP1 enriched in codeleted tumors  
+- Strong subtype-specific mutation patterns  
 
-2. Run:
+---
+
+## Reproducibility
+
+### Environment Split
+
+**Mac (Local):**
+- Data cleaning  
+- Validation  
+- Harmonization  
+
+**Virtual Machine:**
+- Database creation  
+- Data population  
+- SQL queries  
+- Neo4j analysis  
+
+---
+
+## Reproduction Steps
+
+### 1. Run Pipeline (Local)
+
+```bash
 python run_pipeline.py
-
-3. Create DB:
-mysql < schema.sql
-
-4. Populate:
-mysql < FINAL_POPULATE.sql
-
-5. Validate:
-mysql < queries.sql
+```
 
 ---
 
-## 14. Documentation
+### 2. Transfer Data to Virtual Machine
 
-Located in /docs/:
-- ERD
-- Data dictionary
-- Full write-up
-- Validation report
+Shared folder:
+
+```
+/media/sf_DB-Final/
+```
+
+---
+
+### 3. Build Database
+
+```bash
+mysql -u root -p < schema.sql
+```
+
+---
+
+### 4. Populate Database
+
+```bash
+mysql -u root -p < FINAL_POPULATE.sql
+```
+
+---
+
+### 5. Run Queries
+
+```bash
+mysql < queries.sql
+```
+
+---
+
+## Validation
+
+- No duplicate records  
+- No orphan relationships  
+- Full consistency between pipeline output and database  
+- Verified counts across all entities  
+
+---
+
+## Documentation
+
+Located in `/docs/`:
+
+- ERD  
+- Data Dictionary  
+- Full Report  
+- Validation Results  
+
+---
+
+## Limitations and Future Work
+
+- Single cancer type (LGG)  
+- Limited omics layers (no methylation or proteomics)  
+- Dependence on preprocessed data  
+- Static derived metrics such as VAF  
+- No treatment or longitudinal clinical data  
+
+### Future Directions
+
+- Add methylation and proteomics layers  
+- Extend to multiple cancer types  
+- Integrate treatment and time-series data  
+- Enable dynamic feature computation  
+- Incorporate machine learning workflows  
+
+---
+
+## Final Note
+
+This system removes the most time-consuming barrier in cancer bioinformatics:
+
+**data preparation.**
+
+You work directly on clean, integrated, and biologically consistent data.
 
