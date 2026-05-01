@@ -243,10 +243,3 @@ Located in /docs/:
 - Full write-up
 - Validation report
 
----
-
-## 15. Final Check
-
-Can someone rebuild your entire project without asking you anything?
-
-If yes, your project is complete.
