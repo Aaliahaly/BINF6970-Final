@@ -3,4 +3,4 @@ This folder contains the subset of original TCGA LGG dataset files selected for 
 
 ## Note
 The files `data_mutations.txt` and `data_cna.txt` have been compressed (zipped) to enable upload to this repository.
-The file `data_mrna_seq_v2_rsem.txt` is not included due to its large size. It should be downloaded directly from the original data source to fully reproduce the pipeline.
+The file `data_mrna_seq_v2_rsem.txt` is not included due to its large size. It should be downloaded directly from the original data source to fully reproduce the pipeline. 
