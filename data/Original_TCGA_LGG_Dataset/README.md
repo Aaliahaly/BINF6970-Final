@@ -11,3 +11,4 @@ These files are kept in their original format and structure to preserve data int
 
 ## Note
 All downstream cleaning, transformation, and integration steps in this project are performed using these original files as the starting point.
+The files `data_methylation_hm27_hm450_merged.txt` and `data_mrna_seq_v2_rsem.txt` are not included in this repository due to their large size. These files should be downloaded directly from the original data source if full reproduction is required.
