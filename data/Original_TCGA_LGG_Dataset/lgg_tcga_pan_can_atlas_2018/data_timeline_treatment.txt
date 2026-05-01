@@ -1,0 +1,1020 @@
+PATIENT_ID	START_DATE	STOP_DATE	EVENT_TYPE	TREATMENT_TYPE	TREATMENT_SUBTYPE	AGENT	NUMBER_OF_CYCLES	PRESCRIBED_DOSE	PRESCRIBED_DOSE_UNITS	REGIMEN_NUMBER	REGIMEN_INDICATION	REGIMEN_INDICATION_NOTES	MEASURE_OF_RESPONSE	CLINICAL_TRIAL_DRUG_CLASSIFICATION	ROUTE_OF_ADMINISTRATION	ROUTE_OF_ADMINISTRATION-2	THERAPY_ONGOING	TOTAL_DOSE	TOTAL_DOSE_UNITS	TX_ON_CLINICAL_TRIAL	ANATOMIC_TREATMENT_SITE	COURSE_NUMBER	NUMBER_OF_FRACTIONS	RADIATION_DOSAGE	RADIATION_TREATMENT_ONGOING	RADIATION_TYPE	RADIATION_UNITS	PHARM_REGIMEN	STEM_CELL_TRANSPLANTATION	STEM_CELL_TRANSPLANTATION_TYPE
+TCGA-CS-4941	108	122	Treatment	Radiation Therapy		Radiation 1					Progression										Primary Tumor Field	3	11	3850	No	Other	cgy			
+TCGA-CS-4941	24	67	Treatment	Radiation Therapy		Radiation 2					Adjuvant										Primary Tumor Field	2	30	66	No	External Beam	cgy			
+TCGA-CS-4942	1241	1260	Treatment	Chemotherapy		Bevacizumab	6	800	mg		Progression				IV		No	4800	mg											
+TCGA-CS-4942	146	187	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field			50.4	No	External Beam	cgy			
+TCGA-CS-4942	1205	1205	Treatment	Radiation Therapy		Radiation 2					Recurrence										Local Recurrence	2	10	30	No	Radioisotope	cgy			
+TCGA-CS-4943	408		Treatment	Chemotherapy		Temozolomide					Adjuvant				PO		Yes													
+TCGA-CS-5390	886		Treatment	Chemotherapy		Temozolomide		300	mg	1	Adjuvant				PO															
+TCGA-CS-5390	27	65	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1		5600	No	External Beam	cgy			
+TCGA-CS-5395	411	579	Treatment	Chemotherapy		Bevacizumab	11	980	mg		Progression				IV		No	10780	mg											
+TCGA-CS-5395	259		Treatment	Chemotherapy		Temozolomide		100	mg	1	Adjuvant				PO		No		mg											
+TCGA-CS-5395	60	119	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	6000	No	External Beam	cgy			
+TCGA-CS-5396	39		Treatment	Chemotherapy		Temozolomide		360	mg	1	Adjuvant				PO		Yes		mg											
+TCGA-CS-5396	39	86	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1		6000	No	External Beam	cgy			
+TCGA-CS-5397	8		Treatment	Chemotherapy		Temozolomide			mg	1	Adjuvant				PO		No		mg											
+TCGA-CS-5397	13	55	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1		6000	No	External Beam	cgy			
+TCGA-CS-6186	146	188	Treatment	Chemotherapy		Temozolomide		100	mg	1	Adjuvant				PO		No		mg											
+TCGA-CS-6186	444	512	Treatment	Chemotherapy		Bevacizumab	8	840	mg	2	Recurrence				IV		No	6720	mg											
+TCGA-CS-6186	251	266	Treatment	Radiation Therapy		Radiation 1					Progression										Primary Tumor Field	1	10	35	No	External Beam	cgy			
+TCGA-CS-6186	22	64	Treatment	Radiation Therapy		Radiation 2					Adjuvant										Primary Tumor Field	1	30	60	No	External Beam	cgy			
+TCGA-CS-6188	71	716	Treatment	Chemotherapy		Temozolomide		400	mg	1	Adjuvant				PO		No		mg											
+TCGA-CS-6188	29	71	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	6000	No	External Beam	cgy			
+TCGA-CS-6665	6		Treatment	Chemotherapy		Temozolomide		250	mg	1	Adjuvant				PO		Yes		mg											
+TCGA-CS-6665	22	69	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	33	59.4	No	External Beam	cgy			
+TCGA-CS-6666	32		Treatment	Chemotherapy		Temozolomide			mg	1	Adjuvant				PO		Yes		mg											
+TCGA-CS-6667	20	56	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	27		No	External Beam	cgy			
+TCGA-CS-6668	27		Treatment	Chemotherapy		Temozolomide			mg	1	Adjuvant				PO		Yes		mg											
+TCGA-CS-6669	30		Treatment	Chemotherapy		Temozolomide			mg	1	Adjuvant				PO		Yes		mg											
+TCGA-CS-6670	68	201	Treatment	Chemotherapy		Temozolomide		160	mg	4	Adjuvant				PO		No		mg											
+TCGA-CS-6670	-325	-227	Treatment	Chemotherapy		Bevacizumab	5	1000	mg	2	Other, Specify In Notes				IV		No	5000	mg											
+TCGA-CS-6670	-49	-30	Treatment	Chemotherapy		Vinblastine	2	2	mg	3	Other, Specify In Notes				IV		No	4	mg											
+TCGA-CS-6670	75	117	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	5	30		No	External Beam	cgy			
+TCGA-DB-5270	761	917	Treatment	Chemotherapy		Carmustine	3	200	mg/m2	1	Recurrence				IV		No	1080	mg											
+TCGA-DB-5270	761	806	Treatment	Radiation Therapy		Radiation 1					Recurrence										Primary Tumor Field	1	33	5940	No	External Beam	cgy			
+TCGA-DB-5273	74	302	Treatment	Chemotherapy		Temozolomide	6	200	mg/m2	1	Adjuvant				PO		No	12450	mg											
+TCGA-DB-5273	17	74	Treatment	Chemotherapy		Temozolomide	6	75	mg/m2	1	Adjuvant				PO		No	6720	mg											
+TCGA-DB-5273	17	69	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	33	5940	No	External Beam	cgy			
+TCGA-DB-5274	98	270	Treatment	Chemotherapy		Temozolomide	6	200	mg/m2	1	Adjuvant				PO		No	10800	mg											
+TCGA-DB-5274	52	98	Treatment	Chemotherapy		Temozolomide	6	75	mg/m2	1	Adjuvant				PO		No	5670	mg											
+TCGA-DB-5274	51	91	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	6000	No	External Beam	cgy			
+TCGA-DB-5275	129	359	Treatment	Chemotherapy		Temozolomide	7	200	mg/m2	1	Adjuvant				PO		No	14000	mg											
+TCGA-DB-5275	72	129	Treatment	Chemotherapy		Temozolomide	6	75	mg/m2	1	Adjuvant				PO		No	6300	mg											
+TCGA-DB-5275	72	114	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	6000	No	External Beam	cgy			
+TCGA-DB-5276	69	283	Treatment	Chemotherapy		Temozolomide	6	200	mg/m2	1	Adjuvant				PO		No	9000	mg											
+TCGA-DB-5276	12	69	Treatment	Chemotherapy		Temozolomide	6	75	mg/m2	1	Adjuvant				PO		No	6510	mg											
+TCGA-DB-5276	1011	1189	Treatment	Targeted Molecular Therapy		Imatinib	6	600	mg	2	Progression				PO		No													
+TCGA-DB-5276	1196	1342	Treatment	Targeted Molecular Therapy		Imatinib	5	300	mg	2	Progression				PO		No													
+TCGA-DB-5276	12	67	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	29	5800	No	External Beam	cgy			
+TCGA-DB-5277	91	361	Treatment	Chemotherapy		Temozolomide	9	110	mg/m2	1	Adjuvant				PO		No	9900	mg											
+TCGA-DB-5277	27	61	Treatment	Chemotherapy		Temozolomide	5	75	mg/m2/day	1	Adjuvant				PO		No	5250	mg											
+TCGA-DB-5277	1117	1239	Treatment	Chemotherapy		Temozolomide			mg	2	Progression				PO		No													
+TCGA-DB-5277	26	71	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	33	5940	No	External Beam	cgy			
+TCGA-DB-5277	1148		Treatment	Radiation Therapy		Radiation 2					Progression										Regional Site	2		5600	No	External Beam	cgy			
+TCGA-DB-5278	866	903	Treatment	Radiation Therapy		Radiation 1					Progression										Primary Tumor Field	1	28	5040	No	External Beam	cgy			
+TCGA-DB-5279	773	811	Treatment	Radiation Therapy		Radiation 1					Progression										Primary Tumor Field	1	28	5600	No	External Beam	cgy			
+TCGA-DB-5281	95	276	Treatment	Chemotherapy		Temozolomide	6	200	mg/m2	1	Adjuvant				PO		No	12000	mg											
+TCGA-DB-5281	25	95	Treatment	Chemotherapy		Temozolomide	6	75	mg/m2	1	Adjuvant				PO		No	6300	mg											
+TCGA-DB-5281	25	69	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	33	5940	No	External Beam	cgy			
+TCGA-DB-A4XA	89	128	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		30	5400	No	External	cgy			
+TCGA-DB-A4XB	28	57	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-DB-A4XB	28	79	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		33	5940	No	External	cgy			
+TCGA-DB-A4XC	142	191	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		33	5940	No	External	cgy			
+TCGA-DB-A4XD	24	291	Treatment	Chemotherapy		Temozolomide							complete response				No			No										
+TCGA-DB-A4XD	24	69	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		31	5890	No	External	cgy			
+TCGA-DB-A4XE	23	73	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		33	5940	No	External	cgy			
+TCGA-DB-A4XF	34	264	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-DB-A4XF	34	74	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		33	6000	No	External	cgy			
+TCGA-DB-A4XG	1732	2067	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-DB-A64O	461	551	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-DB-A64O	222	264	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		30	6000	No	External	cgy			
+TCGA-DB-A64P	36	430	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-DB-A64Q	57		Treatment	Chemotherapy		Temozolomide											Yes			No										
+TCGA-DB-A64V	20	330	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-DB-A64W	34	274	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-DB-A64W	34	79	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		33	5940	No	External	cgy			
+TCGA-DB-A64X	53	265	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-DB-A64X	53	83	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field				No	External				
+TCGA-DB-A75K	28	64	Treatment	Chemotherapy		Temozolomide							complete response				No			No										
+TCGA-DB-A75K	28	73	Treatment	Radiation Therapy		Radiation 1							complete response								Primary Tumor Field		33	5949	No	External	cgy			
+TCGA-DB-A75L	25		Treatment	Chemotherapy		Temozolomide											Yes			No										
+TCGA-DB-A75L	25	70	Treatment	Radiation Therapy		Radiation 1							complete response								Primary Tumor Field		33	5940	No	External	cgy			
+TCGA-DB-A75M	47		Treatment	Chemotherapy		Cdr0000654697								e3fo5			Yes			Yes										
+TCGA-DB-A75M	47	84	Treatment	Radiation Therapy		Radiation 1							complete response								Primary Tumor Field		28	5040	No	External	cgy			
+TCGA-DH-5140	136	250	Treatment	Chemotherapy		Temozolomide	1	200	mg/m2/day	2	Adjuvant				PO		No	1000	mg/kg											
+TCGA-DH-5140	385		Treatment	Targeted Molecular Therapy		Gossypol	2			5	Progression				PO		No													
+TCGA-DH-5140	54	98	Treatment	Chemotherapy		Temozolomide	1	75	mg/m2/day	1	Adjuvant				PO		No	3375	mg/m2											
+TCGA-DH-5140	54	98	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1			No	External Beam				
+TCGA-DH-5141	890	936	Treatment	Chemotherapy		Temozolomide	1			1	Adjuvant				PO		No													
+TCGA-DH-5141	890	936	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	33	5990	No	External Beam	cgy			
+TCGA-DH-5142	21	52	Treatment	Chemotherapy		Temozolomide	1	75	mg/m2/day	1	Adjuvant				PO		No	2400	mg/m2											
+TCGA-DH-5142	89	93	Treatment	Chemotherapy		Temozolomide	1	360	mg/day	2	Adjuvant				PO		No	1800	mg											
+TCGA-DH-5142	117	400	Treatment	Chemotherapy		Temozolomide	11	480	mg/day	3	Adjuvant				PO		No	5280	mg											
+TCGA-DH-5142	21	52	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	41	4920	No	External Beam	cgy			
+TCGA-DH-5143	123		Treatment	Chemotherapy		Temozolomide	12	200	mg/m2/day	3	Adjuvant				PO		Yes		mg/m2											
+TCGA-DH-5143	95	99	Treatment	Chemotherapy		Temozolomide	1	300	mg/day	2	Adjuvant				PO		No	1500	mg											
+TCGA-DH-5143	25	64	Treatment	Chemotherapy		Temozolomide	1	75	mg/m2/day	1	Adjuvant				PO		No	3000	mg/m2											
+TCGA-DH-5143	25	64	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	6000	No	External Beam	cgy			
+TCGA-DH-5144	81	106	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	20	3600	No	External Beam	cgy			
+TCGA-DH-A66B	25	432	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-DH-A66B	24	67	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		30	60	No	External	gy			
+TCGA-DH-A66D	31	73	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-DH-A66D	31	73	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		30	60	No	External	gy			
+TCGA-DH-A66G	41	211	Treatment	Chemotherapy		Temozolomide							partial response				No			No										
+TCGA-DH-A66G	166	211	Treatment	Radiation Therapy		Radiation 1							partial response								Primary Tumor Field		34	59.4	No	External	gy			
+TCGA-DH-A7UR	33	1076	Treatment	Chemotherapy		Temozolomide							complete response				No			No										
+TCGA-DH-A7UR	33	83	Treatment	Radiation Therapy		Radiation 1							complete response								Primary Tumor Field		34	61.2	No	External	gy			
+TCGA-DH-A7UT	55	97	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-DH-A7UT	55	97	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		33	6000	No	External	cgy			
+TCGA-DH-A7UU	41	88	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-DH-A7UU	41	88	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		34	6120	No	External	cgy			
+TCGA-DH-A7UV	20	463	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-DH-A7UV	20	67	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		34	6120	No	External	cgy			
+TCGA-DU-5847	84	265	Treatment	Targeted Molecular Therapy		Bevacizumab	06		mg	01	Adjuvant				IV		No													
+TCGA-DU-5847	27	89	Treatment	Chemotherapy		Temozolomide	01		mg/m2	01	Adjuvant				PO		No													
+TCGA-DU-5847	84	265	Treatment	Chemotherapy		Temozolomide	06		mg/m2	01	Adjuvant				PO		No													
+TCGA-DU-5847	28	71	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	6000	No	External Beam	cgy			
+TCGA-DU-5849	42	226	Treatment	Chemotherapy		Temozolomide	06		mg/m2	01	Adjuvant				PO		No		mg											
+TCGA-DU-5851	22	66	Treatment	Chemotherapy		Temozolomide	01	75	mg/m2	01	Adjuvant				PO		No	140	mg											
+TCGA-DU-5851	51	599	Treatment	Chemotherapy		Temozolomide	06	150	mg/m2	01	Adjuvant				PO		No	280	mg											
+TCGA-DU-5851	22	66	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	5940	No	External Beam	cgy			
+TCGA-DU-5852	26	52	Treatment	Chemotherapy		Temozolomide	1		mg/m2	1	Progression				PO		No		mg											
+TCGA-DU-5852	26	97	Treatment	Radiation Therapy		Radiation 1					Progression										Primary Tumor Field	1	26	5140	No	Other	cgy			
+TCGA-DU-5853	28	65	Treatment	Chemotherapy		Temozolomide	1	75	mg/m2	1	Adjuvant				PO		No	165	mg											
+TCGA-DU-5853	28	65	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	27	5040	No	External Beam	cgy			
+TCGA-DU-5854	134	193	Treatment	Chemotherapy		Temozolomide	3	150	mg/m2	1	Adjuvant				PO		No	400	mg											
+TCGA-DU-5854	45	90	Treatment	Chemotherapy		Temozolomide	1	75	mg/m2	1	Adjuvant				PO		No	200	mg											
+TCGA-DU-5854	292		Treatment	Targeted Molecular Therapy		Bevacizumab		10	mg/kg	2	Progression				IV		Yes	850	mg											
+TCGA-DU-5854	45	90	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	5940	No	External Beam	cgy			
+TCGA-DU-5855	118		Treatment	Chemotherapy		Temozolomide	4	200	mg/m2	1	Adjuvant				PO		Yes	270	mg											
+TCGA-DU-5855	41	70	Treatment	Chemotherapy		Temozolomide	1	75	mg/m2	1	Adjuvant				PO		No	140	mg											
+TCGA-DU-5855	41	89	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	5940	No	External Beam	cgy			
+TCGA-DU-5870	4536	4901	Treatment	Chemotherapy		Temozolomide	12	150	mg/m2	1	Progression				PO		No	230	mg											
+TCGA-DU-5870	4500	4543	Treatment	Chemotherapy		Temozolomide	1	75	mg/m2	1	Progression				PO		No		mg											
+TCGA-DU-5870	4500	4543	Treatment	Radiation Therapy		Radiation 1					Progression										Local Recurrence	2		5040	No	External Beam	cgy			
+TCGA-DU-5870	31	62	Treatment	Radiation Therapy		Radiation 2					Adjuvant										Primary Tumor Field	1			No	External Beam	cgy			
+TCGA-DU-5871	71	222	Treatment	Chemotherapy		Temozolomide	6	200	mg/m2	1	Adjuvant				PO		No	450	mg											
+TCGA-DU-5871	14	57	Treatment	Chemotherapy		Temozolomide	1	75	mg/m2	1	Adjuvant				PO		No	160	mg											
+TCGA-DU-5871	14	57	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	5400	No	External Beam	cgy			
+TCGA-DU-5872	83	267	Treatment	Chemotherapy		Temozolomide	6	150	mg/m2	1	Adjuvant				PO		No	310	mg											
+TCGA-DU-5872	34	73	Treatment	Chemotherapy		Temozolomide	1	75	mg/m2	1	Adjuvant				PO		No	155	mg											
+TCGA-DU-5872	328	370	Treatment	Targeted Molecular Therapy		Bevacizumab	2	10	mg/kg	2	Progression				IV		No	959	mg											
+TCGA-DU-5872	540		Treatment	Chemotherapy		Temozolomide	1		mg/m2	3	Progression				PO		Yes	150	mg											
+TCGA-DU-5872	34	73	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	6000	No	External Beam	cgy			
+TCGA-DU-5874	7	160	Treatment	Chemotherapy		Temozolomide	6	150	mg/m2	1	Adjuvant				PO		No	300	mg/m2											
+TCGA-DU-6392	109	443	Treatment	Chemotherapy		Procarbazine + Lomustine + Vincristine	6			1	Adjuvant				PO		No													
+TCGA-DU-6392	17	78	Treatment	Chemotherapy		Hydroxyurea	1			1	Adjuvant				PO		No	300	mg											
+TCGA-DU-6392	17	17	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	1		No	Other	cgy			
+TCGA-DU-6392	17	78	Treatment	Radiation Therapy		Radiation 2					Adjuvant										Primary Tumor Field	1			No	External Beam	cgy			
+TCGA-DU-6393	97	431	Treatment	Chemotherapy		Carmustine	8	60	mg/m2	1	Adjuvant				IV		No													
+TCGA-DU-6394	459	459	Treatment	Chemotherapy		Procarbazine + Lomustine + Vincristine	1			2	Progression				PO		No													
+TCGA-DU-6394	94	278	Treatment	Chemotherapy		Procarbazine + Lomustine + Vincristine	6			1	Adjuvant				PO		No													
+TCGA-DU-6394	404	404	Treatment	Radiation Therapy		Radiation 1					Progression										Local Recurrence	2	1		No	Other	cgy			
+TCGA-DU-6395	1425		Treatment	Chemotherapy		Tamoxifen		10	mg	3	Progression				PO		No	20	mg											
+TCGA-DU-6395	870	1266	Treatment	Chemotherapy		Procarbazine + Lomustine + Vincristine	1			1	Progression				IV		No													
+TCGA-DU-6395	1266	1386	Treatment	Chemotherapy		Procarbazine + Lomustine + Vincristine	4			2	Progression				IV		No													
+TCGA-DU-6396	1823	1946	Treatment	Targeted Molecular Therapy		Isotretinoin	4		mg	5	Progression				PO		No		mg											
+TCGA-DU-6396	240	636	Treatment	Chemotherapy		9-Aminocamptothecin	18	1611	mg/m2	3	Progression				IV		No	1611	mg/m2											
+TCGA-DU-6396	28	59	Treatment	Other	Radiosensitizer	Broxuridine	1			1	Adjuvant				IV		No													
+TCGA-DU-6396	2250	2250	Treatment	Chemotherapy		Capecitabine	1		mg/day	7	Progression				PO		No	3500	mg											
+TCGA-DU-6396	915	1062	Treatment	Chemotherapy		Irinotecan	4	125	mg/m2	4	Progression				IV		No													
+TCGA-DU-6396	82	89	Treatment	Chemotherapy		Procarbazine + Lomustine + Vincristine	1			2	Adjuvant				IV	PO	No													
+TCGA-DU-6396	2127	2250	Treatment	Hormone Therapy		Tamoxifen	4		mg	6	Progression				PO		No	160	mg											
+TCGA-DU-6396	1762	2188	Treatment	Chemotherapy		Temozolomide	7	150	mg/m2	5	Progression				PO		No	225	mg											
+TCGA-DU-6396	25	25	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	1	800	No	Other	cgy			
+TCGA-DU-6396	28	59	Treatment	Radiation Therapy		Radiation 2					Adjuvant										Primary Tumor Field	2		5940	No	External Beam	cgy			
+TCGA-DU-6396	1825	1825	Treatment	Radiation Therapy		Radiation 3					Progression										Local Recurrence	3	1	1800	No	Other	cgy			
+TCGA-DU-6396	2198	2216	Treatment	Radiation Therapy		Radiation 4					Progression										Local Recurrence	5	6	3000	No	Other	cgy			
+TCGA-DU-6396	2066	2097	Treatment	Radiation Therapy		Radiation 5					Progression										Local Recurrence	4		5600	No	Other	cgy			
+TCGA-DU-6397	884	1219	Treatment	Chemotherapy		Temozolomide	12	150	mg/m2	01	Progression				PO		No	325	mg											
+TCGA-DU-6397	853	853	Treatment	Radiation Therapy		Radiation 1					Progression										Local Recurrence	2	1	4500	No	Other	cgy			
+TCGA-DU-6397	25	69	Treatment	Radiation Therapy		Radiation 2					Adjuvant										Primary Tumor Field	1	28	5940	No	External Beam	cgy			
+TCGA-DU-6399	32	63	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1			No	External Beam	cgy			
+TCGA-DU-6401	2512	2512	Treatment	Chemotherapy		Sorafenib	02	400	mg	02	Progression				PO		No	400	mg											
+TCGA-DU-6401	1903	2451	Treatment	Chemotherapy		Temozolomide	16		mg/m2	01	Progression				PO		No		mg											
+TCGA-DU-6401	2542	2542	Treatment	Chemotherapy		Procarbazine	01		mg/m2	03	Progression				PO		No		mg											
+TCGA-DU-6401	187	228	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	5400	No	External Beam	cgy			
+TCGA-DU-6402	117	122	Treatment	Chemotherapy		Temozolomide	01	100	mg/m2	01	Progression				PO		No	200	mg											
+TCGA-DU-6402	26	88	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	5940	No	External Beam	cgy			
+TCGA-DU-6403	43	74	Treatment	Chemotherapy		Hydroxyurea	1		mg	1	Adjuvant				PO		No		mg											
+TCGA-DU-6403	10	10	Treatment	Chemotherapy		Carmustine	1	1	{wafer}	1	Adjuvant				INTUM		No													
+TCGA-DU-6403	104	196	Treatment	Chemotherapy		Carmustine	2			2	Adjuvant				IV		No													
+TCGA-DU-6403	43	74	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1			No	External Beam	cgy			
+TCGA-DU-6404	3227	3581	Treatment	Targeted Molecular Therapy		Bevacizumab	14	15	mg/kg	8	Progression				IV		No	1172	mg											
+TCGA-DU-6404	3154	3185	Treatment	Chemotherapy		Temozolomide	2	100	mg/m2	6	Progression				PO		No	140	mg											
+TCGA-DU-6404	4066	4066	Treatment	Targeted Molecular Therapy		Bevacizumab	1	10	mg/kg	10	Progression				IV		No	635	mg											
+TCGA-DU-6404	3154	3185	Treatment	Targeted Molecular Therapy		Bevacizumab	2	10	mg/kg	6	Progression				IV		No	745	mg											
+TCGA-DU-6404	3227	3884	Treatment	Chemotherapy		Carboplatin	10	5	auc	8	Progression				IV		No	870	mg											
+TCGA-DU-6404	171	506	Treatment	Chemotherapy		Temozolomide	12	200	mg/m2	1	Adjuvant				PO		No	385	mg											
+TCGA-DU-6404	1602	1632	Treatment	Chemotherapy		Temozolomide	12	200	mg/m2	2	Progression				PO		No	370	mg											
+TCGA-DU-6404	2360	2714	Treatment	Chemotherapy		Irinotecan	12	125	mg/m2	4	Progression				IV		No	231	mg											
+TCGA-DU-6404	1762	1967	Treatment	Chemotherapy		Irinotecan	6	325	mg/m2	3	Progression				IV		No	600	mg											
+TCGA-DU-6404	2360	2714	Treatment	Targeted Molecular Therapy		Bevacizumab	12	10	mg/kg	4	Progression				IV		No	134	mg											
+TCGA-DU-6404	2731	3060	Treatment	Targeted Molecular Therapy		Bevacizumab	26	10	mg/kg	5	Progression				IV		No	745	mg											
+TCGA-DU-6404	28	76	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	6000	No	External Beam	cgy			
+TCGA-DU-6404	3746		Treatment	Radiation Therapy		Radiation 2					Progression										Local Recurrence	9	6	3600	No	Other	cgy			
+TCGA-DU-6404	3206	3219	Treatment	Radiation Therapy		Radiation 3					Progression										Local Recurrence	7	6	3600	No	Other	cgy			
+TCGA-DU-6405	165	499	Treatment	Chemotherapy		Temozolomide	11	150	mg/m2	01	Adjuvant				PO		No	300	mg											
+TCGA-DU-6405	561	561	Treatment	Chemotherapy		Cilengitide	01	600	mg/m2	03	Progression				IV		No	1086	mg											
+TCGA-DU-6405	530	561	Treatment	Chemotherapy		Bortezomib	01	1.25	mg/m2	02	Progression				IV		No	203	mg											
+TCGA-DU-6405	34	77	Treatment	Chemotherapy		Temozolomide	01	75	mg/m2	01	Adjuvant				PO		No	140	mg											
+TCGA-DU-6405	34	77	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	6000	No	External Beam	cgy			
+TCGA-DU-6406	97	280	Treatment	Chemotherapy		Temozolomide	7	200	mg/m2	1	Adjuvant				PO		No		mg/m2											
+TCGA-DU-6406	158	280	Treatment	Other	Retinoid	Isotretinoin	5			1	Adjuvant				PO		No													
+TCGA-DU-6406	38	66	Treatment	Chemotherapy		Temozolomide	1	75	mg/m2	1	Adjuvant				PO		No													
+TCGA-DU-6406	38	66	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1			No	External Beam	cgy			
+TCGA-DU-6407	2473	2516	Treatment	Chemotherapy		Temozolomide	1	75	mg/m2	1	Progression				PO		No	140	mg											
+TCGA-DU-6407	2835	2853	Treatment	Chemotherapy		Temozolomide	1	150	mg/m2	3	Progression				PO		No	135	mg											
+TCGA-DU-6407	2531	2774	Treatment	Chemotherapy		Temozolomide	8	150	mg/m2	2	Progression				PO		No	280	mg											
+TCGA-DU-6407	2836	2853	Treatment	Chemotherapy		Afatinib	1	50	mg/day	3	Progression				PO		No	50	mg											
+TCGA-DU-6407	31	72	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	5400	No	External Beam	cgy			
+TCGA-DU-6407	2473	2516	Treatment	Radiation Therapy		Radiation 2					Progression										Local Recurrence	2	30	5400	No	External Beam	cgy			
+TCGA-DU-6408	2608		Treatment	Chemotherapy		Capecitabine			mg/m2	02	Progression				PO		No		mg											
+TCGA-DU-6408	2608		Treatment	Other		Celecoxib			mg	02	Progression				PO		No		mg											
+TCGA-DU-6408	1175	1226	Treatment	Chemotherapy		Temozolomide	02		mg/m2	01	Adjuvant				PO		No		mg											
+TCGA-DU-6408	2608		Treatment	Chemotherapy		Temozolomide			mg/m2	02	Progression				PO		No		mg											
+TCGA-DU-6410	56		Treatment	Chemotherapy		Temozolomide	07	200	mg/m2	01	Adjuvant				PO		Yes	400	mg											
+TCGA-DU-6542	97		Treatment	Chemotherapy		Temozolomide	6	200	mg/m2	1	Adjuvant				PO		Yes	400	mg											
+TCGA-DU-6542	56	95	Treatment	Chemotherapy		Temozolomide	1	75	mg/m2	1	Adjuvant				PO		No	145	mg											
+TCGA-DU-6542	56	95	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	6000	No	External Beam	cgy			
+TCGA-DU-7006	90		Treatment	Chemotherapy		Procarbazine	1	100	mg/day	1	Adjuvant				PO		No	100	mg											
+TCGA-DU-7006	90		Treatment	Chemotherapy		Vincristine	1	2.0	mg	1	Adjuvant				IV		No	2.0	mg											
+TCGA-DU-7006	90		Treatment	Chemotherapy		Lomustine	1	200	mg/day	1	Adjuvant				PO		No	200	mg											
+TCGA-DU-7008	86	239	Treatment	Chemotherapy		Lomustine	4	110	mg/m2	1	Adjuvant				PO		No		mg											
+TCGA-DU-7008	86	239	Treatment	Chemotherapy		Vincristine	4	104	mg/m2	1	Adjuvant				IV		No		mg											
+TCGA-DU-7008	86	239	Treatment	Chemotherapy		Procarbazine	4	60	mg/m2	1	Adjuvant				PO		No		mg											
+TCGA-DU-7008	359	420	Treatment	Radiation Therapy		Radiation 1					Progression										Primary Tumor Field	1		5940	No	External Beam	cgy			
+TCGA-DU-7009	3095	3279	Treatment	Chemotherapy		Temozolomide	6		mg/m2	1	Progression				PO		No		mg											
+TCGA-DU-7009	20	81	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	33		No	External Beam	cgy			
+TCGA-DU-7010	11	70	Treatment	Chemotherapy		Temozolomide	1		mg/m2	1	Adjuvant				PO		No		mg											
+TCGA-DU-7010	70	162	Treatment	Chemotherapy		Temozolomide			mg/m2	1	Adjuvant				PO		No		mg											
+TCGA-DU-7010	11	70	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1			No	External Beam	cgy			
+TCGA-DU-7011	187	233	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	31	5580	No	External Beam	cgy			
+TCGA-DU-7012	53	53	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	1	200	No	External Beam	cgy			
+TCGA-DU-7013	101	163	Treatment	Chemotherapy		Temozolomide	03		mg/m2	01	Adjuvant				PO		No		mg											
+TCGA-DU-7013	10	71	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1			No	External Beam	cgy			
+TCGA-DU-7014	43	85	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	5400	No	External Beam	cgy			
+TCGA-DU-7015	616	884	Treatment	Chemotherapy		Temozolomide	6	200	mg/m2	1	Adjuvant				PO		No	440	mg											
+TCGA-DU-7015	930	1460	Treatment	Chemotherapy		Irinotecan	17		mg/kg	2	Progression				IV		No		mg											
+TCGA-DU-7015	930		Treatment	Targeted Molecular Therapy		Bevacizumab			mg/kg	2	Progression				IV		Yes		mg											
+TCGA-DU-7015	756	810	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1		5940	No	External Beam	cgy			
+TCGA-DU-7018	635	697	Treatment	Chemotherapy		Temozolomide	2	100	mg/m2	2	Progression				PO		No	150	mg											
+TCGA-DU-7018	56	605	Treatment	Chemotherapy		Temozolomide	17	150	mg/m2	1	Adjuvant				PO		No	330	mg											
+TCGA-DU-7019	101	436	Treatment	Chemotherapy		Temozolomide	12	150	mg/m2	01	Adjuvant				PO		No	320	mg											
+TCGA-DU-7019	28	71	Treatment	Chemotherapy		Temozolomide	01	75	mg/m2	01	Adjuvant				PO		No	160	mg											
+TCGA-DU-7019	28	71	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	6000	No	External Beam	cgy			
+TCGA-DU-7292	176	206	Treatment	Chemotherapy		Procarbazine	1	100	mg/day	1	Progression				PO		No	100	mg											
+TCGA-DU-7292	176	206	Treatment	Chemotherapy		Tamoxifen	1	20	mg/day	1	Progression				PO		No	20	mg											
+TCGA-DU-7292	158	158	Treatment	Radiation Therapy		Radiation 1					Progression										Local Recurrence	2	1	1200	No	Other	cgy			
+TCGA-DU-7292	23	84	Treatment	Radiation Therapy		Radiation 2					Adjuvant										Primary Tumor Field	1		5940	No	External Beam	cgy			
+TCGA-DU-7298	207	207	Treatment	Chemotherapy		Temozolomide	1	200	mg/m2	1	Adjuvant				PO		No	350	mg											
+TCGA-DU-7298	41	101	Treatment	Chemotherapy		Temozolomide	1	75	mg/m2	1	Adjuvant				PO		No	140	mg											
+TCGA-DU-7298	41	101	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	6000	No	External Beam	cgy			
+TCGA-DU-7299	91	456	Treatment	Chemotherapy		Temozolomide	12	200	mg/m2	1	Adjuvant				PO		No	420	mg											
+TCGA-DU-7299	721	945	Treatment	Chemotherapy		Irinotecan	3	125	mg/m2	2	Progression				IV		No	256	mg											
+TCGA-DU-7299	721	1016	Treatment	Targeted Molecular Therapy		Bevacizumab	6	10	mg/kg	2	Progression				IV		No	911	mg											
+TCGA-DU-7299	28	70	Treatment	Chemotherapy		Temozolomide	1	75	mg/m2	1	Adjuvant				PO		No	160	mg											
+TCGA-DU-7299	945	1157	Treatment	Chemotherapy		Temozolomide	7	75	mg/m2	3	Progression				PO		No	140	mg											
+TCGA-DU-7299	948	948	Treatment	Radiation Therapy		Radiation 1					Progression										Local Recurrence	2	1	1800	No	Other	cgy			
+TCGA-DU-7299	28	70	Treatment	Radiation Therapy		Radiation 2					Adjuvant										Primary Tumor Field	1	30	6000	No	External Beam	cgy			
+TCGA-DU-7300	1086		Treatment	Chemotherapy		Irinotecan			mg/m2	3	Progression				IV		No		mg											
+TCGA-DU-7300	3	307	Treatment	Chemotherapy		Temozolomide	10	200	mg/m2	1	Adjuvant				PO		No	280	mg											
+TCGA-DU-7300	337	368	Treatment	Chemotherapy		Temozolomide	1	75	mg/m2	2	Progression				PO		No		mg											
+TCGA-DU-7300	1086		Treatment	Targeted Molecular Therapy		Bevacizumab			mg/kg	3	Progression				IV		No		mg											
+TCGA-DU-7300	337	363	Treatment	Radiation Therapy		Radiation 1					Progression										Primary Tumor Field	1			No	External Beam	cgy			
+TCGA-DU-7301	28	66	Treatment	Chemotherapy		Temozolomide	1	75	mg/m2	1	Adjuvant				PO		No	160	mg											
+TCGA-DU-7301	626	643	Treatment	Chemotherapy		Temozolomide	1	75	mg/m2	3	Progression				PO		No	160	mg											
+TCGA-DU-7301	65	369	Treatment	Chemotherapy		Temozolomide	9	200	mg/m2	1	Adjuvant				PO		No	450	mg											
+TCGA-DU-7301	379	534	Treatment	Chemotherapy		Irinotecan	4	125	mg/m2	2	Progression				IV		No	280	mg											
+TCGA-DU-7301	379	629	Treatment	Targeted Molecular Therapy		Bevacizumab	7	10	mg/kg	2	Progression				IV		No	1058	mg											
+TCGA-DU-7301	28	66	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	27	5400	No	External Beam	cgy			
+TCGA-DU-7302	1382	1686	Treatment	Chemotherapy		Temozolomide	10	75	mg/m2	2	Progression				PO		No	155	mg											
+TCGA-DU-7302	14	530	Treatment	Chemotherapy		Temozolomide	12	200	mg/m2	1	Adjuvant				PO		No	390	mg											
+TCGA-DU-7302	1691		Treatment	Targeted Molecular Therapy		Bevacizumab	7	10	mg/kg	3	Progression				IV		Yes	1020	mg											
+TCGA-DU-7304	97	318	Treatment	Chemotherapy		Temozolomide	8	150	mg/m2	1	Adjuvant				PO		No	280	mg											
+TCGA-DU-7304	363	539	Treatment	Chemotherapy		Irinotecan	7	125	mg/m2	2	Progression				IV		No	241	mg											
+TCGA-DU-7304	363	623	Treatment	Targeted Molecular Therapy		Bevacizumab	10	10	mg/kg	2	Progression				IV		No	759	mg											
+TCGA-DU-7304	20	69	Treatment	Chemotherapy		Temozolomide	1	75	mg/m2	1	Adjuvant				PO		No	150	mg											
+TCGA-DU-7304	20	69	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	5400	No	External Beam	cgy			
+TCGA-DU-7306	14	59	Treatment	Chemotherapy		Temozolomide	01	75	mg/m2	01	Adjuvant				PO		No	160	mg											
+TCGA-DU-7306	97	250	Treatment	Chemotherapy		Temozolomide	06	150	mg/m2	01	Adjuvant				PO		No	310	mg											
+TCGA-DU-7306	1283		Treatment	Chemotherapy		Temozolomide		75	mg/m2	02	Progression				PO		Yes	165	mg											
+TCGA-DU-7306	28	72	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	33	5940	No	External Beam	cgy			
+TCGA-DU-7309	41	84	Treatment	Chemotherapy		Temozolomide	1	75	mg/m2	1	Adjuvant				PO		No	140	mg											
+TCGA-DU-7309	41	84	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	6000	No	External Beam	cgy			
+TCGA-DU-8158	21	66	Treatment	Chemotherapy		Temozolomide											No			No										
+TCGA-DU-8158	21	66	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		30	6000	No	External	cgy			
+TCGA-DU-8161	39	78	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-DU-8161	92	92	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-DU-8161	134	575	Treatment	Chemotherapy		Irinotecan							stable disease				No			No										
+TCGA-DU-8161	162	638	Treatment	Targeted Molecular Therapy		Bevacizumab							clinical progressive disease				No			No										
+TCGA-DU-8161	26	26	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		1	1800	No		cgy			
+TCGA-DU-8161	39	78	Treatment	Radiation Therapy		Radiation 2							stable disease								Primary Tumor Field		30	6000	No	External	cgy			
+TCGA-DU-8162	24	70	Treatment	Chemotherapy		Temozolomide							stable disease				No			Yes										
+TCGA-DU-8162	108		Treatment	Chemotherapy		Temozolomide											Yes			No										
+TCGA-DU-8162	24	70	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		33	5940	No	External	cgy			
+TCGA-DU-8162	427	438	Treatment	Radiation Therapy		Radiation 2															Local Recurrence				No	External	gy			
+TCGA-DU-8163	35	81	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-DU-8163	87		Treatment	Chemotherapy		Temozolomide											Yes			No										
+TCGA-DU-8163	525		Treatment	Chemotherapy		Temozolomide											Yes			No										
+TCGA-DU-8163	35	81	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		33	5940	No	External	cgy			
+TCGA-DU-8164	35		Treatment	Chemotherapy		Temozolomide											Yes			No										
+TCGA-DU-8165	30	71	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-DU-8165	101		Treatment	Chemotherapy		Temozolomide											Yes			No										
+TCGA-DU-8165	30	71	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		30	6000	No	External	gy			
+TCGA-DU-8166	62	143	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-DU-8166	237	433	Treatment	Chemotherapy		Lomustine							stable disease				No			No										
+TCGA-DU-8166	237	433	Treatment	Chemotherapy		Procarbazine							stable disease				No			No										
+TCGA-DU-8166	53	106	Treatment	Radiation Therapy		Radiation 1							radiographic progressive disease								Primary Tumor Field		30	60	No	External	gy			
+TCGA-DU-8167	31	78	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		27	5400	No	External	cgy			
+TCGA-DU-8168	25	71	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-DU-8168	106		Treatment	Chemotherapy		Temozolomide											Yes			No										
+TCGA-DU-8168	25	71	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		30	6000	No	External	cgy			
+TCGA-DU-A5TP	32		Treatment	Chemotherapy		Temozolomide											Yes			No										
+TCGA-DU-A5TP	123	493	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-DU-A5TP	32	76	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		30	60	No	External	gy			
+TCGA-DU-A5TR	25		Treatment	Chemotherapy		Temozolomide											Yes			No										
+TCGA-DU-A5TR	25	63	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		30	54	No	External	gy			
+TCGA-DU-A5TS	25	415	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-DU-A5TS	25	49	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		30	54	No	External	gy			
+TCGA-DU-A5TT	16		Treatment	Chemotherapy		Temozolomide											Yes			No										
+TCGA-DU-A5TT	16	57	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		30	60	No	External	gy			
+TCGA-DU-A5TT	613	617	Treatment	Radiation Therapy		Radiation 2							radiographic progressive disease								Local Recurrence		4	24	No	External	gy			
+TCGA-DU-A5TU	627		Treatment	Chemotherapy		Temozolomide							stable disease				Yes			No										
+TCGA-DU-A5TU	131	166	Treatment	Radiation Therapy		Radiation 1							radiographic progressive disease								Primary Tumor Field		27	54	No	External	gy			
+TCGA-DU-A5TY	17	64	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-DU-A5TY	79		Treatment	Not Specified		Temozolomide							stable disease				Yes			No										
+TCGA-DU-A5TY	553	812	Treatment	Chemotherapy		Mibefradil							clinical progressive disease				No			Yes										
+TCGA-DU-A5TY	553	812	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			Yes										
+TCGA-DU-A5TY	814	855	Treatment	Chemotherapy		Lomustine							clinical progressive disease				No			No										
+TCGA-DU-A5TY	814	855	Treatment	Chemotherapy		Procarbazine							clinical progressive disease				No			No										
+TCGA-DU-A5TY	872	914	Treatment	Targeted Molecular Therapy		Bevacizumab							clinical progressive disease				No			No										
+TCGA-DU-A5TY	17	34	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		30	6000	No	External	cgy			
+TCGA-DU-A5TY	980	989	Treatment	Radiation Therapy		Radiation 2							radiographic progressive disease								Local Recurrence		8	56	No	External	gy			
+TCGA-DU-A6S6	25	272	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-DU-A6S6	2283		Treatment	Chemotherapy		Temozolomide											Yes			No										
+TCGA-DU-A6S6	2281	2492	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-DU-A6S7	23	57	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-DU-A6S7	129		Treatment	Chemotherapy		Temozolomide											Yes			No										
+TCGA-DU-A6S7	129	464	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-DU-A6S7	23	67	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		30	60	No	External	gy			
+TCGA-DU-A6S8	57		Treatment	Chemotherapy		Temozolomide											Yes			No										
+TCGA-DU-A76K	236	269	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-DU-A76K	34	82	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		33	59.4	No	External	gy			
+TCGA-DU-A76L	16	57	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-DU-A76L	54	406	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-DU-A76L	588	617	Treatment	Chemotherapy		Procarbazine							clinical progressive disease				No			Yes										
+TCGA-DU-A76L	651	732	Treatment	Targeted Molecular Therapy		Cilengitide							clinical progressive disease				No			Yes										
+TCGA-DU-A76L	16	57	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		30	60	No	External	gy			
+TCGA-DU-A76O	49	94	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-DU-A76O	115		Treatment	Chemotherapy		Temozolomide											Yes			No										
+TCGA-DU-A76O	49	94	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		33	60	No	External	gy			
+TCGA-DU-A76R	389	394	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-DU-A76R	98	135	Treatment	Radiation Therapy		Radiation 1							radiographic progressive disease								Primary Tumor Field			30	No	External	gy			
+TCGA-DU-A76R	389	394	Treatment	Radiation Therapy		Radiation 2							radiographic progressive disease								Local Recurrence		3	30	No	External	gy			
+TCGA-DU-A7T8	147	193	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-DU-A7T8	211	407	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-DU-A7T8	3061	3215	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-DU-A7T8	3865	3901	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-DU-A7T8	4001	4194	Treatment	Chemotherapy		Lomustine							clinical progressive disease				No			No										
+TCGA-DU-A7T8	4001	4194	Treatment	Targeted Molecular Therapy		Bevacizumab							clinical progressive disease				No			No										
+TCGA-DU-A7T8	147	193	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		27	5940	No	External	cgy			
+TCGA-DU-A7TA	33	70	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-DU-A7TA	77	413	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-DU-A7TA	33	70	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		27	54	No	External	gy			
+TCGA-DU-A7TB	20	57	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-DU-A7TB	88	127	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-DU-A7TB	153	518	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-DU-A7TB	88	124	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		27	54	No	External	gy			
+TCGA-DU-A7TD	22	63	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-DU-A7TD	77	151	Treatment	Immunotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-DU-A7TD	22	63	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		30	60	No	External	gy			
+TCGA-DU-A7TG	26	128	Treatment	Chemotherapy		Temozolomide											No			No										
+TCGA-DU-A7TI	218	567	Treatment	Not Specified		Leflunomide							stable disease	targeted molecular therapy			No			Yes										
+TCGA-DU-A7TI	840	840	Treatment	Not Specified		Onyx-015							stable disease	targeted molecular therapy			No			Yes										
+TCGA-DU-A7TI	927	1086	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-DU-A7TI	1115	1154	Treatment	Chemotherapy		Isotretinoin							clinical progressive disease				No			No										
+TCGA-DU-A7TI	1115	1154	Treatment	Chemotherapy		Carmustine							clinical progressive disease				No			No										
+TCGA-E1-5302	48	154	Treatment	Chemotherapy		Lomustine	2	130	mg/m2	1	Adjuvant				PO		No	480	mg											
+TCGA-E1-5302	48	154	Treatment	Chemotherapy		Vincristine	2	1.4	mg/m2	1	Adjuvant				IV		No	8	mg											
+TCGA-E1-5302	294	433	Treatment	Hormone Therapy		Tamoxifen	5	100	mg	4	Adjuvant				PO		No	14000	mg											
+TCGA-E1-5302	1255	1303	Treatment	Hormone Therapy		Tamoxifen	1	100	mg	6	Progression				PO		No	8400	mg											
+TCGA-E1-5302	202	294	Treatment	Chemotherapy		Lomustine	2	130	mg/m2	3	Adjuvant				PO		No	480	mg											
+TCGA-E1-5302	433	643	Treatment	Chemotherapy		Temozolomide	6	200	mg/m2	5	Adjuvant				PO		No	11100	mg											
+TCGA-E1-5302	202	294	Treatment	Chemotherapy		Vincristine	2	1.4	mg/m2	3	Adjuvant				IV		No	8	mg											
+TCGA-E1-5302	1322	1434	Treatment	Other	NSAIDs	Celecoxib	3	400	mg	7	Progression				PO		No	100800	mg											
+TCGA-E1-5302	202	294	Treatment	Chemotherapy		Procarbazine	2	75	mg/m2	3	Adjuvant				PO		No	7840	mg											
+TCGA-E1-5302	1434	1493	Treatment	Chemotherapy		Temozolomide	2	200	mg/m2	8	Progression				PO		No	3700	mg											
+TCGA-E1-5302	48	154	Treatment	Chemotherapy		Procarbazine	2	75	mg/m2	1	Adjuvant				PO		No	7840	mg											
+TCGA-E1-5302	1255	1303	Treatment	Chemotherapy		Lomustine	1	110	mg/m2	6	Progression				PO		No	200	mg											
+TCGA-E1-5302	1322	1434	Treatment	Chemotherapy		Irinotecan	3	340	mg/m2	7	Progression				IV		No	5670	mg											
+TCGA-E1-5302	154	195	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	2	33	5940	No	External Beam	cgy			
+TCGA-E1-5303	156	190	Treatment	Chemotherapy		Lomustine	1	110	mg/m2	2	Progression				PO		No	200	mg											
+TCGA-E1-5303	202	215	Treatment	Hormone Therapy		Tamoxifen	1	40	mg	3	Progression				PO		No	1120	mg											
+TCGA-E1-5303	218	582	Treatment	Chemotherapy		Temozolomide	12	150	mg/m2	1	Progression				PO		No	19375	mg											
+TCGA-E1-5303	73	110	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	28	5040	No	External Beam	cgy			
+TCGA-E1-5304	312	398	Treatment	Chemotherapy		Lomustine	2	110	mg/m2	7	Adjuvant				PO		No	440	mg											
+TCGA-E1-5304	125	160	Treatment	Chemotherapy		Temozolomide	1	200	mg/m2	4	Adjuvant				PO		No	2000	mg											
+TCGA-E1-5304	995	1113	Treatment	Chemotherapy		Temozolomide	4	200	mg/m2	8	Progression				PO		No	7700	mg											
+TCGA-E1-5304	1128	1166	Treatment	Chemotherapy		Irinotecan	1	125	mg/m2	9	Progression				IV		No	723	mg											
+TCGA-E1-5304	1167	1198	Treatment	Chemotherapy		Etoposide	1	50	mg/m2	10	Progression				PO		No	2100	mg											
+TCGA-E1-5304	95	125	Treatment	Chemotherapy		Temozolomide	1	150	mg/m2	3	Adjuvant				PO		No	1500	mg											
+TCGA-E1-5304	160	249	Treatment	Chemotherapy		Lomustine	2	110	mg/m2	5	Adjuvant				PO		No	420	mg											
+TCGA-E1-5304	249	312	Treatment	Chemotherapy		Temozolomide	2	200	mg/m2	6	Adjuvant				PO		No	3950	mg											
+TCGA-E1-5304	21	69	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	2	33	5940	No	External Beam	cgy			
+TCGA-E1-5305	2280	2331	Treatment	Chemotherapy		Lomustine	1	110	mg/m2	1					PO		No	220	mg											
+TCGA-E1-5305	2128	2241	Treatment	Targeted Molecular Therapy		Bevacizumab	4	10	mg/kg	6	Progression				IV		No	10192	mg											
+TCGA-E1-5305	1861	1994	Treatment	Chemotherapy		Temozolomide	6	200	mg/m2	4	Progression				PO		No	12000	mg											
+TCGA-E1-5305	1994	2093	Treatment	Chemotherapy		Irinotecan	2	340	mg/m2	5	Progression				IV		No	5440	mg											
+TCGA-E1-5305	1636	1825	Treatment	Chemotherapy		Hydroxyurea	6	500	mg	3	Progression				PO		No	84000	mg											
+TCGA-E1-5305	1861	1994	Treatment	Chemotherapy		Topotecan	6	200	mg/m2	4	Progression				PO		No	14400	mg											
+TCGA-E1-5305	148	593	Treatment	Chemotherapy		Etoposide	12	50	mg/m2	2	Progression				PO		No	25200	mg											
+TCGA-E1-5305	1636	1825	Treatment	Targeted Molecular Therapy		Imatinib	6	500	mg	3	Progression				PO		No	84000	mg											
+TCGA-E1-5305	148	593	Treatment	Chemotherapy		Temozolomide	12	150	mg/m2	2	Progression				PO		No	18600	mg											
+TCGA-E1-5305	2128	2241	Treatment	Chemotherapy		Cyclophosphamide	4	730	mg	6	Progression				PO		No	81760	mg											
+TCGA-E1-5305	27	88	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1			No	External Beam				
+TCGA-E1-5307	560	1453	Treatment	Other	Antiangiogenic	Celecoxib	41	400	mg	7	Adjuvant				PO		No	45920	mg											
+TCGA-E1-5307	313	351	Treatment	Chemotherapy		Lomustine	1	110	mg/m2	4	Adjuvant				PO		No	180	mg											
+TCGA-E1-5307	1462	1599	Treatment	Chemotherapy		Temozolomide	4	150	mg/m2	8	Progression				PO		No	4800	mg											
+TCGA-E1-5307	229	260	Treatment	Chemotherapy		Temozolomide	1	150	mg/m2	2	Adjuvant				PO		No	1250	mg											
+TCGA-E1-5307	382	466	Treatment	Chemotherapy		Lomustine	1	82.5	mg/m2	5	Adjuvant				PO		No	130	mg											
+TCGA-E1-5307	1599	1720	Treatment	Chemotherapy		Temozolomide	4	175	mg/m2	9	Progression				PO		No	6000	mg											
+TCGA-E1-5307	260	285	Treatment	Chemotherapy		Temozolomide	1	200	mg/m2	3	Adjuvant				PO		No	1675	mg											
+TCGA-E1-5307	466	560	Treatment	Chemotherapy		Temozolomide	3	150	mg/m2	6	Adjuvant				PO		No	3750	mg											
+TCGA-E1-5307	126	215	Treatment	Chemotherapy		Lomustine	2	110	mg/m2	1	Adjuvant				PO		No	300	mg											
+TCGA-E1-5307	43	91	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1			No	External Beam				
+TCGA-E1-5311	2615	2799	Treatment	Chemotherapy		Temozolomide	6	200	mg/m2	2	Progression				PO		No	13200	mg											
+TCGA-E1-5311	3282	3868	Treatment	Other	NSAIDs	Celecoxib	19	400	mg	6	Progression				PO		No	425600	mg											
+TCGA-E1-5311	2825	2848	Treatment	Chemotherapy		Cositecan	1	2.2	mg	3	Progression				IV		No	11	mg											
+TCGA-E1-5311	2925	3282	Treatment	Chemotherapy		Lomustine	8	110	mg/m2	5	Progression				PO		No	2000	mg											
+TCGA-E1-5311	3282	3749	Treatment	Hormone Therapy		Tamoxifen	15	100	mg	6	Progression				PO		No	84000	mg											
+TCGA-E1-5311	20	20	Treatment	Other	Brachytherpy	81C6	1	40	mci	1	Adjuvant				INTUM		No	40	mci											
+TCGA-E1-5311	3868	3996	Treatment	Chemotherapy		Laromustine	3	300	mg/m2	7	Progression				IV		No	2040	mg											
+TCGA-E1-5311	3996	4084	Treatment	Chemotherapy		Etoposide	3	50	mg/m2	8	Progression				PO		No	6930	mg											
+TCGA-E1-5311	2871	2919	Treatment	Radiation Therapy		Radiation 1					Progression										Primary Tumor Field	4	30	6000	No	External Beam	cgy			
+TCGA-E1-5318	1655	1904	Treatment	Chemotherapy		Lomustine	3	110	mg/m2	7	Progression				PO		No	540	mg											
+TCGA-E1-5318	1043	1231	Treatment	Chemotherapy		Carmustine	1	8	{wafer}	4	Progression				INTUM		No	8	{wafer}											
+TCGA-E1-5318	781	824	Treatment	Chemotherapy		Temozolomide	1	200	mg/m2	2	Adjuvant				PO		No	1650	mg											
+TCGA-E1-5318	824	1026	Treatment	Chemotherapy		Temozolomide	7	150	mg/m2	3	Adjuvant				PO		No	8400	mg											
+TCGA-E1-5318	2127	2211	Treatment	Chemotherapy		Irinotecan	2	260	mg/m2	11	Adjuvant				IV		No	3400	mg											
+TCGA-E1-5318	2211	2267	Treatment	Hormone Therapy		Tamoxifen	2	80	mg	12	Progression				PO		No	4480	mg											
+TCGA-E1-5318	1980	2043	Treatment	Other	NSAIDs	Celecoxib	2	400	mg	9	Progression				PO		No	44800	mg											
+TCGA-E1-5318	1904	1971	Treatment	Chemotherapy		Lomustine	2	82.5	mg/m2	8	Adjuvant				PO		No	280	mg											
+TCGA-E1-5318	2268	2335	Treatment	Chemotherapy		Lomustine	2	82.5	mg/m2	13	Progression				PO		No	280	mg											
+TCGA-E1-5318	385	781	Treatment	Chemotherapy		Carboplatin	11	560	mg/m2	1	Progression				IV		No	6507	mg											
+TCGA-E1-5318	1590	1652	Treatment	Chemotherapy		Etoposide	2	50	mg/m2	9	Progression				PO		No	3000	mg											
+TCGA-E1-5318	2211	2267	Treatment	Chemotherapy		Procarbazine	2	75	mg/m2	12	Progression				PO		No	6720	mg											
+TCGA-E1-5318	1980	2043	Treatment	Chemotherapy		Cyclophosphamide	2	100	mg	9	Adjuvant				PO		No	5600	mg											
+TCGA-E1-5318	2023	2127	Treatment	Chemotherapy		Irinotecan	1	350	mg/m2	10	Progression				IV		No	1710	mg											
+TCGA-E1-5318	1258	1301	Treatment	Radiation Therapy		Radiation 1					Progression										Primary Tumor Field	5	30	5400	No	External Beam	cgy			
+TCGA-E1-5319	952	1385	Treatment	Chemotherapy		Temozolomide	13	200	mg/m2	1	Progression				PO		No	26650	mg											
+TCGA-E1-5319	1385	1511	Treatment	Other	Antiangiogenic	Celecoxib	4	800	mg	2	Adjuvant				PO		No	95200	mg											
+TCGA-E1-5319	1826	1933	Treatment	Chemotherapy		Carboplatin	3	560	mg/m2	3	Progression				PO		No	94920	mg											
+TCGA-E1-5319	1933	1993	Treatment	Chemotherapy		Carboplatin	2	450	mg/m2	4	Progression				PO		No	50400	mg											
+TCGA-E1-5319	2322	2364	Treatment	Chemotherapy		Lomustine	1	110	mg/m2	6	Progression				PO		No	240	mg											
+TCGA-E1-5319	2029	2121	Treatment	Chemotherapy		Temozolomide	2	200	mg/m2	5	Progression				PO		No	4000	mg											
+TCGA-E1-5319	2433	2587	Treatment	Chemotherapy		Etoposide	3	50	mg/m2	8	Progression				PO		No	6300	mg											
+TCGA-E1-5319	2364	2433	Treatment	Chemotherapy		Lomustine	1	82.5	mg/m2	7	Progression				PO		No	180	mg											
+TCGA-E1-5319	2587	2818	Treatment	Chemotherapy		Etoposide	6	25	mg/m2	9	Adjuvant				PO		No	6300	mg											
+TCGA-E1-5319	2243	2304	Treatment	Radiation Therapy		Radiation 1					Progression										Primary Tumor Field	5		6000	No	External Beam	cgy			
+TCGA-E1-5322	1085	1109	Treatment	Chemotherapy		Carmustine	7	8	{wafer}	1	Adjuvant				INTUM		No	8	{wafer}											
+TCGA-E1-5322	1109	1150	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	2	32	6000	No	External Beam	cgy			
+TCGA-E1-A7YD	111	285	Treatment	Chemotherapy		Lomustine							clinical progressive disease				No			No										
+TCGA-E1-A7YD	314		Treatment	Chemotherapy		Temozolomide											Yes			No										
+TCGA-E1-A7YD	34	81	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		30	5400	No	External	cgy			
+TCGA-E1-A7YE	81	185	Treatment	Chemotherapy		Lomustine							clinical progressive disease				No			No										
+TCGA-E1-A7YE	378	468	Treatment	Chemotherapy		Lomustine							clinical progressive disease				No			No										
+TCGA-E1-A7YE	482	695	Treatment	Not Specified		Temozolomide							clinical progressive disease				No			No										
+TCGA-E1-A7YE	469	703	Treatment	Ancillary		Celecoxib							clinical progressive disease				No			No										
+TCGA-E1-A7YE	704	731	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-E1-A7YE	237	237	Treatment	Chemotherapy		Carmustine							stable disease				No			No										
+TCGA-E1-A7YE	704	731	Treatment	Targeted Molecular Therapy		O6-Benzylguanine							clinical progressive disease				No			Yes										
+TCGA-E1-A7YE	715	787	Treatment	Chemotherapy		Cositecan							clinical progressive disease				No			Yes										
+TCGA-E1-A7YE	790	845	Treatment	Chemotherapy		Etoposide							clinical progressive disease				No			No										
+TCGA-E1-A7YE	14	73	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		33	5940	No	External	cgy			
+TCGA-E1-A7YH	45	87	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-E1-A7YH	117	216	Treatment	Chemotherapy		Lomustine							stable disease				No			No										
+TCGA-E1-A7YH	222	537	Treatment	Chemotherapy		Temozolomide											No			No										
+TCGA-E1-A7YH	706	752	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-E1-A7YH	775	835	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-E1-A7YH	867	1223	Treatment	Chemotherapy		Erlotinib							stable disease				No			Yes										
+TCGA-E1-A7YH	867	1223	Treatment	Not Specified		Bevacizumab							stable disease				No			Yes										
+TCGA-E1-A7YH	1224	1328	Treatment	Not Specified		Bevacizumab							clinical progressive disease				No			No										
+TCGA-E1-A7YH	1345	1627	Treatment	Chemotherapy		Etoposide							clinical progressive disease				No			No										
+TCGA-E1-A7YH	45	87	Treatment	Radiation Therapy		Radiation 1							stable disease										30	6000	No	External	cgy			
+TCGA-E1-A7YJ	39	84	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-E1-A7YJ	96	144	Treatment	Chemotherapy		Irinotecan							stable disease				No			No										
+TCGA-E1-A7YJ	96	504	Treatment	Immunotherapy		Bevacizumab							clinical progressive disease				No			No										
+TCGA-E1-A7YJ	96	518	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-E1-A7YJ	537	541	Treatment	Immunotherapy		Cbp501							clinical progressive disease				No			Yes										
+TCGA-E1-A7YJ	39	84	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		33	5940	No	External	cgy			
+TCGA-E1-A7YK	27	68	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-E1-A7YK	90		Treatment	Chemotherapy		Temozolomide											No			No										
+TCGA-E1-A7YK	27	68	Treatment	Radiation Therapy		Radiation 1							stable disease												No					
+TCGA-E1-A7YL	36	78	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-E1-A7YL	103	289	Treatment	Immunotherapy		Bevacizumab							clinical progressive disease				No			No										
+TCGA-E1-A7YL	103	263	Treatment	Chemotherapy		Carboplatin							clinical progressive disease				No			No										
+TCGA-E1-A7YL	103	249	Treatment	Chemotherapy		Irinotecan							clinical progressive disease				No			No										
+TCGA-E1-A7YL	298	336	Treatment	Immunotherapy		Bevacizumab							clinical progressive disease				No			No										
+TCGA-E1-A7YL	298	325	Treatment	Chemotherapy		Etoposide							clinical progressive disease				No			No										
+TCGA-E1-A7YL	36	78	Treatment	Radiation Therapy		Radiation 1							radiographic progressive disease								Primary Tumor Field		30	6000	No	External	cgy			
+TCGA-E1-A7YM	27	75	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-E1-A7YM	90	137	Treatment	Immunotherapy		Bevacizumab							stable disease				No			No										
+TCGA-E1-A7YM	90	137	Treatment	Chemotherapy		Irinotecan							stable disease				No			No										
+TCGA-E1-A7YM	137	174	Treatment	Immunotherapy		Bevacizumab							stable disease				No			No										
+TCGA-E1-A7YM	137	164	Treatment	Chemotherapy		Etoposide							stable disease				No			No										
+TCGA-E1-A7YM	174	497	Treatment	Immunotherapy		Bevacizumab							clinical progressive disease				No			No										
+TCGA-E1-A7YM	501	593	Treatment	Immunotherapy		Bevacizumab							stable disease				No			No										
+TCGA-E1-A7YM	501	593	Treatment	Chemotherapy		Carboplatin							stable disease				No			No										
+TCGA-E1-A7YM	27	75	Treatment	Radiation Therapy		Radiation 1							radiographic progressive disease								Primary Tumor Field			5940	No	External	cgy			
+TCGA-E1-A7YN	35	90	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-E1-A7YN	124	369	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-E1-A7YN	429	484	Treatment	Immunotherapy		Bevacizumab							clinical progressive disease				No			No										
+TCGA-E1-A7YN	429	484	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-E1-A7YN	491	553	Treatment	Immunotherapy		Bevacizumab							clinical progressive disease				No			No										
+TCGA-E1-A7YN	506	632	Treatment	Chemotherapy		Lomustine							clinical progressive disease				No			No										
+TCGA-E1-A7YN	35	90	Treatment	Radiation Therapy		Radiation 1							stable disease										30	6000	No	External	cgy			
+TCGA-E1-A7YN	495	499	Treatment	Radiation Therapy		Radiation 2							radiographic progressive disease										5	2500	No	External	cgy			
+TCGA-E1-A7YO	23	23	Treatment	Immunotherapy		81C6							stable disease				No			Yes										
+TCGA-E1-A7YQ	346	396	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-E1-A7YQ	429	512	Treatment	Chemotherapy		Lomustine							stable disease				No			No										
+TCGA-E1-A7YQ	532	559	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-E1-A7YQ	92	184	Treatment	Radiation Therapy		Radiation 1							stable disease												No	External				
+TCGA-E1-A7YS	67	106	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-E1-A7YS	127	365	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-E1-A7YS	67	106	Treatment	Radiation Therapy		Radiation 1							stable disease												No	External				
+TCGA-E1-A7YU	6	6	Treatment	Immunotherapy		81C6											No			Yes										
+TCGA-E1-A7YV	38	82	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-E1-A7YV	888	948	Treatment	Chemotherapy		Irinotecan							clinical progressive disease				No			No										
+TCGA-E1-A7YV	70	156	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-E1-A7YV	195	507	Treatment	Immunotherapy		Bevacizumab							clinical progressive disease				No			No										
+TCGA-E1-A7YV	507	674	Treatment	Immunotherapy		Bevacizumab							stable disease				No			No										
+TCGA-E1-A7YV	507	674	Treatment	Chemotherapy		Imatinib							stable disease				No			No										
+TCGA-E1-A7YV	678	824	Treatment	Chemotherapy		Imatinib							clinical progressive disease				No			No										
+TCGA-E1-A7YV	846	887	Treatment	Immunotherapy		Bevacizumab							clinical progressive disease				No			No										
+TCGA-E1-A7YV	832	887	Treatment	Chemotherapy		Imatinib							clinical progressive disease				No			No										
+TCGA-E1-A7YV	888	948	Treatment	Immunotherapy		Bevacizumab							clinical progressive disease				No			No										
+TCGA-E1-A7YV	38	82	Treatment	Radiation Therapy		Radiation 1							radiographic progressive disease								Primary Tumor Field		33	5940	No	External	cgy			
+TCGA-E1-A7YW	711	978	Treatment	Chemotherapy		Lomustine							clinical progressive disease				No			No										
+TCGA-E1-A7YW	999	1025	Treatment	Immunotherapy		Bevacizumab							stable disease				No			Yes										
+TCGA-E1-A7YW	999	1025	Treatment	Chemotherapy		Irinotecan							stable disease				No			Yes										
+TCGA-E1-A7YW	1040	1095	Treatment	Chemotherapy		Etoposide							clinical progressive disease				No			No										
+TCGA-E1-A7YW	418	608	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-E1-A7YW	641	686	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		33	5940	No	External	cgy			
+TCGA-E1-A7YY	982	1351	Treatment	Chemotherapy		Temozolomide							stable disease				No			Yes										
+TCGA-E1-A7YY	2378	2470	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-E1-A7YY	2465	2590	Treatment	Chemotherapy		Lomustine							stable disease				No			No										
+TCGA-E1-A7YY	3501	4152	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-E1-A7YY	4152	4207	Treatment	Chemotherapy		Etoposide							clinical progressive disease				No			No										
+TCGA-E1-A7YY	4289	4418	Treatment	Immunotherapy		Bevacizumab											No			No										
+TCGA-E1-A7YY	2143	2184	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field			5400	No	External	cgy			
+TCGA-E1-A7Z2	102	213	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-E1-A7Z2	230	270	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-E1-A7Z2	286	328	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-E1-A7Z2	293	334	Treatment	Immunotherapy		Bevacizumab							stable disease				No			No										
+TCGA-E1-A7Z2	356	383	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-E1-A7Z2	356	369	Treatment	Immunotherapy		Bevacizumab							stable disease				No			No										
+TCGA-E1-A7Z2	286	328	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		30	6000	No	External	cgy			
+TCGA-E1-A7Z3	1709	1709	Treatment	Immunotherapy		81C6							clinical progressive disease				No			Yes										
+TCGA-E1-A7Z3	1911	1921	Treatment	Chemotherapy		Lomustine							clinical progressive disease				No			Yes										
+TCGA-E1-A7Z3	1911	1921	Treatment	Chemotherapy		Procarbazine							clinical progressive disease				No			Yes										
+TCGA-E1-A7Z3	1911	1921	Treatment	Chemotherapy		Vincristine							clinical progressive disease				No			Yes										
+TCGA-E1-A7Z3	1995	2072	Treatment	Chemotherapy		Irinotecan							clinical progressive disease				No			Yes										
+TCGA-E1-A7Z3	1821	1866	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field			5600	No	External	cgy			
+TCGA-E1-A7Z4	883	883	Treatment	Chemotherapy		Carmustine							stable disease				No			No										
+TCGA-E1-A7Z4	4081	4124	Treatment	Immunotherapy		Bevacizumab							clinical progressive disease				No			No										
+TCGA-E1-A7Z4	4081	4137	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-E1-A7Z4	4138	4336	Treatment	Immunotherapy		Bevacizumab							clinical progressive disease				No			No										
+TCGA-E1-A7Z4	4138	4308	Treatment	Chemotherapy		Carboplatin							clinical progressive disease				No			No										
+TCGA-E1-A7Z4	896	952	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-E1-A7Z4	974	1100	Treatment	Chemotherapy		Lomustine							clinical progressive disease				No			No										
+TCGA-E1-A7Z4	1101	1176	Treatment	Not Specified		Tetrathiomolybdate							clinical progressive disease				No			Yes										
+TCGA-E1-A7Z4	1101	1176	Treatment	Chemotherapy		Cyclophosphamide							clinical progressive disease				No			Yes										
+TCGA-E1-A7Z4	1182	1249	Treatment	Chemotherapy		Cositecan							clinical progressive disease				No			Yes										
+TCGA-E1-A7Z4	1266	1834	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-E1-A7Z4	1266	1834	Treatment	Hormone Therapy		Tamoxifen							stable disease				No			No										
+TCGA-E1-A7Z4	3545	3888	Treatment	Immunotherapy		Bevacizumab							stable disease				No			No										
+TCGA-E1-A7Z4	916	961	Treatment	Radiation Therapy		Radiation 1							radiographic progressive disease								Primary Tumor Field		33	5940	No	External	cgy			
+TCGA-E1-A7Z4	4152	4152	Treatment	Radiation Therapy		Radiation 2							radiographic progressive disease								Primary Tumor Field			2000	No	External	cgy			
+TCGA-E1-A7Z6	356	705	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-E1-A7Z6	907	964	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-E1-A7Z6	901	966	Treatment	Immunotherapy		Bevacizumab							clinical progressive disease				No			No										
+TCGA-E1-A7Z6	907	964	Treatment	Radiation Therapy		Radiation 1							radiographic progressive disease								Primary Tumor Field		31	5580	No	External	cgy			
+TCGA-FG-5962	112	258	Treatment	Chemotherapy		Temozolomide	6	320-400	mg	2	Adjuvant				PO		No	10800	mg											
+TCGA-FG-5962	28	79	Treatment	Chemotherapy		Temozolomide	1	160	mg	1	Adjuvant				PO		No	6720	mg											
+TCGA-FG-5962	28	79	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1			No	External Beam	cgy			
+TCGA-FG-5963	428	471	Treatment	Chemotherapy		Temozolomide	1	140	mg	1	Progression				PO		No	5880	mg											
+TCGA-FG-5963	517	690	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-FG-5963	511	727	Treatment	Chemotherapy		Bevacizumab							clinical progressive disease				No			No										
+TCGA-FG-5963	699	700	Treatment	Chemotherapy		Carmustine							clinical progressive disease				No			No										
+TCGA-FG-5963	37	76	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	6000	No	External Beam	cgy			
+TCGA-FG-5963	437	471	Treatment	Radiation Therapy		Radiation 2					Progression										Local Recurrence	2	30	6000	No	External Beam	cgy			
+TCGA-FG-5964	172	213	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	28	5040	No	External Beam	cgy			
+TCGA-FG-5965	790		Treatment	Chemotherapy		Temozolomide	6	300-320	mg	1	Progression				PO		Yes	9500	mg											
+TCGA-FG-5965	89	133	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	5400	No	External Beam	cgy			
+TCGA-FG-6688	159		Treatment	Chemotherapy		Temozolomide	3	345-460	mg	1	Adjuvant				PO		Yes	5750	mg											
+TCGA-FG-6688	483		Treatment	Chemotherapy		Bevacizumab							stable disease				Yes			No										
+TCGA-FG-6688	82	124	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	6000	No	External Beam	cgy			
+TCGA-FG-6689	267	424	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-FG-6689	139	188	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	5040	No	External Beam	cgy			
+TCGA-FG-6690	73	111	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	28	5040	No	External Beam	cgy			
+TCGA-FG-6691	1135		Treatment	Chemotherapy		Temozolomide											Yes			No										
+TCGA-FG-6691	1020	1058	Treatment	Radiation Therapy		Radiation 1							stable disease								Local Recurrence		25	45	No	External	gy			
+TCGA-FG-6692	149		Treatment	Chemotherapy		Temozolomide											Yes			No										
+TCGA-FG-6692	68	116	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	33	5940	No	External Beam	cgy			
+TCGA-FG-7636	33	84	Treatment	Chemotherapy		Temozolomide	1	150	mg	1	Adjuvant				PO		No	6300	mg											
+TCGA-FG-7636	33	84	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	33	5940	No	External Beam	cgy			
+TCGA-FG-7638	37	78	Treatment	Chemotherapy		Temozolomide	1	145	mg	1	Adjuvant				PO		No	6090	mg											
+TCGA-FG-7638	122	336	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-FG-7638	411	595	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-FG-7638	35	85	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	33	5940	No	External Beam	cgy			
+TCGA-FG-8181	64	105	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-FG-8181	64		Treatment	Radiation Therapy		Radiation 1																			Yes	External				
+TCGA-FG-8185	21	70	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-FG-8185	97	412	Treatment	Chemotherapy		Temozolomide							complete response				No			No										
+TCGA-FG-8185	26	70	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		33	5940	No	External	cgy			
+TCGA-FG-8186	60	105	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		31	5450	No	External	cgy			
+TCGA-FG-8188	418	455	Treatment	Radiation Therapy		Radiation 1															Primary Tumor Field		28	5040	No	External	cgy			
+TCGA-FG-8189	105	159	Treatment	Chemotherapy		Temozolomide							stable disease	chemotherapy			No			Yes										
+TCGA-FG-8189	190	221	Treatment	Chemotherapy		Temozolomide							stable disease	chemotherapy			No			Yes										
+TCGA-FG-8189	105	159	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		28	5040	No	External	cgy			
+TCGA-FG-8191	31	76	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-FG-8191	122	448	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-FG-8191	31	76	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		30	5700	No	External	cgy			
+TCGA-FG-A4MT	686	731	Treatment	Radiation Therapy		Radiation 1							complete response								Local Recurrence		33	5940	No	External	cgy			
+TCGA-FG-A4MW	32	71	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-FG-A4MW	101	105	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-FG-A4MW	231	379	Treatment	Not Specified		Bevacizumab							clinical progressive disease				No			No										
+TCGA-FG-A4MW	32	71	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		33	5940	No	External	cgy			
+TCGA-FG-A4MX	30	76	Treatment	Radiation Therapy		Radiation 1							complete response								Primary Tumor Field		33	5940	No	External	cgy			
+TCGA-FG-A4MY	36	77	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		30	5700	No	External	cgy			
+TCGA-FG-A6IZ	54	93	Treatment	Radiation Therapy		Radiation 1							complete response								Primary Tumor Field		30	5400	No	External	cgy			
+TCGA-FG-A6J1	55	95	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		28	5040	No	External	cgy			
+TCGA-FG-A6J3	27	74	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-FG-A6J3	116		Treatment	Chemotherapy		Temozolomide											Yes			No										
+TCGA-FG-A6J3	27	74	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		33	5940	No	External	cgy			
+TCGA-FG-A70Y	515	554	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-FG-A70Y	515	554	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		29	5510	No	External	cgy			
+TCGA-FG-A70Z	298	328	Treatment	Chemotherapy		Temozolomide											No			No										
+TCGA-FG-A70Z	28	70	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		30	6000	No	External	cgy			
+TCGA-FG-A710	18	218	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-FG-A711	350	673	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-FG-A711	733	774	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-FG-A711	1097		Treatment	Immunotherapy		Bevacizumab											Yes			No										
+TCGA-FG-A711	1155	1195	Treatment	Chemotherapy		Lomustine							clinical progressive disease				No			No										
+TCGA-FG-A711	1223	1277	Treatment	Chemotherapy		Hydroxyurea							clinical progressive disease				No			No										
+TCGA-FG-A711	1223	1277	Treatment	Chemotherapy		Imatinib							clinical progressive disease				No			No										
+TCGA-FG-A711	1284	1329	Treatment	Chemotherapy		Carboplatin							clinical progressive disease				No			No										
+TCGA-FG-A711	1284	1329	Treatment	Chemotherapy		Etoposide							clinical progressive disease				No			No										
+TCGA-FG-A711	733	774	Treatment	Radiation Therapy		Radiation 1							radiographic progressive disease								Primary Tumor Field		30	6000	No	External	cgy			
+TCGA-FG-A711	992	992	Treatment	Radiation Therapy		Radiation 2							radiographic progressive disease								Primary Tumor Field		1		No	External				
+TCGA-FG-A87N	160		Treatment	Chemotherapy		Temozolomide											Yes			No										
+TCGA-FG-A87N	42	87	Treatment	Radiation Therapy		Radiation 1							stable disease								Regional Site		33	5940	No	External	cgy			
+TCGA-FG-A87Q	48		Treatment	Chemotherapy		Temozolomide											Yes			No										
+TCGA-FG-A87Q	48	88	Treatment	Radiation Therapy		Radiation 1							complete response								Primary Tumor Field		29	58	No	External	gy			
+TCGA-FN-7833	95	134	Treatment	Chemotherapy		Temozolomide							complete response				No			No										
+TCGA-FN-7833	95	120	Treatment	Radiation Therapy		Radiation 1							complete response								Primary Tumor Field		20	6000	No	External	cgy			
+TCGA-HT-7468	35		Treatment	Chemotherapy		Temozolomide	5	280	mg/day	1	Adjuvant				PO		Yes	1400	mg											
+TCGA-HT-7469	42	84	Treatment	Chemotherapy		Temozolomide	1	140	mg/day	1	Adjuvant				PO		No	5880	mg											
+TCGA-HT-7469	112	179	Treatment	Chemotherapy		Temozolomide	3	400	mg/day	2	Progression				PO		No	6000	mg											
+TCGA-HT-7469	42	84	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	6000	No	External Beam	cgy			
+TCGA-HT-7470	45	94	Treatment	Chemotherapy		Temozolomide	1	140	mg/day	1	Adjuvant				PO		No	7000	mg											
+TCGA-HT-7470	45	94	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	33	5940	No	External Beam	cgy			
+TCGA-HT-7473	93	139	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	5400	No	External Beam	cgy			
+TCGA-HT-7475	393	441	Treatment	Chemotherapy		Temozolomide	1	160	mg/day	1	Adjuvant				PO		No	7840	mg											
+TCGA-HT-7475	186	218	Treatment	Chemotherapy		Temozolomide	2	360	mg/day	3	Adjuvant				PO		No	3600	mg											
+TCGA-HT-7475	130	162	Treatment	Chemotherapy		Temozolomide	2	280	mg/day	2	Adjuvant				PO		No	2800	mg											
+TCGA-HT-7475	28	76	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	33	5940	No	External Beam	cgy			
+TCGA-HT-7476	41	80	Treatment	Chemotherapy		Temozolomide	1	140	mg/day	1	Adjuvant				PO		No	4200	mg											
+TCGA-HT-7476	118		Treatment	Chemotherapy		Temozolomide	3	280	mg/day	2	Adjuvant				PO		Yes	1400	mg											
+TCGA-HT-7476	41	80	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	5400	No	External Beam	cgy			
+TCGA-HT-7477	24	428	Treatment	Chemotherapy		Temozolomide							complete response				No			No										
+TCGA-HT-7477	24	83	Treatment	Radiation Therapy		Radiation 1							complete response								Primary Tumor Field		33	5940	No	External	cgy			
+TCGA-HT-7478	34	74	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	28	5040	No	External Beam	cgy			
+TCGA-HT-7479	33	74	Treatment	Chemotherapy		Temozolomide	1	175	mg/day	1	Adjuvant				PO		No	7350	mg											
+TCGA-HT-7479	105	200	Treatment	Chemotherapy		Temozolomide	4	480	mg/day	2	Adjuvant				PO		No	9600	mg											
+TCGA-HT-7480	103	476	Treatment	Chemotherapy		Temozolomide	12	310	mg	2	Adjuvant				PO		No	18600	mg											
+TCGA-HT-7480	26	75	Treatment	Chemotherapy		Temozolomide	1	155	mg/day	1	Adjuvant				PO		No	7750	mg											
+TCGA-HT-7480	2189		Treatment	Targeted Molecular Therapy		Bevacizumab	12	970	mg	3	Recurrence				IV		Yes	3880	mg											
+TCGA-HT-7480	29	75	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	5400	No	External Beam	cgy			
+TCGA-HT-7481	1552	1596	Treatment	Radiation Therapy		Radiation 1					Progression										Primary Tumor Field	1	33	5940	No	External Beam	cgy			
+TCGA-HT-7482	577	853	Treatment	Chemotherapy		Temozolomide	10	370	mg/day	1	Progression				PO		No	18500	mg											
+TCGA-HT-7482	405	447	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	5400	No	External Beam	cgy			
+TCGA-HT-7483	2861	3287	Treatment	Chemotherapy		Temozolomide							complete response				No			No										
+TCGA-HT-7483	2876	2918	Treatment	Radiation Therapy		Radiation 1							complete response								Primary Tumor Field		30	5400	No	External	cgy			
+TCGA-HT-7601	88	92	Treatment	Chemotherapy		Temozolomide	1	240	mg/day	2	Adjuvant				PO		No	1200	mg											
+TCGA-HT-7601	123	157	Treatment	Chemotherapy		Temozolomide	2	310	mg	3	Adjuvant				PO		No	3100	mg											
+TCGA-HT-7601	25	36	Treatment	Chemotherapy		Temozolomide	1	120	mg/day	1	Adjuvant				PO		No	5040	mg											
+TCGA-HT-7601	25	67	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	6000	No	External Beam	cgy			
+TCGA-HT-7603	34	76	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	5400	No	External Beam	cgy			
+TCGA-HT-7606	21	64	Treatment	Chemotherapy		Temozolomide	1	130	mg/day	1	Adjuvant				PO		No	5720	mg											
+TCGA-HT-7606	98	102	Treatment	Chemotherapy		Temozolomide	1	260	mg/day	2	Adjuvant				PO		No	1300	mg											
+TCGA-HT-7606	163	470	Treatment	Chemotherapy		Temozolomide	10	330	mg	3	Adjuvant				PO		No	19800	mg											
+TCGA-HT-7606	21	64	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	33	5940	No	External Beam	cgy			
+TCGA-HT-7609	111	484	Treatment	Chemotherapy		Temozolomide	12	280	mg/day	2	Adjuvant				PO		No	16800	mg											
+TCGA-HT-7609	28	75	Treatment	Chemotherapy		Temozolomide	1	140	mg/day	1	Adjuvant				PO		No	6860	mg											
+TCGA-HT-7609	28	75	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	33	5940	No	External Beam	cgy			
+TCGA-HT-7620	126		Treatment	Chemotherapy		Temozolomide	1	150	mg/m2	1	Adjuvant				PO		No													
+TCGA-HT-7620	195	199	Treatment	Chemotherapy		Temozolomide	1	250	mg/day	2	Adjuvant				PO		No	1250	mg											
+TCGA-HT-7620	285		Treatment	Chemotherapy		Irinotecan				3	Progression																			
+TCGA-HT-7620	285		Treatment	Chemotherapy		Bevacizumab				4	Progression																			
+TCGA-HT-7620	40	70	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1		60	No	External Beam	cgy			
+TCGA-HT-7677	98		Treatment	Chemotherapy		Temozolomide	6	300.0	mg/day	2	Adjuvant				PO		Yes	9000	mg											
+TCGA-HT-7677	31	73	Treatment	Chemotherapy		Temozolomide	1	140	mg/day	1	Adjuvant				PO		No	6020	mg											
+TCGA-HT-7677	31	73	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	6000	No	External Beam	cgy			
+TCGA-HT-7686	26	73	Treatment	Chemotherapy		Temozolomide	1	130	mg/day	1	Adjuvant				PO		No	6110	mg											
+TCGA-HT-7686	145	239	Treatment	Chemotherapy		Temozolomide	4	300	mg/day	2	Adjuvant				PO		No	6000	mg											
+TCGA-HT-7686	27	74	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	33	5940	No	External Beam	cgy			
+TCGA-HT-7688	132	475	Treatment	Chemotherapy		Temozolomide	11	400	mg/day	3	Adjuvant				PO		No	22000	mg											
+TCGA-HT-7688	101	105	Treatment	Chemotherapy		Temozolomide	1	300	mg	2	Adjuvant				PO		No	1500	mg											
+TCGA-HT-7688	28	59	Treatment	Chemotherapy		Temozolomide	1	150	mg/day	1	Adjuvant				PO		No	6300	mg											
+TCGA-HT-7688	35	65	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	6000	No	External Beam	cgy			
+TCGA-HT-7689	53	94	Treatment	Chemotherapy		Temozolomide	1	140	mg	1	Adjuvant				PO		No	5880	mg											
+TCGA-HT-7689	126	334	Treatment	Chemotherapy		Temozolomide	5	260	mg/day	2	Adjuvant				PO		No	6500	mg											
+TCGA-HT-7689	53	92	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	5400	No	External Beam	cgy			
+TCGA-HT-7692	46	90	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	33	5940	No	External Beam	cgy			
+TCGA-HT-7693	22	63	Treatment	Chemotherapy		Temozolomide	1	140	mg/day	1	Adjuvant				PO		No	5880	mg											
+TCGA-HT-7693	102	440	Treatment	Chemotherapy		Temozolomide	02	370	mg/day	2	Adjuvant				PO		No	20350	mg											
+TCGA-HT-7693	17	60	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	31	5580	No	External Beam	cgy			
+TCGA-HT-7694	20	66	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	33	5940	No	External Beam	cgy			
+TCGA-HT-7695	78	110	Treatment	Chemotherapy		Temozolomide	1	150	mg/day	1	Adjuvant				PO		No	4950	mg											
+TCGA-HT-7695	52	125	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	5400	No	External Beam	cgy			
+TCGA-HT-7854	138	176	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	28	5040	No	External Beam	cgy			
+TCGA-HT-7855	131	157	Treatment	Chemotherapy		Temozolomide	2	400	mg/day	2	Adjuvant				PO		No	4000	mg											
+TCGA-HT-7855	25	67	Treatment	Chemotherapy		Temozolomide	1	160	mg/day	1	Adjuvant				PO		No	6880	mg											
+TCGA-HT-7855	20	73	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	33	5940	No	External Beam	cgy			
+TCGA-HT-7856	32	71	Treatment	Chemotherapy		Temozolomide	1	160	mg/day	1	Adjuvant				PO		No	6240	mg											
+TCGA-HT-7856	32	71	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	6000	No	External Beam	cgy			
+TCGA-HT-7858	20	69	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	33	5940	No	External Beam	cgy			
+TCGA-HT-7873	80	122	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		30	5400	No	External	cgy			
+TCGA-HT-7874	42	87	Treatment	Chemotherapy		Temozolomide	1	100	mg/day	1	Adjuvant				PO		No	4200	mg											
+TCGA-HT-7874	136	140	Treatment	Chemotherapy		Temozolomide	1	240	mg/day	2	Adjuvant				PO		No	1200	mg											
+TCGA-HT-7874	171	549	Treatment	Chemotherapy		Temozolomide	11	315	mg/day	3	Adjuvant				PO		No	17325	mg											
+TCGA-HT-7874	42	87	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field		33	5940	No	External Beam	cgy			
+TCGA-HT-7879	28	78	Treatment	Chemotherapy		Temozolomide	1	140	mg/day	1	Adjuvant				PO		No	7000	mg											
+TCGA-HT-7879	112		Treatment	Chemotherapy		Temozolomide	2	250	mg/day	2	Adjuvant				PO		Yes													
+TCGA-HT-7879	28	77	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	33	5940	No	External Beam	cgy			
+TCGA-HT-7881	46	83	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	31	5580	No	External Beam	cgy			
+TCGA-HT-7884	44	84	Treatment	Chemotherapy		Temozolomide							stable disease				No			Yes										
+TCGA-HT-7884	112		Treatment	Chemotherapy		Temozolomide											Yes			Yes										
+TCGA-HT-7884	44	84	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		28	5040	No	External	cgy			
+TCGA-HT-8011	14	69	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-HT-8011	115	242	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-HT-8011	14	69	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		32	6185	No	External	cgy			
+TCGA-HT-8013	1334	1742	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-HT-8013	1610	1693	Treatment	Targeted Molecular Therapy		Bevacizumab							clinical progressive disease				No			No										
+TCGA-HT-8013	103	146	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		30	5400	No	External	cgy			
+TCGA-HT-8013	1726	1743	Treatment	Radiation Therapy		Radiation 2							stable disease								Primary Tumor Field		13	3900	No	External	cgy			
+TCGA-HT-8104	33	80	Treatment	Radiation Therapy		Radiation 1							complete response								Primary Tumor Field		33	5940	No	External	cgy			
+TCGA-HT-8105	43	89	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		27	4860	No	External	cgy			
+TCGA-HT-8110	32	81	Treatment	Radiation Therapy		Radiation 1							complete response								Primary Tumor Field		33	5940	No	External	cgy			
+TCGA-HT-8113	34	74	Treatment	Chemotherapy		Temozolomide							partial response				No													
+TCGA-HT-8113	159	331	Treatment	Chemotherapy		Temozolomide							complete response				No													
+TCGA-HT-8113	34	75	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	5400	No	External Beam	cgy			
+TCGA-HT-8114	39	90	Treatment	Chemotherapy		Temozolomide							complete response				No													
+TCGA-HT-8114	39	90	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	33	5940	No	External Beam	cgy			
+TCGA-HT-8564	13	135	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-HT-8564	184		Treatment	Targeted Molecular Therapy		Bevacizumab							complete response							No										
+TCGA-HT-8564	184		Treatment	Chemotherapy		Lomustine														No										
+TCGA-HT-8564	35	128	Treatment	Radiation Therapy		Radiation 1							radiographic progressive disease								Primary Tumor Field		33	5940	No	External	cgy			
+TCGA-HT-A4DV	42	88	Treatment	Chemotherapy		Temozolomide							complete response				No			No										
+TCGA-HT-A4DV	133	291	Treatment	Chemotherapy		Temozolomide							partial response				No			No										
+TCGA-HT-A4DV	42	88	Treatment	Radiation Therapy		Radiation 1							complete response								Primary Tumor Field		33	5940	No	External	cgy			
+TCGA-HT-A5R7	10		Treatment	Chemotherapy		Temozolomide											Yes			No										
+TCGA-HT-A5R7	10	64	Treatment	Radiation Therapy		Radiation 1							complete response								Primary Tumor Field		33	5940	No	External	cgy			
+TCGA-HT-A5RA	13	235	Treatment	Chemotherapy		Temozolomide							partial response				No			No										
+TCGA-HT-A5RA	22	68	Treatment	Radiation Therapy		Radiation 1							partial response								Primary Tumor Field		33	5940	No	External	cgy			
+TCGA-HT-A5RC	34	98	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-HT-A5RC	34	98	Treatment	Radiation Therapy		Radiation 1							radiographic progressive disease								Primary Tumor Field		33	5940	No	External	cgy			
+TCGA-HT-A615	227	271	Treatment	Radiation Therapy		Radiation 1							partial response								Primary Tumor Field		33	5940	No	External	cgy			
+TCGA-HT-A618	110		Treatment	Chemotherapy		Temozolomide											Yes			No										
+TCGA-HT-A618	40	85	Treatment	Radiation Therapy		Radiation 1							partial response								Primary Tumor Field		28	5040	No	External	cgy			
+TCGA-HT-A61A	52		Treatment	Chemotherapy		Temozolomide											Yes			No										
+TCGA-HT-A61A	52	104	Treatment	Radiation Therapy		Radiation 1							partial response								Primary Tumor Field		33	5940	No	External	cgy			
+TCGA-HT-A61B	36		Treatment	Chemotherapy		Temozolomide											Yes			No										
+TCGA-HT-A61B	36	67	Treatment	Radiation Therapy		Radiation 1							complete response								Primary Tumor Field		33	5940	No	External	cgy			
+TCGA-HT-A61C	27		Treatment	Chemotherapy		Temozolomide							complete response							No										
+TCGA-HT-A61C	27	69	Treatment	Radiation Therapy		Radiation 1							complete response								Primary Tumor Field		33	5857	No	External	cgy			
+TCGA-HT-A74H	28		Treatment	Chemotherapy		Temozolomide														No										
+TCGA-HT-A74H	28	73	Treatment	Radiation Therapy		Radiation 1							partial response								Primary Tumor Field		33	5940	No	External	cgy			
+TCGA-HT-A74K	35	277	Treatment	Chemotherapy		Temozolomide							complete response				No			No										
+TCGA-HT-A74K	35	79	Treatment	Radiation Therapy		Radiation 1							complete response								Primary Tumor Field		42	5940	No	External	cgy			
+TCGA-HW-7486	66	216	Treatment	Chemotherapy		Temozolomide	6			5/28 - schedule which indicates 5 days out of 28 day cycle	Adjuvant				PO		No	150-200	mg/m2											
+TCGA-HW-7487	27	409	Treatment	Chemotherapy		Temozolomide	12			5/28 - schedule which represents 5 days out of 28 day cycle	Other, Specify In Notes				PO		No	150-200	mg/m2											
+TCGA-HW-7487	948	1249	Treatment	Chemotherapy		Lomustine							clinical progressive disease				No			No										
+TCGA-HW-7487	960	1295	Treatment	Chemotherapy		Vincristine							clinical progressive disease				No			No										
+TCGA-HW-7487	960	1236	Treatment	Chemotherapy		Procarbazine							clinical progressive disease				No			No										
+TCGA-HW-7487	1386	1417	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-HW-7487	1570		Treatment	Chemotherapy		Carboplatin											Yes			No										
+TCGA-HW-7487	1570		Treatment	Chemotherapy		Bevacizumab											Yes			No										
+TCGA-HW-7487	871	930	Treatment	Radiation Therapy		Radiation 1							radiographic progressive disease								Primary Tumor Field			60	No	External	gy			
+TCGA-HW-7491	1011		Treatment	Chemotherapy		Temozolomide											Yes			No										
+TCGA-HW-7493	1632	1662	Treatment	Radiation Therapy		Radiation 1							stable disease								Regional Site			54	No	External	gy			
+TCGA-HW-8319	23	66	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-HW-8319	94		Treatment	Chemotherapy		Temozolomide											Yes			No										
+TCGA-HW-8319	1028	1058	Treatment	Chemotherapy		Temozolomide							partial response				No			No										
+TCGA-HW-8319	1058	1150	Treatment	Chemotherapy		Bevacizumab							partial response				No			No										
+TCGA-HW-8319	1089	1150	Treatment	Chemotherapy		Lomustine											No			No										
+TCGA-HW-8319	23	66	Treatment	Radiation Therapy		Radiation 1							stable disease								Regional Site		30	6000	No	External	cgy			
+TCGA-HW-8320	67	108	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-HW-8320	149		Treatment	Chemotherapy		Temozolomide											Yes			No										
+TCGA-HW-8320	68	109	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		30	6000	No	External	cgy			
+TCGA-HW-8321	47	321	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-HW-8321	28	62	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		25	5000	No	External	cgy			
+TCGA-HW-8321	63	66	Treatment	Radiation Therapy		Radiation 2															Primary Tumor Field		5	1000	No	External	cgy			
+TCGA-HW-8322	433		Treatment	Chemotherapy		Temozolomide											Yes			No										
+TCGA-HW-A5KJ	16	16	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-HW-A5KJ	656	899	Treatment	Not Specified		Temozolomide							stable disease				No			No										
+TCGA-HW-A5KJ	107	169	Treatment	Radiation Therapy		Radiation 1							stable disease								Regional Site		30	60	No	External	gy			
+TCGA-HW-A5KK	23	176	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-HW-A5KK	207		Treatment	Chemotherapy		Bevacizumab											Yes			No										
+TCGA-HW-A5KK	23	84	Treatment	Radiation Therapy		Radiation 1							radiographic progressive disease								Regional Site		30	6000	No	External	cgy			
+TCGA-HW-A5KL	10	71	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-HW-A5KL	102	648	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-HW-A5KL	10	71	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		30	6000	No	External	cgy			
+TCGA-IK-7675	531	552	Treatment	Chemotherapy		Irinotecan											No													
+TCGA-IK-7675	46	88	Treatment	Radiation Therapy		Radiation 1					Adjuvant										Primary Tumor Field	1	30	5400	No	External Beam	cgy			
+TCGA-IK-8125	55	99	Treatment	Chemotherapy		Temozolomide											No			No										
+TCGA-IK-8125	111	265	Treatment	Chemotherapy		Temozolomide							complete response				No			No										
+TCGA-IK-8125	55	99	Treatment	Radiation Therapy		Radiation 1															Primary Tumor Field		30	6000	No	External	cgy			
+TCGA-KT-A74X	40	83	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-KT-A74X	40	83	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		30	5400	No	External	cgy			
+TCGA-KT-A7W1	20	61	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-KT-A7W1	20	61	Treatment	Radiation Therapy		Radiation 1							radiographic progressive disease								Primary Tumor Field		23	4600	No	External	cgy			
+TCGA-KT-A7W1	20	61	Treatment	Radiation Therapy		Radiation 2							radiographic progressive disease								Primary Tumor Field		7	1400	No	External	cgy			
+TCGA-P5-A5EX	16	243	Treatment	Not Specified		Temozolomide							partial response				No			No										
+TCGA-P5-A5EX	16	31	Treatment	Radiation Therapy		Radiation 1							partial response								Primary Tumor Field			60	No	External	gy			
+TCGA-P5-A5F0	89	287	Treatment	Chemotherapy		Lomustine							partial response				No			No										
+TCGA-P5-A5F0	89	287	Treatment	Chemotherapy		Vincristine							partial response				No			No										
+TCGA-P5-A5F0	89	287	Treatment	Chemotherapy		Procarbazine							partial response				No			No										
+TCGA-P5-A5F0	23	70	Treatment	Radiation Therapy		Radiation 1							partial response								Primary Tumor Field			60	No	External	gy			
+TCGA-P5-A5F2	30	242	Treatment	Chemotherapy		Fotemustine							partial response				No			No										
+TCGA-P5-A5F2	30	242	Treatment	Not Specified		Bevacizumab							partial response				No			No										
+TCGA-P5-A5F2	30	242	Treatment	Not Specified		Temozolomide							partial response				No			No										
+TCGA-P5-A5F4	19	231	Treatment	Chemotherapy		Lomustine							partial response				No			No										
+TCGA-P5-A5F4	19	231	Treatment	Chemotherapy		Vincristine							partial response				No			No										
+TCGA-P5-A5F4	19	231	Treatment	Chemotherapy		Procarbazine							partial response				No			No										
+TCGA-P5-A5F4	19	80	Treatment	Radiation Therapy		Radiation 1							partial response								Primary Tumor Field			60	No	External	gy			
+TCGA-P5-A72W	467		Treatment	Radiation Therapy		Radiation 1																	29	58	Yes	External	gy			
+TCGA-P5-A72X	150	192	Treatment	Radiation Therapy		Radiation 1																	30	66	No	External	gy			
+TCGA-P5-A72Z	270		Treatment	Chemotherapy		Temozolomide											Yes			No										
+TCGA-P5-A72Z	21	50	Treatment	Radiation Therapy		Radiation 1																	30	60	No	External	gy			
+TCGA-P5-A731	274		Treatment	Radiation Therapy		Radiation 1																	2	60	Yes	External	gy			
+TCGA-P5-A733	97	414	Treatment	Not Specified		Temozolomide											No			No										
+TCGA-P5-A733	21	41	Treatment	Radiation Therapy		Radiation 1																	30	60	No	External	gy			
+TCGA-P5-A736	32	230	Treatment	Radiation Therapy		Radiation 1																	30 fr	60	No	External	gy			
+TCGA-P5-A77X	63	105	Treatment	Radiation Therapy		Radiation 1																		54	No	External	gy			
+TCGA-P5-A780	22	-4	Treatment	Radiation Therapy		Radiation 1																		40	No	External	gy			
+TCGA-P5-A781	73	134	Treatment	Radiation Therapy		Radiation 1																	30 fr	60	No	External	gy			
+TCGA-QH-A65R	32	430	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-QH-A65R	32	69	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		26	52	No	External	gy			
+TCGA-QH-A65V	147	327	Treatment	Chemotherapy		Procarbazine							stable disease				No			No										
+TCGA-QH-A65V	147	307	Treatment	Chemotherapy		Lomustine							stable disease				No			No										
+TCGA-QH-A65V	147	307	Treatment	Chemotherapy		Vincristine							stable disease				No			No										
+TCGA-QH-A65X	139	143	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-QH-A65X	237	365	Treatment	Chemotherapy		Lomustine							stable disease				No			No										
+TCGA-QH-A65X	237	365	Treatment	Chemotherapy		Vincristine							stable disease				No			No										
+TCGA-QH-A65X	244	365	Treatment	Chemotherapy		Procarbazine							stable disease				No			No										
+TCGA-QH-A65X	63	103	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		27	54	No	External	gy			
+TCGA-QH-A65Z	36	215	Treatment	Chemotherapy		Vincristine							stable disease				No			No										
+TCGA-QH-A65Z	36	295	Treatment	Chemotherapy		Lomustine							stable disease				No			No										
+TCGA-QH-A65Z	36	315	Treatment	Chemotherapy		Procarbazine							stable disease				No			No										
+TCGA-QH-A65Z	337	375	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		27	54	No	External	gy			
+TCGA-QH-A6CS	45	423	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-QH-A6CS	607		Treatment	Chemotherapy		Fotemustine											Yes			No										
+TCGA-QH-A6CS	45	84	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		27	54	No	External	gy			
+TCGA-QH-A6CU	399		Treatment	Chemotherapy		Temozolomide											Yes			No										
+TCGA-QH-A6CU	73	120	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		30	60	No	External	gy			
+TCGA-QH-A6CV	50	90	Treatment	Radiation Therapy		Radiation 1															Primary Tumor Field		27	54	No	External	gy			
+TCGA-QH-A6CV	348	351	Treatment	Radiation Therapy		Radiation 2							stable disease								Primary Tumor Field		3	24	No	External	gy			
+TCGA-QH-A6CX	242	242	Treatment	Radiation Therapy		Radiation 1							radiographic progressive disease												No	External				
+TCGA-QH-A6CY	267		Treatment	Chemotherapy		Temozolomide							stable disease				Yes			No										
+TCGA-QH-A6CY	30	67	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		28	56	No	External	gy			
+TCGA-QH-A6X4	196	342	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-QH-A6X4	101	138	Treatment	Radiation Therapy		Radiation 1							complete response								Primary Tumor Field		27	54	No	External	gy			
+TCGA-QH-A6X8	49	292	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-QH-A6X8	49	90	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		27	54	No	External	gy			
+TCGA-QH-A6XC	103	390	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-QH-A6XC	466		Treatment	Chemotherapy		Lomustine											Yes			No										
+TCGA-QH-A6XC	466		Treatment	Chemotherapy		Procarbazine											Yes			No										
+TCGA-QH-A6XC	466		Treatment	Chemotherapy		Vincristine											Yes			No										
+TCGA-QH-A6XC	36	75	Treatment	Radiation Therapy		Radiation 1							complete response								Primary Tumor Field		27	54	No	External	gy			
+TCGA-QH-A6XC	488	491	Treatment	Radiation Therapy		Radiation 2							stable disease								Local Recurrence		3	21	No	External	gy			
+TCGA-QH-A870	396		Treatment	Chemotherapy		Temozolomide											Yes			No										
+TCGA-S9-A6TS	1614	1697	Treatment	Chemotherapy		Carmustine							clinical progressive disease				No			No										
+TCGA-S9-A6TS	1352	1603	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-S9-A6TS	1704	1859	Treatment	Targeted Molecular Therapy		Bevacizumab							clinical progressive disease				No			No										
+TCGA-S9-A6TS	0	78	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		33	59.4	No	External	gy			
+TCGA-S9-A6TV	26	68	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-S9-A6TV	26	68	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		30	54	No	External	gy			
+TCGA-S9-A6TW	25	304	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-S9-A6TW	1057	1104	Treatment	Radiation Therapy		Radiation 1							complete response								Local Recurrence		33	49,4	No	External				
+TCGA-S9-A6TX	268	856	Treatment	Chemotherapy		Temozolomide							complete response				No			No										
+TCGA-S9-A6TX	875		Treatment	Radiation Therapy		Radiation 1															Primary Tumor Field		30	60	Yes	External	gy			
+TCGA-S9-A6TY	5	274	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-S9-A6TZ	627	658	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		27	54	No	External	gy			
+TCGA-S9-A6U0	30	64	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-S9-A6U0	96	264	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-S9-A6U0	698		Treatment	Targeted Molecular Therapy		Bevacizumab											Yes			No										
+TCGA-S9-A6U0	603		Treatment	Chemotherapy		Carmustine							clinical progressive disease				No			No										
+TCGA-S9-A6U0	603		Treatment	Chemotherapy		Teniposide							clinical progressive disease				No			No										
+TCGA-S9-A6U0	30	64	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		30	60	No	External	gy			
+TCGA-S9-A6U1	1	253	Treatment	Chemotherapy		Temozolomide							complete response				No			No										
+TCGA-S9-A6U2	6	66	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		30	54	No	External	gy			
+TCGA-S9-A6U6	60	110	Treatment	Radiation Therapy		Radiation 1							complete response								Primary Tumor Field		33	59,4	No	External	gy			
+TCGA-S9-A6U8	2832	2988	Treatment	Targeted Molecular Therapy		Bevacizumab											No			No										
+TCGA-S9-A6U8	1995	2200	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-S9-A6U8	2720	2762	Treatment	Chemotherapy		Carmustine							clinical progressive disease				No			No										
+TCGA-S9-A6U8	2787	2794	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-S9-A6U8	381		Treatment	Radiation Therapy		Radiation 1							partial response								Primary Tumor Field			59,4	No	External	gy			
+TCGA-S9-A6U9	229	276	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		33	59,4	No	External	gy			
+TCGA-S9-A6WD	62	322	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-S9-A6WE	8		Treatment	Chemotherapy		Temozolomide											No			No										
+TCGA-S9-A6WG	382	386	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-S9-A6WG	28	71	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		30	60	No	External	gy			
+TCGA-S9-A6WH	38	81	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		33	54,9	No	External	gy			
+TCGA-S9-A6WI	57	120	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		30	54	No	External	gy			
+TCGA-S9-A6WL	285		Treatment	Radiation Therapy		Radiation 1															Regional Site			60	No	External	gy			
+TCGA-S9-A6WM	16	64	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-S9-A6WM	524		Treatment	Targeted Molecular Therapy		Bevacizumab											Yes			No										
+TCGA-S9-A6WM	16	64	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		33	60	No	External	gy			
+TCGA-S9-A6WN	42	91	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-S9-A6WN	425	805	Treatment	Targeted Molecular Therapy		Bevacizumab							clinical progressive disease				No			No										
+TCGA-S9-A6WN	317	321	Treatment	Chemotherapy		Temozolomide											No			No										
+TCGA-S9-A6WN	679	805	Treatment	Chemotherapy		Lomustine							clinical progressive disease				No			Yes										
+TCGA-S9-A6WN	846		Treatment	Targeted Molecular Therapy		Pembrolizumab											Yes			No										
+TCGA-S9-A6WN	117	160	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		30	60	No	External	gy			
+TCGA-S9-A6WO	199	231	Treatment	Radiation Therapy		Radiation 1															Primary Tumor Field		27	54	No	External	gy			
+TCGA-S9-A6WP	19		Treatment	Chemotherapy		Temozolomide											Yes			No										
+TCGA-S9-A7IS	21	29	Treatment	Radiation Therapy		Radiation 1							radiographic progressive disease								Primary Tumor Field		7	14	No	External	gy			
+TCGA-S9-A7IX	350	413	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-S9-A7IX	437	470	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-S9-A7IX	350	413	Treatment	Targeted Molecular Therapy		Bevacizumab							clinical progressive disease				No			No										
+TCGA-S9-A7IX	589	640	Treatment	Chemotherapy		Lomustine							clinical progressive disease				No			No										
+TCGA-S9-A7IX	36	87	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		33	59.4	No	External	gy			
+TCGA-S9-A7IX	437	470	Treatment	Radiation Therapy		Radiation 2							radiographic progressive disease								Primary Tumor Field		22	39.6	No	External	gy			
+TCGA-S9-A7IY	160	383	Treatment	Chemotherapy		Lomustine											No			No										
+TCGA-S9-A7IY	162	383	Treatment	Chemotherapy		Procarbazine											No			No										
+TCGA-S9-A7IY	162	383	Treatment	Chemotherapy		Vincristine											No			No										
+TCGA-S9-A7IY	78	118	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		30	60	No	External	gy			
+TCGA-S9-A7IZ	603		Treatment	Chemotherapy		Carmustine							stable disease				Yes			No										
+TCGA-S9-A7IZ	603		Treatment	Chemotherapy		Teniposide							stable disease				Yes			No										
+TCGA-S9-A7IZ	42	85	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		30	60	No	External	gy			
+TCGA-S9-A7J0	59	91	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-S9-A7J0	126		Treatment	Chemotherapy		Temozolomide											Yes			No										
+TCGA-S9-A7J0	399	443	Treatment	Chemotherapy		Carmustine							clinical progressive disease				No			No										
+TCGA-S9-A7J0	490	609	Treatment	Targeted Molecular Therapy		Bevacizumab							clinical progressive disease				No			No										
+TCGA-S9-A7J0	546	609	Treatment	Chemotherapy		Irinotecan							clinical progressive disease				No			No										
+TCGA-S9-A7J0	59	101	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		30	60	No	External	gy			
+TCGA-S9-A7J2	62		Treatment	Chemotherapy		Lomustine											Yes			No										
+TCGA-S9-A7J2	62		Treatment	Chemotherapy		Procarbazine											Yes			No										
+TCGA-S9-A7J2	62		Treatment	Chemotherapy		Vincristine											Yes			No										
+TCGA-S9-A7J3	2	177	Treatment	Chemotherapy		Lomustine							stable disease				No			No										
+TCGA-S9-A7J3	2	177	Treatment	Chemotherapy		Procarbazine							stable disease				No			No										
+TCGA-S9-A7J3	2	177	Treatment	Chemotherapy		Vincristine							stable disease				No			No										
+TCGA-S9-A7J3	177	247	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		33	59.4	No	External	gy			
+TCGA-S9-A7QW	382	592	Treatment	Chemotherapy		Temozolomide							stable disease				No			Yes										
+TCGA-S9-A7QW	36	81	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		33	59.4	No	External	gy			
+TCGA-S9-A7QX	113		Treatment	Chemotherapy		Temozolomide											Yes			No										
+TCGA-S9-A7QX	40	84	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		33	59.4	No	External	gy			
+TCGA-S9-A7QY	20	372	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-S9-A7R1	3801	3835	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-S9-A7R1	-70		Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		30	54	No	External	gy			
+TCGA-S9-A7R1	3801	3835	Treatment	Radiation Therapy		Radiation 2							stable disease								Local Recurrence		25	45	No	External	gy			
+TCGA-S9-A7R2	59	102	Treatment	Radiation Therapy		Radiation 1							radiographic progressive disease								Primary Tumor Field		30	60	No	External	gy			
+TCGA-S9-A7R4	54	161	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-S9-A7R4	54	161	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		30	54	No	External	gy			
+TCGA-S9-A7R7	144	526	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-S9-A7R7	716	1095	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-S9-A7R7	2720	2847	Treatment	Chemotherapy		Carmustine							clinical progressive disease				No			No										
+TCGA-S9-A7R7	50	92	Treatment	Radiation Therapy		Radiation 1							radiographic progressive disease								Primary Tumor Field		30	54	No	External	gy			
+TCGA-S9-A7R7	2913	2929	Treatment	Radiation Therapy		Radiation 2							radiographic progressive disease											42	No	External	gy			
+TCGA-S9-A7R8	771	786	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-S9-A7R8	803	925	Treatment	Chemotherapy		Nimustine							clinical progressive disease				No			No										
+TCGA-S9-A7R8	54		Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		30	60	No	External	gy			
+TCGA-S9-A7R8	771	786	Treatment	Radiation Therapy		Radiation 2							radiographic progressive disease								Local Recurrence		11	22	No	External	gy			
+TCGA-S9-A89V	12	46	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-S9-A89V	80	222	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-S9-A89V	12	46	Treatment	Radiation Therapy		Radiation 1							radiographic progressive disease								Primary Tumor Field		25	45	No	External	gy			
+TCGA-S9-A89Z	29	308	Treatment	Chemotherapy		Temozolomide							stable disease				No			Yes										
+TCGA-S9-A89Z	29	77	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		33	59.4	No	External	gy			
+TCGA-TM-A7C3	748		Treatment	Chemotherapy		Temozolomide											Yes			No										
+TCGA-TM-A7C3	748	789	Treatment	Radiation Therapy		Radiation 1							complete response								Primary Tumor Field		30	60	No	External	gy			
+TCGA-TM-A7C5	38	79	Treatment	Radiation Therapy		Radiation 1							complete response								Primary Tumor Field		30	60	No	External	gy			
+TCGA-TM-A84B	188	338	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-TM-A84C	297	459	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-TM-A84F	41	84	Treatment	Radiation Therapy		Radiation 1							complete response								Primary Tumor Field		30	60	No	External	gy			
+TCGA-TM-A84G	63	105	Treatment	Radiation Therapy		Radiation 1							complete response								Primary Tumor Field		30	60	No	External	gy			
+TCGA-TM-A84H	45	90	Treatment	Radiation Therapy		Radiation 1							complete response								Primary Tumor Field		33	59.40	No	External	gy			
+TCGA-TM-A84I	41	84	Treatment	Radiation Therapy		Radiation 1							complete response								Primary Tumor Field		30	60	No	External	gy			
+TCGA-TM-A84J	61		Treatment	Chemotherapy		Temozolomide											Yes			Yes										
+TCGA-TM-A84J	476		Treatment	Chemotherapy		Procarbazine											Yes			Yes										
+TCGA-TM-A84J	61	103	Treatment	Radiation Therapy		Radiation 1							complete response								Primary Tumor Field		30	60	No	External	gy			
+TCGA-TM-A84L	1066	1185	Treatment	Chemotherapy		Temozolomide							clinical progressive disease				No			No										
+TCGA-TM-A84L	1065	1109	Treatment	Radiation Therapy		Radiation 1							radiographic progressive disease								Local Recurrence		30	60	No	External	gy			
+TCGA-TM-A84M	138	264	Treatment	Chemotherapy		Procarbazine							complete response				No			No										
+TCGA-TM-A84M	138	264	Treatment	Chemotherapy		Lomustine							complete response				No			No										
+TCGA-TM-A84M	138	264	Treatment	Chemotherapy		Vincristine							complete response				No			No										
+TCGA-TM-A84M	73	122	Treatment	Radiation Therapy		Radiation 1							complete response								Primary Tumor Field		33	59.06	No	External	gy			
+TCGA-TM-A84O	30	73	Treatment	Radiation Therapy		Radiation 1							complete response								Primary Tumor Field		30	60	No	External	gy			
+TCGA-TM-A84Q	22	65	Treatment	Radiation Therapy		Radiation 1							complete response								Primary Tumor Field		30	54	No	External	gy			
+TCGA-VM-A8C8	1282	1431	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-VM-A8C8	749	783	Treatment	Radiation Therapy		Radiation 1															Primary Tumor Field		25	4500	No	External	cgy			
+TCGA-VM-A8CA	373		Treatment	Chemotherapy		Temozolomide											Yes			No										
+TCGA-VM-A8CD	27	73	Treatment	Radiation Therapy		Radiation 1															Primary Tumor Field		28	5040	No	External	cgy			
+TCGA-VM-A8CE	37	349	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-VM-A8CE	925	986	Treatment	Chemotherapy		Vincristine							stable disease				No			No										
+TCGA-VM-A8CE	898		Treatment	Chemotherapy		Procarbazine											Yes			No										
+TCGA-VM-A8CE	918		Treatment	Chemotherapy		Lomustine											Yes			No										
+TCGA-VM-A8CE	848	891	Treatment	Radiation Therapy		Radiation 1															Local Recurrence		30	5400	No	External	cgy			
+TCGA-VM-A8CF	41	88	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-VM-A8CF	42	81	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		28	5040	No	External	cgy			
+TCGA-VM-A8CF	82	88	Treatment	Radiation Therapy		Radiation 2							stable disease								Primary Tumor Field		5	900	No	External	cgy			
+TCGA-VV-A829	0	792	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-VV-A829	0	61	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field				No	External				
+TCGA-VV-A86M	122		Treatment	Chemotherapy		Temozolomide											Yes			No										
+TCGA-VV-A86M	92	122	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field				No	External				
+TCGA-VW-A7QS	14	595	Treatment	Chemotherapy		Temozolomide							partial response				No			No										
+TCGA-VW-A8FI	19	78	Treatment	Chemotherapy		Temozolomide											No			No										
+TCGA-WH-A86K	39	84	Treatment	Chemotherapy		Temozolomide							stable disease				No			No										
+TCGA-WH-A86K	39	84	Treatment	Radiation Therapy		Radiation 1							stable disease								Primary Tumor Field		33	5940	No	External	cgy			

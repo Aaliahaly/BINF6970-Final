@@ -1,0 +1,504 @@
+PATIENT_ID	START_DATE	STOP_DATE	EVENT_TYPE	SAMPLE_ID	METHOD_OF_SAMPLE_PROCUREMENT	COUNTRY	SAMPLE_PRESCREENED	SUBMITTED_FOR_LCE	TOP_SLIDE_SUBMITTED	TUMOR_NECROSIS_PERCENT	TUMOR_NUCLEI_PERCENT	TUMOR_WEIGHT	VESSEL_USED
+TCGA-CS-4941	0		Sample Acquisition	TCGA-CS-4941-01	Gross Total Resection	United States	Yes		Yes	30	70	200	Parafilm
+TCGA-CS-4942	0		Sample Acquisition	TCGA-CS-4942-01	Gross Total Resection	United States	Yes		Yes	30	70	200	Parafilm
+TCGA-CS-4943	10		Sample Acquisition	TCGA-CS-4943-01	Gross Total Resection	United States	Yes		Yes	30	70	200	Parafilm
+TCGA-CS-4944	0		Sample Acquisition	TCGA-CS-4944-01	Gross Total Resection	United States	Yes		Yes	30	70	200	Parafilm
+TCGA-CS-5390	0		Sample Acquisition	TCGA-CS-5390-01	Gross Total Resection	United States	Yes		Yes	0	80	200	Parafilm
+TCGA-CS-5393	0		Sample Acquisition	TCGA-CS-5393-01	Gross Total Resection	United States	Yes		Yes	0	90	200	Parafilm
+TCGA-CS-5394	0		Sample Acquisition	TCGA-CS-5394-01	Gross Total Resection	United States	Yes		Yes	0	70	200	Parafilm
+TCGA-CS-5395	0		Sample Acquisition	TCGA-CS-5395-01	Gross Total Resection	United States	Yes		Yes	0	80	200	Parafilm
+TCGA-CS-5396	0		Sample Acquisition	TCGA-CS-5396-01	Gross Total Resection	United States	Yes		Yes	10	90	200	Parafilm
+TCGA-CS-5397	0		Sample Acquisition	TCGA-CS-5397-01	Gross Total Resection	United States	Yes		Yes	0	70	200	Parafilm
+TCGA-CS-6186	0		Sample Acquisition	TCGA-CS-6186-01	Gross Total Resection	United States	Yes		Yes	0	70	200	Cryovial
+TCGA-CS-6188	0		Sample Acquisition	TCGA-CS-6188-01	Gross Total Resection	United States	Yes		Yes	0	70	200	Cryovial
+TCGA-CS-6290	0		Sample Acquisition	TCGA-CS-6290-01	Gross Total Resection	United States	Yes		Yes	0	70	200	Cryovial
+TCGA-CS-6665	0		Sample Acquisition	TCGA-CS-6665-01	Gross Total Resection	United States	Yes		Yes	0	75	200	Cryovial
+TCGA-CS-6666	0		Sample Acquisition	TCGA-CS-6666-01	Gross Total Resection	United States	Yes		Yes	0	75	200	Cryovial
+TCGA-CS-6667	0		Sample Acquisition	TCGA-CS-6667-01	Gross Total Resection	United States	Yes		Yes	0	65	200	Cryovial
+TCGA-CS-6668	0		Sample Acquisition	TCGA-CS-6668-01	Gross Total Resection	United States	Yes		Yes	0	85	200	Cryovial
+TCGA-CS-6669	0		Sample Acquisition	TCGA-CS-6669-01	Gross Total Resection	United States	Yes		Yes	30	65	200	Cryovial
+TCGA-CS-6670	0		Sample Acquisition	TCGA-CS-6670-01	Gross Total Resection	United States	Yes		Yes	30	75	200	Cryovial
+TCGA-DB-5270	720		Sample Acquisition	TCGA-DB-5270-01		United States	No		Yes	0	60	250	Polycon
+TCGA-DB-5273	0		Sample Acquisition	TCGA-DB-5273-01		United States	Yes		No	0	65	500	Polycon
+TCGA-DB-5274	17		Sample Acquisition	TCGA-DB-5274-01		United States	Yes		No	0	60	1000	Polycon
+TCGA-DB-5275	30		Sample Acquisition	TCGA-DB-5275-01		United States	Yes		No	0	70	750	Polycon
+TCGA-DB-5276	0		Sample Acquisition	TCGA-DB-5276-01		United States	Yes		No	0	60	250	Polycon
+TCGA-DB-5277	0		Sample Acquisition	TCGA-DB-5277-01		United States	Yes		No	0	70	500	Polycon
+TCGA-DB-5278	0		Sample Acquisition	TCGA-DB-5278-01		United States	No		Yes	0	60	500	Polycon
+TCGA-DB-5279	-1		Sample Acquisition	TCGA-DB-5279-01		United States	Yes		No	0	70	500	Polycon
+TCGA-DB-5280	0		Sample Acquisition	TCGA-DB-5280-01		United States	Yes		No	0	70	500	Polycon
+TCGA-DB-5281	0		Sample Acquisition	TCGA-DB-5281-01		United States	Yes		No	0	70	1000	Polycon
+TCGA-DB-A4X9	0		Sample Acquisition	TCGA-DB-A4X9-01	Gross Total Resection	United States	Yes	No	Yes	0	60	520	Polycon
+TCGA-DB-A4XA	0		Sample Acquisition	TCGA-DB-A4XA-01	Subtotal Resection	United States	Yes	No	Yes	0	60	423	Polycon
+TCGA-DB-A4XB	0		Sample Acquisition	TCGA-DB-A4XB-01	Gross Total Resection	United States	Yes	No	Yes	0	60	180	Polycon
+TCGA-DB-A4XC	81		Sample Acquisition	TCGA-DB-A4XC-01	Gross Total Resection	United States	Yes	No	Yes	0	70	335	Polycon
+TCGA-DB-A4XD	0		Sample Acquisition	TCGA-DB-A4XD-01	Gross Total Resection	United States	Yes	No	Yes	0	60	455	Polycon
+TCGA-DB-A4XE	0		Sample Acquisition	TCGA-DB-A4XE-01	Gross Total Resection	United States	Yes	No	Yes	0	60	200	Polycon
+TCGA-DB-A4XF	0		Sample Acquisition	TCGA-DB-A4XF-01	Gross Total Resection	United States	Yes	No	Yes	0	70	377	Polycon
+TCGA-DB-A4XG	1717		Sample Acquisition	TCGA-DB-A4XG-01	Gross Total Resection	United States	Yes	No	Yes	0	70	243	Polycon
+TCGA-DB-A4XH	0		Sample Acquisition	TCGA-DB-A4XH-01	Gross Total Resection	United States	Yes	No	Yes	0	60	507	Polycon
+TCGA-DB-A64L	17		Sample Acquisition	TCGA-DB-A64L-01	Gross Total Resection	United States	Yes	No	Yes	0	60	150	Polycon
+TCGA-DB-A64O	142		Sample Acquisition	TCGA-DB-A64O-01	Subtotal Resection	United States	Yes	No	Yes	0	65	350	Polycon
+TCGA-DB-A64P	0		Sample Acquisition	TCGA-DB-A64P-01	Gross Total Resection	United States	Yes	No	Yes	0	70	250	Polycon
+TCGA-DB-A64Q	0		Sample Acquisition	TCGA-DB-A64Q-01	Subtotal Resection	United States	Yes	No	Yes	0	80	200	Polycon
+TCGA-DB-A64R	0		Sample Acquisition	TCGA-DB-A64R-01	Gross Total Resection	United States	Yes	No	Yes	0	60	150	Polycon
+TCGA-DB-A64S	0		Sample Acquisition	TCGA-DB-A64S-01	Gross Total Resection	United States	Yes	No	Yes	0	60	250	Polycon
+TCGA-DB-A64U	119		Sample Acquisition	TCGA-DB-A64U-01	Gross Total Resection	United States	Yes	Yes	Yes	0	50	150	Polycon
+TCGA-DB-A64V	0		Sample Acquisition	TCGA-DB-A64V-01	Subtotal Resection	United States	Yes	Yes	Yes	0	50	200	Polycon
+TCGA-DB-A64W	0		Sample Acquisition	TCGA-DB-A64W-01	Subtotal Resection	United States	Yes	No	Yes	0	75	150	Polycon
+TCGA-DB-A64X	0		Sample Acquisition	TCGA-DB-A64X-01	Gross Total Resection	United States	Yes	No	Yes	0	65	250	Polycon
+TCGA-DB-A75K	0		Sample Acquisition	TCGA-DB-A75K-01	Gross Total Resection	United States	Yes	No	Yes	0	70	250	Polycon
+TCGA-DB-A75L	0		Sample Acquisition	TCGA-DB-A75L-01	Gross Total Resection	United States	Yes	Yes	Yes	0	50	200	Polycon
+TCGA-DB-A75M	0		Sample Acquisition	TCGA-DB-A75M-01	Gross Total Resection	United States	Yes	No	Yes	0	60	350	Polycon
+TCGA-DB-A75O	0		Sample Acquisition	TCGA-DB-A75O-01	Gross Total Resection	United States	Yes	No	Yes	0	60	250	Polycon
+TCGA-DB-A75P	0		Sample Acquisition	TCGA-DB-A75P-01	Gross Total Resection	United States	Yes	No	Yes	0	65	200	Polycon
+TCGA-DH-5140	0		Sample Acquisition	TCGA-DH-5140-01	Gross Total Resection	United States	Yes		Yes	0	100	125	Cryovial
+TCGA-DH-5141	854		Sample Acquisition	TCGA-DH-5141-01	Subtotal Resection	United States	Yes		Yes	0	100	89	Cryovial
+TCGA-DH-5142	0		Sample Acquisition	TCGA-DH-5142-01	Gross Total Resection	United States	Yes		Yes	0	100	57	Cryovial
+TCGA-DH-5143	0		Sample Acquisition	TCGA-DH-5143-01	Subtotal Resection	United States	Yes		Yes	0	100	301	Cryovial
+TCGA-DH-5144	0		Sample Acquisition	TCGA-DH-5144-01	Gross Total Resection	United States	Yes		Yes	0	100	231	Cryovial
+TCGA-DH-A7UR	0		Sample Acquisition	TCGA-DH-A7UR-01	Gross Total Resection	United States	Yes			0	75	63	Cryovial
+TCGA-DH-A7US	0		Sample Acquisition	TCGA-DH-A7US-01	Subtotal Resection	United States	Yes			0	90	189	Cryovial
+TCGA-DH-A7UT	0		Sample Acquisition	TCGA-DH-A7UT-01	Subtotal Resection	United States	Yes			0	90	170	Cryovial
+TCGA-DH-A7UU	0		Sample Acquisition	TCGA-DH-A7UU-01	Subtotal Resection	United States	Yes			0	90	128	Cryovial
+TCGA-DH-A7UV	0		Sample Acquisition	TCGA-DH-A7UV-01	Gross Total Resection	United States	Yes			0	100	66	Cryovial
+TCGA-DH-A66B	0		Sample Acquisition	TCGA-DH-A66B-01	Subtotal Resection	United States	Yes	No	Yes	0	95	120	Cryovial
+TCGA-DH-A66D	0		Sample Acquisition	TCGA-DH-A66D-01	Gross Total Resection	United States	Yes	No	Yes	0	100	407	Cryovial
+TCGA-DH-A66F	0		Sample Acquisition	TCGA-DH-A66F-01	Gross Total Resection	United States	Yes	No	Yes	0	90	100	Cryovial
+TCGA-DH-A66G	0		Sample Acquisition	TCGA-DH-A66G-01	Gross Total Resection	United States	Yes	No	Yes	0	100	360	Cryovial
+TCGA-DH-A669	0		Sample Acquisition	TCGA-DH-A669-01	Subtotal Resection	United States	Yes	No	Yes	0	100	89	Cryovial
+TCGA-DU-5847	0		Sample Acquisition	TCGA-DU-5847-01	Gross Total Resection	United States	Yes		Yes	0	90	200	Cryovial
+TCGA-DU-5849	0		Sample Acquisition	TCGA-DU-5849-01	Biopsy	United States	Yes		Yes	1	85	500	Cryovial
+TCGA-DU-5851	0		Sample Acquisition	TCGA-DU-5851-01	Biopsy	United States	Yes		Yes	0	100	700	Cryovial
+TCGA-DU-5852	0		Sample Acquisition	TCGA-DU-5852-01	Subtotal Resection	United States	Yes		Yes	0	85	500	Cryovial
+TCGA-DU-5853	0		Sample Acquisition	TCGA-DU-5853-01	Gross Total Resection	United States	Yes		Yes	0	65	500	Cryovial
+TCGA-DU-5854	20		Sample Acquisition	TCGA-DU-5854-01	Biopsy	United States	Yes		Yes	0	80	400	Cryovial
+TCGA-DU-5855	0		Sample Acquisition	TCGA-DU-5855-01	Subtotal Resection	United States	Yes		Yes	0	95	1000	Cryovial
+TCGA-DU-5870	-8		Sample Acquisition	TCGA-DU-5870-01	Subtotal Resection	United States	Yes		Yes	5	90	400	Cryovial
+TCGA-DU-5871	0		Sample Acquisition	TCGA-DU-5871-01	Biopsy	United States	Yes		Yes	0	90	1000	Cryovial
+TCGA-DU-5872	0		Sample Acquisition	TCGA-DU-5872-01	Biopsy	United States	Yes		Yes	2	75	700	Cryovial
+TCGA-DU-5874	0		Sample Acquisition	TCGA-DU-5874-01	Subtotal Resection	United States	Yes		Yes	0	90	600	Cryovial
+TCGA-DU-6392	-7		Sample Acquisition	TCGA-DU-6392-01	Subtotal Resection	United States	Yes		Yes	0	80	500	Cryovial
+TCGA-DU-6393	0		Sample Acquisition	TCGA-DU-6393-01	Subtotal Resection	United States	Yes		Yes	0	100	400	Cryovial
+TCGA-DU-6394	0		Sample Acquisition	TCGA-DU-6394-01	Subtotal Resection	United States	Yes		Yes	0	100	300	Cryovial
+TCGA-DU-6395	0		Sample Acquisition	TCGA-DU-6395-01	Subtotal Resection	United States	Yes		Yes	0	60	350	Cryovial
+TCGA-DU-6396	0		Sample Acquisition	TCGA-DU-6396-01	Subtotal Resection	United States	Yes		Yes	0	90	350	Cryovial
+TCGA-DU-6397	0		Sample Acquisition	TCGA-DU-6397-01	Subtotal Resection	United States	Yes		Yes	0	80	350	Cryovial
+TCGA-DU-6399	1		Sample Acquisition	TCGA-DU-6399-01	Subtotal Resection	United States	Yes		Yes	0	60	350	Cryovial
+TCGA-DU-6400	0		Sample Acquisition	TCGA-DU-6400-01	Subtotal Resection	United States	Yes		Yes	0	90	300	Cryovial
+TCGA-DU-6401	0		Sample Acquisition	TCGA-DU-6401-01	Subtotal Resection	United States	Yes		Yes	0	90	400	Cryovial
+TCGA-DU-6402	0		Sample Acquisition	TCGA-DU-6402-01	Subtotal Resection	United States	Yes		Yes	0	90	400	Cryovial
+TCGA-DU-6403	10		Sample Acquisition	TCGA-DU-6403-01	Subtotal Resection	United States	Yes		Yes	0	90	400	Cryovial
+TCGA-DU-6404	0		Sample Acquisition	TCGA-DU-6404-01	Gross Total Resection	United States	Yes		Yes	0	100	350	Cryovial
+TCGA-DU-6405	0		Sample Acquisition	TCGA-DU-6405-01	Subtotal Resection	United States	Yes		Yes	0	80	500	Cryovial
+TCGA-DU-6406	0		Sample Acquisition	TCGA-DU-6406-01	Subtotal Resection	United States	Yes		Yes	0	100	500	Cryovial
+TCGA-DU-6407	0		Sample Acquisition	TCGA-DU-6407-01	Subtotal Resection	United States	Yes		Yes	0	98	400	Cryovial
+TCGA-DU-6408	1152		Sample Acquisition	TCGA-DU-6408-01	Subtotal Resection	United States	Yes		Yes	0	90	400	Cryovial
+TCGA-DU-6410	0		Sample Acquisition	TCGA-DU-6410-01	Subtotal Resection	United States	Yes		Yes	3	95	450	Cryovial
+TCGA-DU-6542	28		Sample Acquisition	TCGA-DU-6542-01	Subtotal Resection	United States	Yes		Yes	0	95	600	Cryovial
+TCGA-DU-7006	0		Sample Acquisition	TCGA-DU-7006-01	Subtotal Resection	United States	Yes		Yes	0	100	300	Cryovial
+TCGA-DU-7007	0		Sample Acquisition	TCGA-DU-7007-01	Subtotal Resection	United States	Yes		Yes	0	100	300	Cryovial
+TCGA-DU-7008	0		Sample Acquisition	TCGA-DU-7008-01	Subtotal Resection	United States	Yes		Yes	0	100	275	Cryovial
+TCGA-DU-7009	0		Sample Acquisition	TCGA-DU-7009-01	Subtotal Resection	United States	Yes		Yes	0	60	275	Cryovial
+TCGA-DU-7010	0		Sample Acquisition	TCGA-DU-7010-01	Subtotal Resection	United States	Yes		Yes	0	60	250	Cryovial
+TCGA-DU-7011	103		Sample Acquisition	TCGA-DU-7011-01	Subtotal Resection	United States	Yes		Yes	0	60	350	Cryovial
+TCGA-DU-7012	0		Sample Acquisition	TCGA-DU-7012-01	Subtotal Resection	United States	Yes		Yes	0	80	300	Cryovial
+TCGA-DU-7013	0		Sample Acquisition	TCGA-DU-7013-01	Subtotal Resection	United States	Yes		Yes	0	90	300	Cryovial
+TCGA-DU-7014	0		Sample Acquisition	TCGA-DU-7014-01	Subtotal Resection	United States	Yes		Yes	0	60	325	Cryovial
+TCGA-DU-7015	0		Sample Acquisition	TCGA-DU-7015-01	Subtotal Resection	United States	Yes		Yes	0	80	350	Cryovial
+TCGA-DU-7018	0		Sample Acquisition	TCGA-DU-7018-01	Subtotal Resection	United States	Yes		Yes	0	70	250	Cryovial
+TCGA-DU-7019	0		Sample Acquisition	TCGA-DU-7019-01	Subtotal Resection	United States	Yes		Yes	0	60	400	Cryovial
+TCGA-DU-7290	0		Sample Acquisition	TCGA-DU-7290-01	Subtotal Resection	United States	Yes		Yes	0	60	400	Cryovial
+TCGA-DU-7292	0		Sample Acquisition	TCGA-DU-7292-01	Subtotal Resection	United States	Yes		Yes	0	60	250	Cryovial
+TCGA-DU-7294	0		Sample Acquisition	TCGA-DU-7294-01	Subtotal Resection	United States	Yes		Yes	0	60	400	Cryovial
+TCGA-DU-7298	0		Sample Acquisition	TCGA-DU-7298-01	Subtotal Resection	United States	Yes		Yes	0	90	300	Cryovial
+TCGA-DU-7299	0		Sample Acquisition	TCGA-DU-7299-01	Subtotal Resection	United States	Yes		Yes	0	80	350	Cryovial
+TCGA-DU-7300	0		Sample Acquisition	TCGA-DU-7300-01	Subtotal Resection	United States	Yes		Yes	0	60	300	Cryovial
+TCGA-DU-7301	2		Sample Acquisition	TCGA-DU-7301-01	Subtotal Resection	United States	Yes		Yes	0	90	400	Cryovial
+TCGA-DU-7302	0		Sample Acquisition	TCGA-DU-7302-01	Subtotal Resection	United States	Yes		Yes	0	60	400	Cryovial
+TCGA-DU-7304	0		Sample Acquisition	TCGA-DU-7304-01	Gross Total Resection	United States	Yes		Yes	0	80	400	Cryovial
+TCGA-DU-7306	0		Sample Acquisition	TCGA-DU-7306-01	Subtotal Resection	United States	Yes		Yes	0	80	400	Cryovial
+TCGA-DU-7309	0		Sample Acquisition	TCGA-DU-7309-01	Gross Total Resection	United States	Yes		Yes	0	60	400	Cryovial
+TCGA-DU-8158	0		Sample Acquisition	TCGA-DU-8158-01	Subtotal Resection	United States	Yes	No	Yes	0	90	500	Cryovial
+TCGA-DU-8161	0		Sample Acquisition	TCGA-DU-8161-01	Subtotal Resection	United States	Yes	No	Yes	0	90	400	Cryovial
+TCGA-DU-8162	0		Sample Acquisition	TCGA-DU-8162-01	Subtotal Resection	United States	Yes	No	Yes	0	80	500	Cryovial
+TCGA-DU-8163	0		Sample Acquisition	TCGA-DU-8163-01	Subtotal Resection	United States	Yes	No	Yes	0	80	500	Cryovial
+TCGA-DU-8164	0		Sample Acquisition	TCGA-DU-8164-01	Subtotal Resection	United States	Yes	No	Yes	0	80	500	Cryovial
+TCGA-DU-8165	0		Sample Acquisition	TCGA-DU-8165-01	Subtotal Resection	United States	Yes	No	Yes	0	70	400	Cryovial
+TCGA-DU-8166	0		Sample Acquisition	TCGA-DU-8166-01	Subtotal Resection	United States	Yes	No	Yes	0	90	400	Cryovial
+TCGA-DU-8167	0		Sample Acquisition	TCGA-DU-8167-01	Subtotal Resection	United States	Yes	No	Yes	0	100	400	Cryovial
+TCGA-DU-8168	0		Sample Acquisition	TCGA-DU-8168-01	Gross Total Resection	United States	Yes	No	Yes	0	95	500	Cryovial
+TCGA-DU-A5TP	0		Sample Acquisition	TCGA-DU-A5TP-01	Subtotal Resection	United States	Yes	No	Yes	0	60	400	Cryovial
+TCGA-DU-A5TR	0		Sample Acquisition	TCGA-DU-A5TR-01	Biopsy	United States	Yes	No	Yes	0	100	500	Cryovial
+TCGA-DU-A5TS	0		Sample Acquisition	TCGA-DU-A5TS-01	Subtotal Resection	United States	Yes	No	Yes	0	100	500	Cryovial
+TCGA-DU-A5TT	0		Sample Acquisition	TCGA-DU-A5TT-01	Subtotal Resection	United States	Yes	No	Yes	0	80	500	Cryovial
+TCGA-DU-A5TU	0		Sample Acquisition	TCGA-DU-A5TU-01	Subtotal Resection	United States	Yes	No	Yes	0	70	400	Cryovial
+TCGA-DU-A5TW	0		Sample Acquisition	TCGA-DU-A5TW-01	Subtotal Resection	United States	Yes	No	Yes	0	100	500	Cryovial
+TCGA-DU-A5TY	0		Sample Acquisition	TCGA-DU-A5TY-01	Subtotal Resection	United States	Yes	No	Yes	0	80	150	Cryovial
+TCGA-DU-A6S2	0		Sample Acquisition	TCGA-DU-A6S2-01	Gross Total Resection	United States	Yes	No	Yes	0	100	100	Cryovial
+TCGA-DU-A6S3	0		Sample Acquisition	TCGA-DU-A6S3-01	Gross Total Resection	United States	Yes	No	Yes	0	100	300	Cryovial
+TCGA-DU-A6S6	0		Sample Acquisition	TCGA-DU-A6S6-01	Gross Total Resection	United States	Yes	No	Yes	0	60	300	Cryovial
+TCGA-DU-A6S7	0		Sample Acquisition	TCGA-DU-A6S7-01	Gross Total Resection	United States	Yes	No	Yes	0	100	300	Cryovial
+TCGA-DU-A6S8	0		Sample Acquisition	TCGA-DU-A6S8-01	Subtotal Resection	United States	Yes	No	Yes	0	100	300	Cryovial
+TCGA-DU-A7T6	0		Sample Acquisition	TCGA-DU-A7T6-01	Gross Total Resection	United States	Yes			0	90	300	Cryovial
+TCGA-DU-A7T8	0		Sample Acquisition	TCGA-DU-A7T8-01	Subtotal Resection	United States	Yes			10	90	300	Cryovial
+TCGA-DU-A7TA	0		Sample Acquisition	TCGA-DU-A7TA-01	Subtotal Resection	United States	Yes			0	100	400	Cryovial
+TCGA-DU-A7TB	0		Sample Acquisition	TCGA-DU-A7TB-01	Subtotal Resection	United States	Yes			0	60	300	Cryovial
+TCGA-DU-A7TC	0		Sample Acquisition	TCGA-DU-A7TC-01	Subtotal Resection	United States	Yes			0	80	300	Cryovial
+TCGA-DU-A7TD	0		Sample Acquisition	TCGA-DU-A7TD-01	Subtotal Resection	United States	Yes			0	100	400	Cryovial
+TCGA-DU-A7TG	0		Sample Acquisition	TCGA-DU-A7TG-01	Subtotal Resection	United States	Yes			0	60	400	Cryovial
+TCGA-DU-A7TI	0		Sample Acquisition	TCGA-DU-A7TI-01	Subtotal Resection	American Samoa	Yes			0	60	200	Cryovial
+TCGA-DU-A7TJ	0		Sample Acquisition	TCGA-DU-A7TJ-01	Subtotal Resection	United States	Yes			0	100	400	Cryovial
+TCGA-DU-A76K	0		Sample Acquisition	TCGA-DU-A76K-01	Subtotal Resection	United States	Yes	No	Yes	0	80	300	Cryovial
+TCGA-DU-A76L	0		Sample Acquisition	TCGA-DU-A76L-01	Subtotal Resection	United States	Yes	No	Yes	0	70	300	Cryovial
+TCGA-DU-A76O	0		Sample Acquisition	TCGA-DU-A76O-01	Subtotal Resection	United States	Yes	No	Yes	0	100	150	Cryovial
+TCGA-DU-A76R	0		Sample Acquisition	TCGA-DU-A76R-01	Subtotal Resection	United States	Yes	No	Yes	0	60	300	Cryovial
+TCGA-E1-5302	39		Sample Acquisition	TCGA-E1-5302-01	Subtotal Resection	United States	Yes		Yes	0	100	271	Contact Lens
+TCGA-E1-5303	37		Sample Acquisition	TCGA-E1-5303-01	Gross Total Resection	United States	Yes		Yes	0	100	240	Contact Lens
+TCGA-E1-5304	8		Sample Acquisition	TCGA-E1-5304-01	Gross Total Resection	United States	Yes		Yes	0	100	127	Contact Lens
+TCGA-E1-5305	-2		Sample Acquisition	TCGA-E1-5305-01	Subtotal Resection	United States	Yes		Yes	0	100	206	Contact Lens
+TCGA-E1-5307	13		Sample Acquisition	TCGA-E1-5307-01	Subtotal Resection	United States	Yes		Yes	0	100	310	Contact Lens
+TCGA-E1-5311	-5		Sample Acquisition	TCGA-E1-5311-01	Subtotal Resection	United States	Yes		Yes	0	100		Contact Lens Case
+TCGA-E1-5318	-2		Sample Acquisition	TCGA-E1-5318-01	Subtotal Resection	United States	Yes		Yes	0	100	80	Contact Lens Case
+TCGA-E1-5319	0		Sample Acquisition	TCGA-E1-5319-01	Gross Total Resection	United States	Yes		Yes	0	100		Contact Lens Case
+TCGA-E1-5322	4		Sample Acquisition	TCGA-E1-5322-01	Subtotal Resection	United States	Yes		Yes	0	100		Contact Lens Case
+TCGA-E1-A7YD	0		Sample Acquisition	TCGA-E1-A7YD-01	Gross Total Resection	United States	Yes			0	100		Cryomold
+TCGA-E1-A7YE	0		Sample Acquisition	TCGA-E1-A7YE-01	Gross Total Resection	United States	Yes			0	100		Cryomold
+TCGA-E1-A7YH	0		Sample Acquisition	TCGA-E1-A7YH-01	Gross Total Resection	United States	Yes			0	100	163	Cryomold
+TCGA-E1-A7YI	0		Sample Acquisition	TCGA-E1-A7YI-01	Gross Total Resection	United States	Yes			0	100	394	Cryomold
+TCGA-E1-A7YJ	0		Sample Acquisition	TCGA-E1-A7YJ-01	Gross Total Resection	United States	Yes			0	100	214	Cryomold
+TCGA-E1-A7YK	-10		Sample Acquisition	TCGA-E1-A7YK-01	Gross Total Resection	United States	Yes			0	100	157	Cryomold
+TCGA-E1-A7YL	0		Sample Acquisition	TCGA-E1-A7YL-01	Gross Total Resection	United States	Yes			0	100	247	Cryomold
+TCGA-E1-A7YM	0		Sample Acquisition	TCGA-E1-A7YM-01	Gross Total Resection	United States	Yes			0	100	252	Cryomold
+TCGA-E1-A7YN	0		Sample Acquisition	TCGA-E1-A7YN-01	Gross Total Resection	United States	Yes			0	100	151	Cryomold
+TCGA-E1-A7YO	0		Sample Acquisition	TCGA-E1-A7YO-01	Gross Total Resection	United States	Yes			0	100		Cryomold
+TCGA-E1-A7YQ	0		Sample Acquisition	TCGA-E1-A7YQ-01	Gross Total Resection	United States	Yes			0	100	298	Cryomold
+TCGA-E1-A7YS	0		Sample Acquisition	TCGA-E1-A7YS-01	Gross Total Resection	United States	Yes			0	100	185	Cryomold
+TCGA-E1-A7YU	0		Sample Acquisition	TCGA-E1-A7YU-01	Gross Total Resection	United States	Yes			0	100		Cryomold
+TCGA-E1-A7YV	0		Sample Acquisition	TCGA-E1-A7YV-01	Gross Total Resection	United States	Yes			0	100	342	Cryomold
+TCGA-E1-A7YW	0		Sample Acquisition	TCGA-E1-A7YW-01	Gross Total Resection	United States	Yes			0	100	143	Cryomold
+TCGA-E1-A7YY	0		Sample Acquisition	TCGA-E1-A7YY-01	Gross Total Resection	United States	Yes			0	100		Cryomold
+TCGA-E1-A7Z2	0		Sample Acquisition	TCGA-E1-A7Z2-01	Gross Total Resection	United States	Yes			0	100	160	Cryomold
+TCGA-E1-A7Z3	0		Sample Acquisition	TCGA-E1-A7Z3-01	Gross Total Resection	United States	Yes			0	100		Cryomold
+TCGA-E1-A7Z4	0		Sample Acquisition	TCGA-E1-A7Z4-01	Gross Total Resection	United States	Yes			0	100		Cryomold
+TCGA-E1-A7Z6	0		Sample Acquisition	TCGA-E1-A7Z6-01	Gross Total Resection	United States	Yes			0	100	280	Cryomold
+TCGA-EZ-7264	0		Sample Acquisition	TCGA-EZ-7264-01	Gross Total Resection	United States	Yes		No	0	90	229	Cryovial
+TCGA-F6-A8O3	0		Sample Acquisition	TCGA-F6-A8O3-01	Gross Total Resection	Vietnam	Yes			0	100	915	Cassette
+TCGA-F6-A8O4	0		Sample Acquisition	TCGA-F6-A8O4-01	Gross Total Resection	Vietnam	Yes			0	100	1656	Cassette
+TCGA-FG-5963	3		Sample Acquisition	TCGA-FG-5963-01	Subtotal Resection	United States	Yes		Yes	0	60	290	Cryovial
+TCGA-FG-5964	0		Sample Acquisition	TCGA-FG-5964-01	Subtotal Resection	United States	Yes		Yes	0	70	220	Cryovial
+TCGA-FG-6688	28		Sample Acquisition	TCGA-FG-6688-01	Subtotal Resection	United States	Yes		Yes	0	60	600	Cryovial
+TCGA-FG-6689	0		Sample Acquisition	TCGA-FG-6689-01	Subtotal Resection	United States	Yes		Yes	0	60	740	Cryovial
+TCGA-FG-6690	0		Sample Acquisition	TCGA-FG-6690-01	Subtotal Resection	United States	Yes		Yes	0	90	720	Cryovial
+TCGA-FG-6691	0		Sample Acquisition	TCGA-FG-6691-01	Gross Total Resection	United States	Yes		Yes	0	65	540	Cryovial
+TCGA-FG-6692	0		Sample Acquisition	TCGA-FG-6692-01	Subtotal Resection	United States	Yes		Yes	0	90	110	Cryovial
+TCGA-FG-7634	3		Sample Acquisition	TCGA-FG-7634-01	Subtotal Resection	United States	Yes		Yes	0	60	309	Cryovial
+TCGA-FG-7636	0		Sample Acquisition	TCGA-FG-7636-01	Gross Total Resection	United States	Yes		Yes	0	70	180	Oct In Foil
+TCGA-FG-7637	0		Sample Acquisition	TCGA-FG-7637-01	Subtotal Resection	United States	Yes		Yes	0	80	207	Cryovial
+TCGA-FG-7638	0		Sample Acquisition	TCGA-FG-7638-01	Gross Total Resection	United States	Yes		Yes	0	80	100	Cryomold
+TCGA-FG-7643	0		Sample Acquisition	TCGA-FG-7643-01	Subtotal Resection	United States	Yes		Yes	0	30	394	Cryovial
+TCGA-FG-8181	0		Sample Acquisition	TCGA-FG-8181-01	Gross Total Resection	United States	Yes	No	Yes	0	80	500	Cryovial
+TCGA-FG-8182	0		Sample Acquisition	TCGA-FG-8182-01	Subtotal Resection	United States	Yes	No	Yes	0	90	200	Cryovial
+TCGA-FG-8185	0		Sample Acquisition	TCGA-FG-8185-01	Gross Total Resection	United States	Yes	No	Yes	0	90	150	Oct In Foil
+TCGA-FG-8186	0		Sample Acquisition	TCGA-FG-8186-01	Subtotal Resection	United States	Yes	No	Yes	0	80	540	Cryovial
+TCGA-FG-8187	0		Sample Acquisition	TCGA-FG-8187-01	Gross Total Resection	United States	Yes	No	Yes	0	80	450	Cryovial
+TCGA-FG-8188	0		Sample Acquisition	TCGA-FG-8188-01	Gross Total Resection	United States	Yes	No	Yes	0	60	300	Oct In Vial
+TCGA-FG-8191	0		Sample Acquisition	TCGA-FG-8191-01	Subtotal Resection	United States	Yes	Yes	Yes	0	20	400	Cryovial
+TCGA-FG-A4MT	0		Sample Acquisition	TCGA-FG-A4MT-01	Gross Total Resection	United States	Yes	No	Yes	0	80	510	Cryovial
+TCGA-FG-A4MW	0		Sample Acquisition	TCGA-FG-A4MW-01	Subtotal Resection	United States	Yes	No	Yes	0	90	300	5Ml Screw Cap Tube
+TCGA-FG-A4MX	0		Sample Acquisition	TCGA-FG-A4MX-01		United States	Yes	No	Yes	0	90	100	Oct In Specimen Bag
+TCGA-FG-A4MY	-9		Sample Acquisition	TCGA-FG-A4MY-01	Gross Total Resection	United States	Yes	No	Yes	0	80	500	Cryovial
+TCGA-FG-A6IZ	0		Sample Acquisition	TCGA-FG-A6IZ-01	Gross Total Resection	United States	Yes	No	Yes	0	80	260	Cryovial
+TCGA-FG-A6J1	0		Sample Acquisition	TCGA-FG-A6J1-01	Subtotal Resection	United States	Yes	No	Yes	0	90	141	Cryovial
+TCGA-FG-A6J3	-8		Sample Acquisition	TCGA-FG-A6J3-01	Subtotal Resection	United States	Yes	No	Yes	0	90	500	Cryomold
+TCGA-FG-A60J	0		Sample Acquisition	TCGA-FG-A60J-01	Gross Total Resection	United States	Yes	No	Yes	0	90	270	5Ml Freezer Vial In Oct
+TCGA-FG-A60K	0		Sample Acquisition	TCGA-FG-A60K-01	Gross Total Resection	United States	Yes	No	Yes	0	60	141	Cryovial
+TCGA-FG-A60L	0		Sample Acquisition	TCGA-FG-A60L-01	Gross Total Resection	United States	Yes	No	Yes	0	60	350	Oct In Vial
+TCGA-FG-A70Y	0		Sample Acquisition	TCGA-FG-A70Y-01	Gross Total Resection	United States	Yes	No	Yes	0	90	400	Cryomold
+TCGA-FG-A70Z	0		Sample Acquisition	TCGA-FG-A70Z-01	Gross Total Resection	United States	Yes	No	Yes	0	70	500	Cryovial
+TCGA-FG-A87N	0		Sample Acquisition	TCGA-FG-A87N-01	Subtotal Resection	United States	Yes			0	90	130	Cryovial
+TCGA-FG-A87Q	-1		Sample Acquisition	TCGA-FG-A87Q-01	Gross Total Resection	United States	Yes			0	75	300	Cryomold
+TCGA-FG-A710	-1		Sample Acquisition	TCGA-FG-A710-01	Subtotal Resection	United States	Yes	No	Yes	0	90	600	Cryovial
+TCGA-FG-A711	0		Sample Acquisition	TCGA-FG-A711-01	Subtotal Resection	United States	Yes	No	Yes	0	80	410	Cryovial
+TCGA-FG-A713	0		Sample Acquisition	TCGA-FG-A713-01	Gross Total Resection	United States	Yes	No	Yes	0	60	200	Cryovial
+TCGA-FN-7833	0		Sample Acquisition	TCGA-FN-7833-01	Subtotal Resection	United States	Yes		Yes	0	75	34	Cryovial
+TCGA-HT-7467	0		Sample Acquisition	TCGA-HT-7467-01	Gross Total Resection	United States	Yes		Yes	0	65	800	Cryovial
+TCGA-HT-7468	0		Sample Acquisition	TCGA-HT-7468-01	Gross Total Resection	United States	Yes		Yes	0	80	500	Cryovial
+TCGA-HT-7469	0		Sample Acquisition	TCGA-HT-7469-01	Gross Total Resection	United States	Yes		Yes	0	85	1100	Cryovial
+TCGA-HT-7470	0		Sample Acquisition	TCGA-HT-7470-01	Gross Total Resection	United States	Yes		Yes	0	65	500	Cryovial
+TCGA-HT-7471	0		Sample Acquisition	TCGA-HT-7471-01	Gross Total Resection	United States	Yes		Yes	0	80	200	Cryovial
+TCGA-HT-7472	0		Sample Acquisition	TCGA-HT-7472-01	Gross Total Resection	United States	Yes		Yes	0	70	2300	Cryovial
+TCGA-HT-7473	0		Sample Acquisition	TCGA-HT-7473-01	Gross Total Resection	United States	Yes		Yes	0	60	200	Cryovial
+TCGA-HT-7474	0		Sample Acquisition	TCGA-HT-7474-01	Gross Total Resection	United States	Yes		Yes	0	70	300	Cryovial
+TCGA-HT-7475	0		Sample Acquisition	TCGA-HT-7475-01	Gross Total Resection	United States	Yes		Yes	0	75	1400	Cryovial
+TCGA-HT-7476	0		Sample Acquisition	TCGA-HT-7476-01	Gross Total Resection	United States	Yes		Yes	0	75	300	Cryovial
+TCGA-HT-7478	0		Sample Acquisition	TCGA-HT-7478-01	Gross Total Resection	United States	Yes		Yes	0	75	200	Cryovial
+TCGA-HT-7479	0		Sample Acquisition	TCGA-HT-7479-01	Gross Total Resection	United States	Yes		Yes	0	60	300	Cryovial
+TCGA-HT-7480	0		Sample Acquisition	TCGA-HT-7480-01	Gross Total Resection	United States	Yes		Yes	0	70	480	Cryovial
+TCGA-HT-7481	0		Sample Acquisition	TCGA-HT-7481-01	Gross Total Resection	United States	Yes		Yes	0	60	800	Cryovial
+TCGA-HT-7482	0		Sample Acquisition	TCGA-HT-7482-01	Gross Total Resection	United States	Yes		Yes	0	60	1340	Cryovial
+TCGA-HT-7483	2737		Sample Acquisition	TCGA-HT-7483-01	Gross Total Resection	United States	Yes		Yes	0	80	630	Cryovial
+TCGA-HT-7485	0		Sample Acquisition	TCGA-HT-7485-01	Gross Total Resection	United States	Yes		Yes	0	75	470	Cryovial
+TCGA-HT-7601	0		Sample Acquisition	TCGA-HT-7601-01	Gross Total Resection	United States	Yes		Yes	0	75	1100	Cryovial
+TCGA-HT-7602	0		Sample Acquisition	TCGA-HT-7602-01	Gross Total Resection	United States	Yes		Yes	0	60	1800	Cryovial
+TCGA-HT-7603	0		Sample Acquisition	TCGA-HT-7603-01	Gross Total Resection	United States	Yes		Yes	0	65	420	Cryovial
+TCGA-HT-7604	2113		Sample Acquisition	TCGA-HT-7604-01	Gross Total Resection	United States	Yes		Yes	0	80	600	Cryovial
+TCGA-HT-7605	0		Sample Acquisition	TCGA-HT-7605-01	Gross Total Resection	United States	Yes		Yes	0	75	800	Cryovial
+TCGA-HT-7606	0		Sample Acquisition	TCGA-HT-7606-01	Gross Total Resection	United States	Yes		Yes	0	85	400	Cryovial
+TCGA-HT-7607	0		Sample Acquisition	TCGA-HT-7607-01	Gross Total Resection	United States	Yes		Yes	0	65	1200	Cryovial
+TCGA-HT-7608	0		Sample Acquisition	TCGA-HT-7608-01	Gross Total Resection	United States	Yes		Yes	0	75	900	Cryovial
+TCGA-HT-7609	0		Sample Acquisition	TCGA-HT-7609-01	Gross Total Resection	United States	Yes		Yes	0	80	300	Cryovial
+TCGA-HT-7610	0		Sample Acquisition	TCGA-HT-7610-01	Gross Total Resection	United States	Yes		Yes	0	65	400	Cryovial
+TCGA-HT-7611	-11		Sample Acquisition	TCGA-HT-7611-01	Gross Total Resection	United States	Yes		Yes	0	70	500	Cryovial
+TCGA-HT-7616	0		Sample Acquisition	TCGA-HT-7616-01	Gross Total Resection	United States	Yes		Yes	0	80	400	Cryovial
+TCGA-HT-7620	0		Sample Acquisition	TCGA-HT-7620-01	Gross Total Resection	United States	Yes		Yes	0	65	1400	Cryovial
+TCGA-HT-7676	9		Sample Acquisition	TCGA-HT-7676-01	Gross Total Resection	United States	Yes		Yes	0	65	300	Cryovial
+TCGA-HT-7677	0		Sample Acquisition	TCGA-HT-7677-01	Gross Total Resection	United States	Yes		Yes	0	80	800	Cryovial
+TCGA-HT-7680	0		Sample Acquisition	TCGA-HT-7680-01	Gross Total Resection	United States	Yes		Yes	0	60	600	Cryovial
+TCGA-HT-7681	-12		Sample Acquisition	TCGA-HT-7681-01	Gross Total Resection	United States	Yes		Yes	0	60	800	Cryovial
+TCGA-HT-7684	0		Sample Acquisition	TCGA-HT-7684-01	Gross Total Resection	United States	Yes		Yes	0	60	1750	Cryovial
+TCGA-HT-7686	0		Sample Acquisition	TCGA-HT-7686-01	Gross Total Resection	United States	Yes		Yes	0	80	700	Cryovial
+TCGA-HT-7687	0		Sample Acquisition	TCGA-HT-7687-01	Gross Total Resection	United States	Yes		Yes	0	85	600	Cryovial
+TCGA-HT-7688	0		Sample Acquisition	TCGA-HT-7688-01	Gross Total Resection	United States	Yes		Yes	0	65	900	Cryovial
+TCGA-HT-7689	0		Sample Acquisition	TCGA-HT-7689-01	Gross Total Resection	United States	Yes		Yes	0	70	700	Cryovial
+TCGA-HT-7690	0		Sample Acquisition	TCGA-HT-7690-01	Gross Total Resection	United States	Yes		Yes	0	75	700	Cryovial
+TCGA-HT-7691	0		Sample Acquisition	TCGA-HT-7691-01	Gross Total Resection	United States	Yes		Yes	0	70	700	Cryovial
+TCGA-HT-7692	0		Sample Acquisition	TCGA-HT-7692-01	Gross Total Resection	United States	Yes		Yes	0	80	400	Cryovial
+TCGA-HT-7693	0		Sample Acquisition	TCGA-HT-7693-01	Gross Total Resection	United States	Yes		Yes	0	75	600	Cryovial
+TCGA-HT-7694	0		Sample Acquisition	TCGA-HT-7694-01	Gross Total Resection	United States	Yes		Yes	0	60	700	Cryovial
+TCGA-HT-7695	0		Sample Acquisition	TCGA-HT-7695-01	Gross Total Resection	United States	Yes		Yes	0	70	500	Cryovial
+TCGA-HT-7854	0		Sample Acquisition	TCGA-HT-7854-01	Gross Total Resection	United States	Yes		Yes	0	70	400	Cryovial
+TCGA-HT-7855	0		Sample Acquisition	TCGA-HT-7855-01	Gross Total Resection	United States	Yes		Yes	0	85	700	Cryovial
+TCGA-HT-7856	0		Sample Acquisition	TCGA-HT-7856-01	Gross Total Resection	United States	Yes		Yes	0	80	1700	Cryovial
+TCGA-HT-7857	0		Sample Acquisition	TCGA-HT-7857-01	Gross Total Resection	United States	Yes		Yes	0	80	200	Cryovial
+TCGA-HT-7858	0		Sample Acquisition	TCGA-HT-7858-01	Gross Total Resection	United States	Yes		Yes	0	70	800	Cryovial
+TCGA-HT-7860	0		Sample Acquisition	TCGA-HT-7860-01	Gross Total Resection	United States	Yes		Yes	0	80	380	Cryovial
+TCGA-HT-7874	0		Sample Acquisition	TCGA-HT-7874-01	Gross Total Resection	United States	Yes		Yes	0	60	900	Cryovial
+TCGA-HT-7875	0		Sample Acquisition	TCGA-HT-7875-01	Gross Total Resection	United States	Yes		Yes	0	75	300	Cryovial
+TCGA-HT-7877	0		Sample Acquisition	TCGA-HT-7877-01	Gross Total Resection	United States	Yes		Yes	0	70	1100	Cryovial
+TCGA-HT-7879	0		Sample Acquisition	TCGA-HT-7879-01	Gross Total Resection	United States	Yes		Yes	0	75	300	Cryovial
+TCGA-HT-7880	0		Sample Acquisition	TCGA-HT-7880-01	Gross Total Resection	United States	Yes		Yes	0	60	300	Cryovial
+TCGA-HT-7881	0		Sample Acquisition	TCGA-HT-7881-01	Gross Total Resection	United States	Yes		Yes	0	70	400	Cryovial
+TCGA-HT-7882	0		Sample Acquisition	TCGA-HT-7882-01	Gross Total Resection	United States	Yes		Yes	0	70	400	Cryovial
+TCGA-HT-7902	0		Sample Acquisition	TCGA-HT-7902-01	Gross Total Resection	United States	Yes		Yes	0	60	500	Cryovial
+TCGA-HT-8010	0		Sample Acquisition	TCGA-HT-8010-01	Gross Total Resection	United States	Yes	No	Yes	0	60	400	Cryovial
+TCGA-HT-8011	0		Sample Acquisition	TCGA-HT-8011-01	Gross Total Resection	United States	Yes	No	Yes	0	85	1000	Cryovial
+TCGA-HT-8012	0		Sample Acquisition	TCGA-HT-8012-01	Gross Total Resection	United States	Yes	No	Yes	0	85	500	Cryovial
+TCGA-HT-8013	0		Sample Acquisition	TCGA-HT-8013-01	Gross Total Resection	United States	Yes	No	Yes	0	70	540	Cryovial
+TCGA-HT-8018	0		Sample Acquisition	TCGA-HT-8018-01	Gross Total Resection	United States	Yes	No	Yes	0	70	800	Cryovial
+TCGA-HT-8019	0		Sample Acquisition	TCGA-HT-8019-01	Gross Total Resection	United States	Yes	No	Yes	0	60	900	Cryovial
+TCGA-HT-8104	0		Sample Acquisition	TCGA-HT-8104-01	Gross Total Resection	United States	Yes	No	Yes	0	70	200	Cryovial
+TCGA-HT-8105	0		Sample Acquisition	TCGA-HT-8105-01	Gross Total Resection	United States	Yes	No	Yes	0	85	700	Cryovial
+TCGA-HT-8106	0		Sample Acquisition	TCGA-HT-8106-01	Gross Total Resection	United States	Yes	No	Yes	0	60	400	Cryovial
+TCGA-HT-8107	0		Sample Acquisition	TCGA-HT-8107-01	Gross Total Resection	United States	Yes	No	Yes	0	60	400	Cryovial
+TCGA-HT-8108	0		Sample Acquisition	TCGA-HT-8108-01	Gross Total Resection	United States	Yes	No	Yes	0	75	300	Cryovial
+TCGA-HT-8109	0		Sample Acquisition	TCGA-HT-8109-01	Gross Total Resection	United States	Yes	No	Yes	0	75	500	Cryovial
+TCGA-HT-8110	0		Sample Acquisition	TCGA-HT-8110-01	Gross Total Resection	United States	Yes	No	Yes	0	65	1300	Cryovial
+TCGA-HT-8111	0		Sample Acquisition	TCGA-HT-8111-01	Gross Total Resection	United States	Yes	No	Yes	0	70	1100	Cryovial
+TCGA-HT-8113	0		Sample Acquisition	TCGA-HT-8113-01	Gross Total Resection	United States	Yes	No	Yes	0	70	700	Cryovial
+TCGA-HT-8114	0		Sample Acquisition	TCGA-HT-8114-01	Gross Total Resection	United States	Yes	No	Yes	0	80	800	Cryovial
+TCGA-HT-8558	0		Sample Acquisition	TCGA-HT-8558-01	Gross Total Resection	United States	Yes	No	Yes	0	70	400	Cryovial
+TCGA-HT-8563	0		Sample Acquisition	TCGA-HT-8563-01	Gross Total Resection	United States	Yes	No	Yes	0	80	150	Cryovial
+TCGA-HT-8564	0		Sample Acquisition	TCGA-HT-8564-01	Gross Total Resection	United States	Yes	No	Yes	0	85	200	Cryovial
+TCGA-HT-A4DS	0		Sample Acquisition	TCGA-HT-A4DS-01	Gross Total Resection	United States	Yes	No	Yes	0	80	100	Cryovial
+TCGA-HT-A4DV	0		Sample Acquisition	TCGA-HT-A4DV-01	Gross Total Resection	United States	Yes	No	Yes	0	65	500	Cryovial
+TCGA-HT-A5R5	0		Sample Acquisition	TCGA-HT-A5R5-01	Gross Total Resection	United States	Yes	No	Yes	0	65	300	Cryovial
+TCGA-HT-A5R7	0		Sample Acquisition	TCGA-HT-A5R7-01	Gross Total Resection	United States	Yes	No	Yes	0	70	400	Cryovial
+TCGA-HT-A5R9	0		Sample Acquisition	TCGA-HT-A5R9-01	Gross Total Resection	United States	Yes	No	Yes	0	85	200	Cryovial
+TCGA-HT-A5RA	0		Sample Acquisition	TCGA-HT-A5RA-01	Gross Total Resection	United States	Yes	No	Yes	0	80	100	Cryovial
+TCGA-HT-A5RB	0		Sample Acquisition	TCGA-HT-A5RB-01	Gross Total Resection	United States	Yes	No	Yes	0	75	200	Cryovial
+TCGA-HT-A5RC	0		Sample Acquisition	TCGA-HT-A5RC-01	Gross Total Resection	United States	Yes	No	Yes	0	80	100	Cryovial
+TCGA-HT-A61A	0		Sample Acquisition	TCGA-HT-A61A-01	Subtotal Resection	United States	Yes	No	Yes	0	60	200	Cryovial
+TCGA-HT-A61B	0		Sample Acquisition	TCGA-HT-A61B-01	Gross Total Resection	United States	Yes	No	Yes	0	70	500	Cryovial
+TCGA-HT-A61C	0		Sample Acquisition	TCGA-HT-A61C-01	Gross Total Resection	United States	Yes	No	Yes	0	85	100	Cryovial
+TCGA-HT-A74H	0		Sample Acquisition	TCGA-HT-A74H-01	Gross Total Resection	United States	Yes	No	Yes	0	65	200	Cryovial
+TCGA-HT-A74J	0		Sample Acquisition	TCGA-HT-A74J-01	Gross Total Resection	United States	Yes	No	Yes	0	70	100	Cryovial
+TCGA-HT-A74K	0		Sample Acquisition	TCGA-HT-A74K-01	Gross Total Resection	United States	Yes	No	Yes	5	80	50	Cryovial
+TCGA-HT-A74L	0		Sample Acquisition	TCGA-HT-A74L-01	Gross Total Resection	United States	Yes	No	Yes	0	80	200	Cryovial
+TCGA-HT-A74O	0		Sample Acquisition	TCGA-HT-A74O-01	Gross Total Resection	United States	Yes	No	Yes	0	80	300	Cryovial
+TCGA-HT-A614	0		Sample Acquisition	TCGA-HT-A614-01	Gross Total Resection	United States	Yes	No	Yes	0	80	200	Cryovial
+TCGA-HT-A615	0		Sample Acquisition	TCGA-HT-A615-01	Gross Total Resection	United States	Yes	No	Yes	0	80	150	Cryovial
+TCGA-HT-A616	0		Sample Acquisition	TCGA-HT-A616-01	Gross Total Resection	United States	Yes	No	Yes	0	60	200	Cryovial
+TCGA-HT-A617	0		Sample Acquisition	TCGA-HT-A617-01	Gross Total Resection	United States	Yes	No	Yes	0	65	200	Cryovial
+TCGA-HT-A618	0		Sample Acquisition	TCGA-HT-A618-01	Gross Total Resection	United States	Yes	No	Yes	0	80	100	Cryovial
+TCGA-HW-7486	0		Sample Acquisition	TCGA-HW-7486-01	Subtotal Resection	United States	Yes		Yes	0	90	360	Cryomold
+TCGA-HW-7487	0		Sample Acquisition	TCGA-HW-7487-01	Subtotal Resection	United States	Yes		Yes	0	60	200	Cryomold
+TCGA-HW-7489	0		Sample Acquisition	TCGA-HW-7489-01	Subtotal Resection	United States	Yes		Yes	0	90	410	Cryomold
+TCGA-HW-7490	0		Sample Acquisition	TCGA-HW-7490-01	Subtotal Resection	United States	Yes		Yes	0	90	330	Cryomold
+TCGA-HW-7491	0		Sample Acquisition	TCGA-HW-7491-01	Subtotal Resection	United States	Yes		Yes	0	100	200	Cryomold
+TCGA-HW-7493	0		Sample Acquisition	TCGA-HW-7493-01	Subtotal Resection	United States	Yes		Yes	0	70	200	Cryomold
+TCGA-HW-7495	0		Sample Acquisition	TCGA-HW-7495-01	Gross Total Resection	United States	Yes		Yes	0	70	300	Cryomold
+TCGA-HW-8319	0		Sample Acquisition	TCGA-HW-8319-01	Subtotal Resection	United States	Yes	No	Yes	0	90	400	Cryomold
+TCGA-HW-8320	0		Sample Acquisition	TCGA-HW-8320-01	Subtotal Resection	United States	Yes	No	Yes	0	90	400	Cryomold
+TCGA-HW-8321	0		Sample Acquisition	TCGA-HW-8321-01	Subtotal Resection	United States	Yes	No	Yes	0	90	400	Cryomold
+TCGA-HW-8322	0		Sample Acquisition	TCGA-HW-8322-01	Subtotal Resection	United States	Yes	No	Yes	0	70	200	Cryomold
+TCGA-HW-A5KJ	-7		Sample Acquisition	TCGA-HW-A5KJ-01	Subtotal Resection	United States	Yes	No	Yes	0	90	400	Cryomold
+TCGA-HW-A5KK	-5		Sample Acquisition	TCGA-HW-A5KK-01	Gross Total Resection	United States	Yes	No	Yes	0	85	200	Cryomold
+TCGA-HW-A5KL	0		Sample Acquisition	TCGA-HW-A5KL-01	Subtotal Resection	United States	Yes	No	Yes	0	80	200	Cryomold
+TCGA-HW-A5KM	-9		Sample Acquisition	TCGA-HW-A5KM-01	Gross Total Resection	United States	Yes	No	Yes	0	80	240	Cryomold
+TCGA-IK-7675	0		Sample Acquisition	TCGA-IK-7675-01	Subtotal Resection	United States	Yes		Yes	5	95	200	Cryovial
+TCGA-IK-8125	27		Sample Acquisition	TCGA-IK-8125-01	Subtotal Resection	United States	Yes	No	Yes	10	80	300	Cryovial
+TCGA-KT-A7W1	0		Sample Acquisition	TCGA-KT-A7W1-01	Subtotal Resection	United States	Yes			0	100	170	Other
+TCGA-KT-A74X	0		Sample Acquisition	TCGA-KT-A74X-01	Gross Total Resection	United States	Yes	No	Yes	0	80	220	Other
+TCGA-P5-A5ET	0		Sample Acquisition	TCGA-P5-A5ET-01	Subtotal Resection	Russia	Yes	No	Yes	2	80	200	Cryomold
+TCGA-P5-A5EU	0		Sample Acquisition	TCGA-P5-A5EU-01	Gross Total Resection	Russia	Yes	No	Yes	0	80	200	Cryomold
+TCGA-P5-A5EV	0		Sample Acquisition	TCGA-P5-A5EV-01	Subtotal Resection	Russia	Yes	No	Yes	0	80	200	Cryomold
+TCGA-P5-A5EW	0		Sample Acquisition	TCGA-P5-A5EW-01	Gross Total Resection	Russia	Yes	No	Yes	0	80	200	Cryomold
+TCGA-P5-A5EX	0		Sample Acquisition	TCGA-P5-A5EX-01	Gross Total Resection	Russia	Yes	No	Yes	0	80	200	Cryomold
+TCGA-P5-A5EY	0		Sample Acquisition	TCGA-P5-A5EY-01	Gross Total Resection	Russia	Yes	No	Yes	0	80	200	Cryomold
+TCGA-P5-A5EZ	0		Sample Acquisition	TCGA-P5-A5EZ-01	Gross Total Resection	Russia	Yes	No	Yes	0	90	200	Cryomold
+TCGA-P5-A5F0	0		Sample Acquisition	TCGA-P5-A5F0-01	Gross Total Resection	Russia	Yes	No	Yes	0	90	200	Cryomold
+TCGA-P5-A5F1	0		Sample Acquisition	TCGA-P5-A5F1-01	Gross Total Resection	Russia	Yes	No	Yes	0	80	200	Cryomold
+TCGA-P5-A5F2	0		Sample Acquisition	TCGA-P5-A5F2-01	Gross Total Resection	Russia	Yes	No	Yes	0	90	200	Cryomold
+TCGA-P5-A5F4	0		Sample Acquisition	TCGA-P5-A5F4-01	Gross Total Resection	Russia	Yes	No	Yes	20	80	200	Cryomold
+TCGA-P5-A5F6	0		Sample Acquisition	TCGA-P5-A5F6-01	Gross Total Resection	Russia	Yes	No	Yes	0	90	200	Cryomold
+TCGA-P5-A72U	0		Sample Acquisition	TCGA-P5-A72U-01	Gross Total Resection	Russia	Yes	No	Yes	0	60	200	Cryomold
+TCGA-P5-A72W	0		Sample Acquisition	TCGA-P5-A72W-01	Gross Total Resection	Russia	Yes	No	Yes	0	70	200	Cryomold
+TCGA-P5-A72X	0		Sample Acquisition	TCGA-P5-A72X-01	Gross Total Resection	Russia	Yes	No	Yes	0	70	200	Cryomold
+TCGA-P5-A72Z	0		Sample Acquisition	TCGA-P5-A72Z-01	Gross Total Resection	Russia	Yes	No	Yes	0	65	200	Cryomold
+TCGA-P5-A77W	0		Sample Acquisition	TCGA-P5-A77W-01	Gross Total Resection	Russia	Yes	No	Yes	0	90	200	Cryomold
+TCGA-P5-A77X	0		Sample Acquisition	TCGA-P5-A77X-01	Gross Total Resection	Russia	Yes	No	Yes	0	90	200	Cryovial
+TCGA-P5-A730	0		Sample Acquisition	TCGA-P5-A730-01	Gross Total Resection	Russia	Yes	No	Yes	0	80	200	Cryomold
+TCGA-P5-A731	0		Sample Acquisition	TCGA-P5-A731-01	Gross Total Resection	Russia	Yes	No	Yes	0	80	200	Cryomold
+TCGA-P5-A733	0		Sample Acquisition	TCGA-P5-A733-01	Gross Total Resection	Russia	Yes	No	Yes	0	65	200	Cryomold
+TCGA-P5-A735	0		Sample Acquisition	TCGA-P5-A735-01	Gross Total Resection	Russia	Yes	No	Yes	0	90	200	Cryomold
+TCGA-P5-A736	0		Sample Acquisition	TCGA-P5-A736-01	Gross Total Resection	Russia	Yes	No	Yes	0	90	200	Cryomold
+TCGA-P5-A737	0		Sample Acquisition	TCGA-P5-A737-01	Gross Total Resection	Russia	Yes	No	Yes	0	60	200	Cryomold
+TCGA-P5-A780	0		Sample Acquisition	TCGA-P5-A780-01	Gross Total Resection	Russia	Yes	No	Yes	0	70	200	Cryomold
+TCGA-P5-A781	0		Sample Acquisition	TCGA-P5-A781-01	Gross Total Resection	Russia	Yes	No	Yes	0	78	200	Cryomold
+TCGA-QH-A6CS	-24		Sample Acquisition	TCGA-QH-A6CS-01	Gross Total Resection	Italy	Yes	No	Yes	10	65	100	Cryovial
+TCGA-QH-A6CU	-6		Sample Acquisition	TCGA-QH-A6CU-01	Gross Total Resection	Italy	Yes	No	Yes	10	70	115	Cryovial
+TCGA-QH-A6CV	-6		Sample Acquisition	TCGA-QH-A6CV-01	Gross Total Resection	Italy	Yes	No	Yes	10	65	100	Cryovial
+TCGA-QH-A6CW	-7		Sample Acquisition	TCGA-QH-A6CW-01	Gross Total Resection	Italy	Yes	No	Yes	10	70	105	Cryovial
+TCGA-QH-A6CX	-6		Sample Acquisition	TCGA-QH-A6CX-01	Gross Total Resection	Italy	Yes	No	Yes	15	65	100	Cryovial
+TCGA-QH-A6CY	-6		Sample Acquisition	TCGA-QH-A6CY-01	Gross Total Resection	Italy	Yes	No	Yes	15	65	110	Cryovial
+TCGA-QH-A6CZ	-7		Sample Acquisition	TCGA-QH-A6CZ-01	Gross Total Resection	Italy	Yes	No	Yes	15	65	100	Cryovial
+TCGA-QH-A6X3	-10		Sample Acquisition	TCGA-QH-A6X3-01	Gross Total Resection	Italy	Yes	No	Yes	0	80	110	Cryovial
+TCGA-QH-A6X4	57		Sample Acquisition	TCGA-QH-A6X4-01	Gross Total Resection	Italy	Yes	No	Yes	0	70	100	Cryovial
+TCGA-QH-A6X5	-6		Sample Acquisition	TCGA-QH-A6X5-01	Gross Total Resection	Italy	Yes	No	Yes	0	65	300	Cryovial
+TCGA-QH-A6X8	12		Sample Acquisition	TCGA-QH-A6X8-01	Gross Total Resection	Italy	Yes	No	Yes	0	80	300	Cryovial
+TCGA-QH-A6X9	-7		Sample Acquisition	TCGA-QH-A6X9-01	Gross Total Resection	Italy	Yes	No	Yes	0	70	190	Cryovial
+TCGA-QH-A6XA	-7		Sample Acquisition	TCGA-QH-A6XA-01	Gross Total Resection	Italy	Yes	No	Yes	0	80	200	Cryovial
+TCGA-QH-A6XC	-8		Sample Acquisition	TCGA-QH-A6XC-01	Gross Total Resection	Italy	Yes	No	Yes	0	65	300	Cryovial
+TCGA-QH-A65R	-9		Sample Acquisition	TCGA-QH-A65R-01	Gross Total Resection	Italy	Yes	No	Yes	10	65	110	Cryovial
+TCGA-QH-A65S	-6		Sample Acquisition	TCGA-QH-A65S-01	Gross Total Resection	Italy	Yes	No	Yes	10	65	100	Cryovial
+TCGA-QH-A65V	-8		Sample Acquisition	TCGA-QH-A65V-01	Gross Total Resection	Italy	Yes	No	Yes	10	60	110	Cryovial
+TCGA-QH-A65X	-8		Sample Acquisition	TCGA-QH-A65X-01	Gross Total Resection	Italy	Yes	No	Yes	15	65	110	Cryovial
+TCGA-QH-A65Z	-9		Sample Acquisition	TCGA-QH-A65Z-01	Gross Total Resection	Italy	Yes	No	Yes	15	65	110	Cryovial
+TCGA-QH-A86X	-7		Sample Acquisition	TCGA-QH-A86X-01	Gross Total Resection	Italy	Yes			0	90	240	Cryovial
+TCGA-QH-A870	-7		Sample Acquisition	TCGA-QH-A870-01	Gross Total Resection	Italy	Yes			0	90	390	Cryovial
+TCGA-R8-A6MK	0		Sample Acquisition	TCGA-R8-A6MK-01	Gross Total Resection	United States	Yes	No	Yes	0	70	900	Cryovial
+TCGA-R8-A6ML	0		Sample Acquisition	TCGA-R8-A6ML-01	Subtotal Resection	United States	Yes	No	Yes	0	80	750	Cryovial
+TCGA-R8-A6MO	0		Sample Acquisition	TCGA-R8-A6MO-01	Subtotal Resection	United States	Yes	No	Yes	0	70	840	Cryovial
+TCGA-RY-A83X	0		Sample Acquisition	TCGA-RY-A83X-01	Subtotal Resection	United States	Yes	No	Yes	0	85	100	Cryovial
+TCGA-RY-A83Y	0		Sample Acquisition	TCGA-RY-A83Y-01	Gross Total Resection	United States	Yes	No	Yes	0	85	100	Cryovial
+TCGA-RY-A83Z	0		Sample Acquisition	TCGA-RY-A83Z-01	Gross Total Resection	United States	Yes	No	Yes	0	90	100	Cryovial
+TCGA-RY-A840	0		Sample Acquisition	TCGA-RY-A840-01	Gross Total Resection	United States	Yes	No	Yes	0	90	100	Cryovial
+TCGA-RY-A843	0		Sample Acquisition	TCGA-RY-A843-01	Gross Total Resection	United States	Yes	No	Yes	0	85	100	Cryovial
+TCGA-RY-A845	0		Sample Acquisition	TCGA-RY-A845-01	Gross Total Resection	United States	Yes	No	Yes	0	80	100	Cryovial
+TCGA-RY-A847	0		Sample Acquisition	TCGA-RY-A847-01	Gross Total Resection	United States	Yes			0	85	100	Cryovial
+TCGA-S9-A6TS	-7		Sample Acquisition	TCGA-S9-A6TS-01	Subtotal Resection	Germany	Yes	No	Yes	0	61	155	Cryovial
+TCGA-S9-A6TU	0		Sample Acquisition	TCGA-S9-A6TU-01	Subtotal Resection	Germany	Yes	No	Yes	0	61	172	Cryovial
+TCGA-S9-A6TV	-13		Sample Acquisition	TCGA-S9-A6TV-01	Subtotal Resection	Germany	Yes	No	Yes	0	61	142	Cryovial
+TCGA-S9-A6TW	-4		Sample Acquisition	TCGA-S9-A6TW-01	Subtotal Resection	Germany	Yes	No	Yes	20	60	92	Cryovial
+TCGA-S9-A6TX	-7		Sample Acquisition	TCGA-S9-A6TX-01	Gross Total Resection	Germany	Yes	No	Yes	0	61	152	Cryovial
+TCGA-S9-A6TY	-17		Sample Acquisition	TCGA-S9-A6TY-01	Subtotal Resection	Germany	Yes	No	Yes	0	61	133	Cryovial
+TCGA-S9-A6TZ	-14		Sample Acquisition	TCGA-S9-A6TZ-01	Subtotal Resection	Germany	Yes	No	Yes	0	61	135	Cryovial
+TCGA-S9-A6U0	-6		Sample Acquisition	TCGA-S9-A6U0-01	Subtotal Resection	Germany	Yes	No	Yes	0	61	142	Cryovial
+TCGA-S9-A6U1	-12		Sample Acquisition	TCGA-S9-A6U1-01	Gross Total Resection	Germany	Yes	No	Yes	0	61	235	Cryovial
+TCGA-S9-A6U2	-5		Sample Acquisition	TCGA-S9-A6U2-01	Subtotal Resection	Germany	Yes	No	Yes	0	61	151	Cryovial
+TCGA-S9-A6U5	-5		Sample Acquisition	TCGA-S9-A6U5-01	Gross Total Resection	Germany	Yes	No	Yes	0	61	138	Cryovial
+TCGA-S9-A6U6	-2		Sample Acquisition	TCGA-S9-A6U6-01	Subtotal Resection	Germany	Yes	No	Yes	0	61	181	Cryovial
+TCGA-S9-A6U8	0		Sample Acquisition	TCGA-S9-A6U8-01	Subtotal Resection	Germany	Yes	No	Yes	0	61	110	Cryovial
+TCGA-S9-A6U9	-1		Sample Acquisition	TCGA-S9-A6U9-01	Subtotal Resection	Germany	Yes	No	Yes	0	61	158	Cryovial
+TCGA-S9-A6UA	-3		Sample Acquisition	TCGA-S9-A6UA-01	Subtotal Resection	Germany	Yes	No	Yes	0	61	81	Cryovial
+TCGA-S9-A6UB	0		Sample Acquisition	TCGA-S9-A6UB-01	Gross Total Resection	Germany	Yes	No	Yes	0	61	110	Cryovial
+TCGA-S9-A6WD	0		Sample Acquisition	TCGA-S9-A6WD-01	Subtotal Resection	Germany	Yes	No	Yes	0	61	161	Cryovial
+TCGA-S9-A6WE	-1		Sample Acquisition	TCGA-S9-A6WE-01	Subtotal Resection	Germany	Yes	No	Yes	0	61	172	Cryovial
+TCGA-S9-A6WG	-1		Sample Acquisition	TCGA-S9-A6WG-01	Subtotal Resection	Germany	Yes	No	Yes	0	61	94	Cryovial
+TCGA-S9-A6WH	-10		Sample Acquisition	TCGA-S9-A6WH-01	Subtotal Resection	Germany	Yes	No	Yes	0	61	176	Cryovial
+TCGA-S9-A6WI	0		Sample Acquisition	TCGA-S9-A6WI-01	Subtotal Resection	Germany	Yes	No	Yes	0	61	99	Cryovial
+TCGA-S9-A6WL	-1		Sample Acquisition	TCGA-S9-A6WL-01	Gross Total Resection	Germany	Yes	No	Yes	0	61	130	Cryovial
+TCGA-S9-A6WM	-8		Sample Acquisition	TCGA-S9-A6WM-01	Subtotal Resection	Germany	Yes	No	Yes	0	61	114	Cryovial
+TCGA-S9-A6WN	-13		Sample Acquisition	TCGA-S9-A6WN-01	Subtotal Resection	Germany	Yes	No	Yes	0	61	143	Cryovial
+TCGA-S9-A6WO	-2		Sample Acquisition	TCGA-S9-A6WO-01	Subtotal Resection	Germany	Yes	No	Yes	0	61	94	Cryovial
+TCGA-S9-A6WP	-2		Sample Acquisition	TCGA-S9-A6WP-01	Gross Total Resection	Germany	Yes	No	Yes	0	61	185	Cryovial
+TCGA-S9-A6WQ	-6		Sample Acquisition	TCGA-S9-A6WQ-01	Subtotal Resection	Germany	Yes	No	Yes	0	61	155	Cryovial
+TCGA-S9-A7IQ	-13		Sample Acquisition	TCGA-S9-A7IQ-01	Subtotal Resection	Germany	Yes	No	Yes	0	61	157	Cryovial
+TCGA-S9-A7IS	0		Sample Acquisition	TCGA-S9-A7IS-01	Subtotal Resection	Germany	Yes	No	Yes	0	61	155	Cryovial
+TCGA-S9-A7IX	-1		Sample Acquisition	TCGA-S9-A7IX-01	Subtotal Resection	Germany	Yes	No	Yes	0	61	72	Cryovial
+TCGA-S9-A7IY	-2		Sample Acquisition	TCGA-S9-A7IY-01	Subtotal Resection	Germany	Yes	No	Yes	0	61	98	Cryovial
+TCGA-S9-A7IZ	-2		Sample Acquisition	TCGA-S9-A7IZ-01	Subtotal Resection	Germany	Yes	No	Yes	0	61	122	Cryovial
+TCGA-S9-A7J0	-3		Sample Acquisition	TCGA-S9-A7J0-01	Gross Total Resection	Germany	Yes	No	Yes	0	61	144	Cryovial
+TCGA-S9-A7J1	-14		Sample Acquisition	TCGA-S9-A7J1-01	Subtotal Resection	Germany	Yes	No	Yes	0	61	251	Cryovial
+TCGA-S9-A7J2	-2		Sample Acquisition	TCGA-S9-A7J2-01	Subtotal Resection	Germany	Yes	No	Yes	0	61	209	Cryovial
+TCGA-S9-A7J3	-13		Sample Acquisition	TCGA-S9-A7J3-01	Subtotal Resection	Germany	Yes	No	Yes	0	61	133	Cryovial
+TCGA-S9-A7QW	-3		Sample Acquisition	TCGA-S9-A7QW-01	Subtotal Resection	Germany	Yes	No	Yes	0	61	82	Cryovial
+TCGA-S9-A7QX	-2		Sample Acquisition	TCGA-S9-A7QX-01	Subtotal Resection	Germany	Yes	No	Yes	0	61	141	Cryovial
+TCGA-S9-A7QY	-1		Sample Acquisition	TCGA-S9-A7QY-01	Subtotal Resection	Germany	Yes			0	61	68	Cryovial
+TCGA-S9-A7QZ	-2		Sample Acquisition	TCGA-S9-A7QZ-01	Subtotal Resection	Germany	Yes			0	61	129	Cryovial
+TCGA-S9-A7R1	-118		Sample Acquisition	TCGA-S9-A7R1-01	Subtotal Resection	Germany	Yes			0	61	200	Cryovial
+TCGA-S9-A7R2	0		Sample Acquisition	TCGA-S9-A7R2-01	Subtotal Resection	Germany	Yes			0	61	119	Cryovial
+TCGA-S9-A7R3	0		Sample Acquisition	TCGA-S9-A7R3-01	Subtotal Resection	Germany	Yes			0	61	87	Cryovial
+TCGA-S9-A7R4	-6		Sample Acquisition	TCGA-S9-A7R4-01	Subtotal Resection	Germany	Yes			0	61	126	Cryovial
+TCGA-S9-A7R7	0		Sample Acquisition	TCGA-S9-A7R7-01	Subtotal Resection	Germany	Yes			0	61	72	Cryovial
+TCGA-S9-A7R8	0		Sample Acquisition	TCGA-S9-A7R8-01	Subtotal Resection	Germany	Yes			0	61	108	Cryovial
+TCGA-S9-A89V	-31		Sample Acquisition	TCGA-S9-A89V-01	Subtotal Resection	Germany	Yes			0	61	95	Cryovial
+TCGA-S9-A89Z	-9		Sample Acquisition	TCGA-S9-A89Z-01	Subtotal Resection	Germany	Yes			0	61	65	Cryovial
+TCGA-TM-A7C3	0		Sample Acquisition	TCGA-TM-A7C3-01	Gross Total Resection	Australia	Yes	No	Yes	0	80	114	Cryovial
+TCGA-TM-A7C4	0		Sample Acquisition	TCGA-TM-A7C4-01	Gross Total Resection	Australia	Yes	No	Yes	0	100	102	Cryovial
+TCGA-TM-A7C5	0		Sample Acquisition	TCGA-TM-A7C5-01	Gross Total Resection	Australia	Yes	No	Yes	0	100	151	Cryovial
+TCGA-TM-A7CA	0		Sample Acquisition	TCGA-TM-A7CA-01	Gross Total Resection	Australia	Yes	No	Yes	0	100	80	Cryovial
+TCGA-TM-A7CF	0		Sample Acquisition	TCGA-TM-A7CF-01	Gross Total Resection	Australia	Yes	No	Yes	0	100	56	Cryovial
+TCGA-TM-A84B	0		Sample Acquisition	TCGA-TM-A84B-01	Gross Total Resection	Australia	Yes			0	90	90	Cryovial
+TCGA-TM-A84C	0		Sample Acquisition	TCGA-TM-A84C-01	Gross Total Resection	Australia	Yes			0	80	70	Cryovial
+TCGA-TM-A84F	0		Sample Acquisition	TCGA-TM-A84F-01	Gross Total Resection	Australia	Yes			0	60	70	Cryovial
+TCGA-TM-A84G	0		Sample Acquisition	TCGA-TM-A84G-01	Gross Total Resection	Australia	Yes			0	90	30	Cryovial
+TCGA-TM-A84H	0		Sample Acquisition	TCGA-TM-A84H-01	Gross Total Resection	Australia	Yes			0	80	60	Cryovial
+TCGA-TM-A84I	0		Sample Acquisition	TCGA-TM-A84I-01	Gross Total Resection	Australia	Yes			0	90	35	Cryovial
+TCGA-TM-A84J	0		Sample Acquisition	TCGA-TM-A84J-01	Gross Total Resection	Australia	Yes			0	80	50	Cryovial
+TCGA-TM-A84L	0		Sample Acquisition	TCGA-TM-A84L-01	Gross Total Resection	Australia	Yes			0	60	90	Cryovial
+TCGA-TM-A84M	0		Sample Acquisition	TCGA-TM-A84M-01	Gross Total Resection	Australia	Yes			0	90	50	Cryovial
+TCGA-TM-A84O	0		Sample Acquisition	TCGA-TM-A84O-01	Gross Total Resection	Australia	Yes			0	60	75	Cryovial
+TCGA-TM-A84Q	0		Sample Acquisition	TCGA-TM-A84Q-01	Gross Total Resection	Australia	Yes			0	100	50	Cryovial
+TCGA-TM-A84R	0		Sample Acquisition	TCGA-TM-A84R-01	Gross Total Resection	Australia	Yes			0	80	100	Cryovial
+TCGA-TM-A84S	0		Sample Acquisition	TCGA-TM-A84S-01	Gross Total Resection	Australia	Yes			0	80	120	Cryovial
+TCGA-TM-A84T	0		Sample Acquisition	TCGA-TM-A84T-01	Biopsy	Australia	Yes			0	75	40	Cryovial
+TCGA-TQ-A7RF	-12		Sample Acquisition	TCGA-TQ-A7RF-01	Subtotal Resection	Brazil	Yes	No	Yes	0	80	140	Cryovial
+TCGA-TQ-A7RG	-7		Sample Acquisition	TCGA-TQ-A7RG-01	Gross Total Resection	Brazil	Yes	Yes	Yes	0	30	530	Cryovial
+TCGA-TQ-A7RH	-1		Sample Acquisition	TCGA-TQ-A7RH-01	Subtotal Resection	Brazil	Yes	Yes	Yes	0	40	100	Cryovial
+TCGA-TQ-A7RI	-8		Sample Acquisition	TCGA-TQ-A7RI-01	Gross Total Resection	Brazil	Yes	Yes	Yes	0	30	110	Cryovial
+TCGA-TQ-A7RJ	0		Sample Acquisition	TCGA-TQ-A7RJ-01	Gross Total Resection	Brazil	Yes	Yes	Yes	0	30	130	Cryovial
+TCGA-TQ-A7RK	0		Sample Acquisition	TCGA-TQ-A7RK-01	Gross Total Resection	Brazil	Yes	Yes	Yes	0	30	320	Cryovial
+TCGA-TQ-A7RM	0		Sample Acquisition	TCGA-TQ-A7RM-01	Subtotal Resection	Brazil	Yes	Yes	Yes	0	40	140	Cryovial
+TCGA-TQ-A7RN	0		Sample Acquisition	TCGA-TQ-A7RN-01	Subtotal Resection	Brazil	Yes	Yes	Yes	0	20	140	Cryovial
+TCGA-TQ-A7RO	0		Sample Acquisition	TCGA-TQ-A7RO-01	Gross Total Resection	Brazil	Yes	Yes	Yes	0	40	170	Cryovial
+TCGA-TQ-A7RP	0		Sample Acquisition	TCGA-TQ-A7RP-01	Subtotal Resection	Brazil	Yes	Yes	Yes	0	25	270	Cryovial
+TCGA-TQ-A7RQ	0		Sample Acquisition	TCGA-TQ-A7RQ-01	Subtotal Resection	Brazil	Yes	No	Yes	0	60	170	Cryovial
+TCGA-TQ-A7RR	0		Sample Acquisition	TCGA-TQ-A7RR-01	Subtotal Resection	Brazil	Yes	Yes	Yes	0	40	200	Cryovial
+TCGA-TQ-A7RS	-1		Sample Acquisition	TCGA-TQ-A7RS-01	Gross Total Resection	Brazil	Yes	No	Yes	0	70	250	Cryovial
+TCGA-TQ-A7RU	-1		Sample Acquisition	TCGA-TQ-A7RU-01	Subtotal Resection	Brazil	Yes	No	Yes	0	60	170	Cryovial
+TCGA-TQ-A7RV	1		Sample Acquisition	TCGA-TQ-A7RV-01	Gross Total Resection	Brazil	Yes	Yes	Yes	0	40	120	Cryovial
+TCGA-TQ-A7RW	1		Sample Acquisition	TCGA-TQ-A7RW-01	Subtotal Resection	Brazil	Yes	Yes	Yes	0	50	190	Cryovial
+TCGA-TQ-A8XE	0		Sample Acquisition	TCGA-TQ-A8XE-01	Gross Total Resection	Brazil	Yes			0	40	329	Cryovial
+TCGA-VM-A8C8	0		Sample Acquisition	TCGA-VM-A8C8-01	Subtotal Resection	United States	Yes			0	100	50	Cryovial
+TCGA-VM-A8C9	0		Sample Acquisition	TCGA-VM-A8C9-01	Subtotal Resection	United States	Yes			0	100	131	Cryovial
+TCGA-VM-A8CA	0		Sample Acquisition	TCGA-VM-A8CA-01	Subtotal Resection	United States	Yes			0	90	180	Cryovial
+TCGA-VM-A8CB	0		Sample Acquisition	TCGA-VM-A8CB-01	Gross Total Resection	United States	Yes			0	100	106	Cryovial
+TCGA-VM-A8CD	0		Sample Acquisition	TCGA-VM-A8CD-01	Subtotal Resection	United States	Yes			0	75	110	Cryovial
+TCGA-VM-A8CE	0		Sample Acquisition	TCGA-VM-A8CE-01	Subtotal Resection	United States	Yes			0	90	114	Cryovial
+TCGA-VM-A8CF	0		Sample Acquisition	TCGA-VM-A8CF-01	Subtotal Resection	United States	Yes			0	80	105	Cryovial
+TCGA-VM-A8CH	0		Sample Acquisition	TCGA-VM-A8CH-01	Gross Total Resection	United States	Yes			0	75	111	Cryovial
+TCGA-VV-A86M	61		Sample Acquisition	TCGA-VV-A86M-01	Subtotal Resection	United States	Yes			5	90	150	Cryovial
+TCGA-VV-A829	0		Sample Acquisition	TCGA-VV-A829-01	Gross Total Resection	United States	Yes			5	95	100	Cryovial, Allprotect Preservation
+TCGA-VW-A7QS	0		Sample Acquisition	TCGA-VW-A7QS-01	Subtotal Resection	United States	Yes			0	95	340	Cryovial
+TCGA-VW-A8FI	-2		Sample Acquisition	TCGA-VW-A8FI-01	Subtotal Resection	United States	Yes			0	90	40	Cryovial
+TCGA-W9-A837	0		Sample Acquisition	TCGA-W9-A837-01	Gross Total Resection	United States	Yes			0	70	580	Cryovial
+TCGA-WH-A86K	0		Sample Acquisition	TCGA-WH-A86K-01	Biopsy	United States	Yes			0	100	50	Cryovial
+TCGA-WY-A85A	0		Sample Acquisition	TCGA-WY-A85A-01	Gross Total Resection	United States	Yes			0	80	1150	Cryovial
+TCGA-WY-A85B	0		Sample Acquisition	TCGA-WY-A85B-01	Gross Total Resection	United States	Yes			0	80	650	Cryovial
+TCGA-WY-A85C	0		Sample Acquisition	TCGA-WY-A85C-01	Gross Total Resection	United States	Yes			0	80	255	Cryovial
+TCGA-WY-A85D	0		Sample Acquisition	TCGA-WY-A85D-01	Gross Total Resection	United States	Yes			0	70	273	Cryovial
+TCGA-WY-A85E	0		Sample Acquisition	TCGA-WY-A85E-01	Gross Total Resection	United States	Yes			0	80	285	Cryovial
+TCGA-WY-A858	0		Sample Acquisition	TCGA-WY-A858-01	Gross Total Resection	United States	Yes			0	70	125	Cryovial
+TCGA-WY-A859	21		Sample Acquisition	TCGA-WY-A859-01	Gross Total Resection	United States	Yes			0	80	182	Cryovial

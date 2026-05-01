@@ -1,0 +1,1308 @@
+PATIENT_ID	START_DATE	STOP_DATE	EVENT_TYPE	STATUS	TUMOR_STATUS	PRIMARY_THERAPY_OUTCOME_SUCCESS	VITAL_STATUS
+TCGA-DH-A669	919		STATUS	DECEASED			
+TCGA-DU-8158	155		STATUS	DECEASED			
+TCGA-DU-A76K	347		STATUS	DECEASED			
+TCGA-DU-A76L	814		STATUS	DECEASED			
+TCGA-DU-A76R	648		STATUS	DECEASED			
+TCGA-DU-A7T6	547		STATUS	DECEASED			
+TCGA-DU-A7TD	228		STATUS	DECEASED			
+TCGA-DU-A7TG	1351		STATUS	DECEASED			
+TCGA-DU-A7TI	1183		STATUS	DECEASED			
+TCGA-E1-A7YD	435		STATUS	DECEASED			
+TCGA-E1-A7YI	111		STATUS	DECEASED			
+TCGA-E1-A7YU	23		STATUS	DECEASED			
+TCGA-HT-A5RC	162		STATUS	DECEASED			
+TCGA-S9-A7R2	316		STATUS	DECEASED			
+TCGA-S9-A7R8	961		STATUS	DECEASED			
+TCGA-VW-A8FI	245		STATUS	DECEASED			
+TCGA-CS-4941	234		STATUS	DECEASED			
+TCGA-CS-4942	1335		STATUS	DECEASED			
+TCGA-CS-4943	1106		STATUS	DECEASED			
+TCGA-CS-5395	639		STATUS	DECEASED			
+TCGA-CS-5397	194		STATUS	DECEASED			
+TCGA-CS-6186	538		STATUS	DECEASED			
+TCGA-CS-6188	814		STATUS	DECEASED			
+TCGA-CS-6290	1137		STATUS	DECEASED			
+TCGA-DB-5277	1547		STATUS	DECEASED			
+TCGA-DB-A64O	775		STATUS	DECEASED			
+TCGA-DB-A64W	438		STATUS	DECEASED			
+TCGA-DH-5140	607		STATUS	DECEASED			
+TCGA-DH-A7UT	531		STATUS	DECEASED			
+TCGA-DU-5852	205		STATUS	DECEASED			
+TCGA-DU-6393	1585		STATUS	DECEASED			
+TCGA-DU-6394	682		STATUS	DECEASED			
+TCGA-DU-6395	1491		STATUS	DECEASED			
+TCGA-DU-6396	2286		STATUS	DECEASED			
+TCGA-DU-6397	1401		STATUS	DECEASED			
+TCGA-DU-6399	2000		STATUS	DECEASED			
+TCGA-DU-6400	37		STATUS	DECEASED			
+TCGA-DU-6401	2660		STATUS	DECEASED			
+TCGA-DU-6402	214		STATUS	DECEASED			
+TCGA-DU-6403	354		STATUS	DECEASED			
+TCGA-DU-6404	4068		STATUS	DECEASED			
+TCGA-DU-6405	605		STATUS	DECEASED			
+TCGA-DU-6406	512		STATUS	DECEASED			
+TCGA-DU-6407	2875		STATUS	DECEASED			
+TCGA-DU-6408	3470		STATUS	DECEASED			
+TCGA-DU-7006	349		STATUS	DECEASED			
+TCGA-DU-7007	1915		STATUS	DECEASED			
+TCGA-DU-7009	4695		STATUS	DECEASED			
+TCGA-DU-7010	456		STATUS	DECEASED			
+TCGA-DU-7011	3200		STATUS	DECEASED			
+TCGA-DU-7012	199		STATUS	DECEASED			
+TCGA-DU-7013	269		STATUS	DECEASED			
+TCGA-DU-7014	3571		STATUS	DECEASED			
+TCGA-DU-7018	933		STATUS	DECEASED			
+TCGA-DU-7290	315		STATUS	DECEASED			
+TCGA-DU-7292	242		STATUS	DECEASED			
+TCGA-DU-7298	576		STATUS	DECEASED			
+TCGA-DU-7299	1339		STATUS	DECEASED			
+TCGA-DU-7300	1886		STATUS	DECEASED			
+TCGA-DU-7301	788		STATUS	DECEASED			
+TCGA-DU-7304	709		STATUS	DECEASED			
+TCGA-DU-8161	722		STATUS	DECEASED			
+TCGA-DU-8162	444		STATUS	DECEASED			
+TCGA-DU-A5TY	1033		STATUS	DECEASED			
+TCGA-DU-A7T8	4229		STATUS	DECEASED			
+TCGA-E1-5302	1525		STATUS	DECEASED			
+TCGA-E1-5303	2052		STATUS	DECEASED			
+TCGA-E1-5304	1251		STATUS	DECEASED			
+TCGA-E1-5305	2433		STATUS	DECEASED			
+TCGA-E1-5307	1762		STATUS	DECEASED			
+TCGA-E1-5311	4084		STATUS	DECEASED			
+TCGA-E1-5318	2379		STATUS	DECEASED			
+TCGA-E1-5319	2907		STATUS	DECEASED			
+TCGA-E1-5322	3978		STATUS	DECEASED			
+TCGA-E1-A7YE	886		STATUS	DECEASED			
+TCGA-E1-A7YH	2835		STATUS	DECEASED			
+TCGA-E1-A7YJ	592		STATUS	DECEASED			
+TCGA-E1-A7YK	378		STATUS	DECEASED			
+TCGA-E1-A7YL	492		STATUS	DECEASED			
+TCGA-E1-A7YM	648		STATUS	DECEASED			
+TCGA-E1-A7YN	727		STATUS	DECEASED			
+TCGA-E1-A7YO	2282		STATUS	DECEASED			
+TCGA-E1-A7YQ	1578		STATUS	DECEASED			
+TCGA-E1-A7YS	466		STATUS	DECEASED			
+TCGA-E1-A7YV	987		STATUS	DECEASED			
+TCGA-E1-A7YW	1120		STATUS	DECEASED			
+TCGA-E1-A7YY	4445		STATUS	DECEASED			
+TCGA-E1-A7Z2	398		STATUS	DECEASED			
+TCGA-E1-A7Z3	2235		STATUS	DECEASED			
+TCGA-E1-A7Z4	4412		STATUS	DECEASED			
+TCGA-E1-A7Z6	984		STATUS	DECEASED			
+TCGA-FG-5963	775		STATUS	DECEASED			
+TCGA-FG-5965	1120		STATUS	DECEASED			
+TCGA-FG-6692	561		STATUS	DECEASED			
+TCGA-FG-A4MW	559		STATUS	DECEASED			
+TCGA-FG-A711	1481		STATUS	DECEASED			
+TCGA-HT-7469	351		STATUS	DECEASED			
+TCGA-HT-7470	1220		STATUS	DECEASED			
+TCGA-HT-7607	96		STATUS	DECEASED			
+TCGA-HT-7616	7		STATUS	DECEASED			
+TCGA-HT-7882	113		STATUS	DECEASED			
+TCGA-HT-8013	1933		STATUS	DECEASED			
+TCGA-HT-8018	1152		STATUS	DECEASED			
+TCGA-HT-A61C	537		STATUS	DECEASED			
+TCGA-HW-7489	1262		STATUS	DECEASED			
+TCGA-HW-8319	1209		STATUS	DECEASED			
+TCGA-HW-A5KJ	962		STATUS	DECEASED			
+TCGA-HW-A5KK	388		STATUS	DECEASED			
+TCGA-IK-7675	578		STATUS	DECEASED			
+TCGA-QH-A6CX	372		STATUS	DECEASED			
+TCGA-S9-A6TS	1891		STATUS	DECEASED			
+TCGA-S9-A6U0	742		STATUS	DECEASED			
+TCGA-S9-A6U8	2988		STATUS	DECEASED			
+TCGA-S9-A6UA	178		STATUS	DECEASED			
+TCGA-S9-A7IS	241		STATUS	DECEASED			
+TCGA-S9-A7IX	819		STATUS	DECEASED			
+TCGA-S9-A7R1	5166		STATUS	DECEASED			
+TCGA-TM-A7C3	1666		STATUS	DECEASED			
+TCGA-TM-A84B	758		STATUS	DECEASED			
+TCGA-TM-A84C	492		STATUS	DECEASED			
+TCGA-TM-A84L	1242		STATUS	DECEASED			
+TCGA-TM-A84O	1011		STATUS	DECEASED			
+TCGA-TQ-A7RW	821		STATUS	DECEASED			
+TCGA-TQ-A8XE	954		STATUS	DECEASED			
+TCGA-VM-A8CD	240		STATUS	DECEASED			
+TCGA-CS-4938	-1		STATUS	Performance Status Assessment			
+TCGA-CS-4941	77		STATUS	Performance Status Assessment			
+TCGA-CS-4942	-21		STATUS	Performance Status Assessment			
+TCGA-CS-4943	9		STATUS	Performance Status Assessment			
+TCGA-CS-4944	-2		STATUS	Performance Status Assessment			
+TCGA-CS-5390	1848		STATUS	Performance Status Assessment			
+TCGA-CS-5393	-3		STATUS	Performance Status Assessment			
+TCGA-CS-5394	-1		STATUS	Performance Status Assessment			
+TCGA-CS-5395	-1		STATUS	Performance Status Assessment			
+TCGA-CS-5396	20		STATUS	Performance Status Assessment			
+TCGA-CS-5397	-1		STATUS	Performance Status Assessment			
+TCGA-CS-6186	-1		STATUS	Performance Status Assessment			
+TCGA-CS-6188	-1		STATUS	Performance Status Assessment			
+TCGA-CS-6290	-1		STATUS	Performance Status Assessment			
+TCGA-CS-6665	-1		STATUS	Performance Status Assessment			
+TCGA-CS-6666	-1		STATUS	Performance Status Assessment			
+TCGA-CS-6667	-1		STATUS	Performance Status Assessment			
+TCGA-CS-6668	-1		STATUS	Performance Status Assessment			
+TCGA-CS-6669	0		STATUS	Performance Status Assessment			
+TCGA-DB-5274	12		STATUS	Performance Status Assessment			
+TCGA-DB-A4XE	294		STATUS	Performance Status Assessment			
+TCGA-DB-A64L	8		STATUS	Performance Status Assessment			
+TCGA-DB-A64Q	-3		STATUS	Performance Status Assessment			
+TCGA-DB-A64R	-6		STATUS	Performance Status Assessment			
+TCGA-DB-A64S	-29		STATUS	Performance Status Assessment			
+TCGA-DB-A64U	118		STATUS	Performance Status Assessment			
+TCGA-DB-A64V	-17		STATUS	Performance Status Assessment			
+TCGA-DB-A64W	-20		STATUS	Performance Status Assessment			
+TCGA-DB-A64X	-19		STATUS	Performance Status Assessment			
+TCGA-DH-5140	259		STATUS	Performance Status Assessment			
+TCGA-DH-5142	10		STATUS	Performance Status Assessment			
+TCGA-DH-5143	13		STATUS	Performance Status Assessment			
+TCGA-DH-5144	19		STATUS	Performance Status Assessment			
+TCGA-DH-A66B	901		STATUS	Performance Status Assessment			
+TCGA-DH-A66D	404		STATUS	Performance Status Assessment			
+TCGA-DH-A66F	18		STATUS	Performance Status Assessment			
+TCGA-DH-A66G	19		STATUS	Performance Status Assessment			
+TCGA-DH-A7UR	1174		STATUS	Performance Status Assessment			
+TCGA-DH-A7UU	18		STATUS	Performance Status Assessment			
+TCGA-DH-A7UV	19		STATUS	Performance Status Assessment			
+TCGA-DU-5851	17		STATUS	Performance Status Assessment			
+TCGA-DU-5852	11		STATUS	Performance Status Assessment			
+TCGA-DU-5853	18		STATUS	Performance Status Assessment			
+TCGA-DU-5854	19		STATUS	Performance Status Assessment			
+TCGA-DU-5855	19		STATUS	Performance Status Assessment			
+TCGA-DU-5870	4445		STATUS	Performance Status Assessment			
+TCGA-DU-5871	-6		STATUS	Performance Status Assessment			
+TCGA-DU-5874	380		STATUS	Performance Status Assessment			
+TCGA-DU-6396	19		STATUS	Performance Status Assessment			
+TCGA-DU-6403	207		STATUS	Performance Status Assessment			
+TCGA-DU-6404	126		STATUS	Performance Status Assessment			
+TCGA-DU-6405	515		STATUS	Performance Status Assessment			
+TCGA-DU-6407	2451		STATUS	Performance Status Assessment			
+TCGA-DU-6410	35		STATUS	Performance Status Assessment			
+TCGA-DU-7011	149		STATUS	Performance Status Assessment			
+TCGA-DU-7013	11		STATUS	Performance Status Assessment			
+TCGA-DU-7014	-13		STATUS	Performance Status Assessment			
+TCGA-DU-7015	14		STATUS	Performance Status Assessment			
+TCGA-DU-7018	12		STATUS	Performance Status Assessment			
+TCGA-DU-7019	21		STATUS	Performance Status Assessment			
+TCGA-DU-7294	793		STATUS	Performance Status Assessment			
+TCGA-DU-7298	-2		STATUS	Performance Status Assessment			
+TCGA-DU-7299	7		STATUS	Performance Status Assessment			
+TCGA-DU-7300	15		STATUS	Performance Status Assessment			
+TCGA-DU-7301	14		STATUS	Performance Status Assessment			
+TCGA-DU-7302	-4		STATUS	Performance Status Assessment			
+TCGA-DU-7304	8		STATUS	Performance Status Assessment			
+TCGA-DU-7306	-11		STATUS	Performance Status Assessment			
+TCGA-DU-7309	11		STATUS	Performance Status Assessment			
+TCGA-DU-8158	8		STATUS	Performance Status Assessment			
+TCGA-DU-8161	14		STATUS	Performance Status Assessment			
+TCGA-DU-8162	21		STATUS	Performance Status Assessment			
+TCGA-DU-8163	106		STATUS	Performance Status Assessment			
+TCGA-DU-8165	11		STATUS	Performance Status Assessment			
+TCGA-DU-8167	-69		STATUS	Performance Status Assessment			
+TCGA-DU-8168	14		STATUS	Performance Status Assessment			
+TCGA-DU-A5TP	6		STATUS	Performance Status Assessment			
+TCGA-DU-A5TR	11		STATUS	Performance Status Assessment			
+TCGA-DU-A5TS	13		STATUS	Performance Status Assessment			
+TCGA-DU-A5TU	47		STATUS	Performance Status Assessment			
+TCGA-DU-A5TW	53		STATUS	Performance Status Assessment			
+TCGA-DU-A6S2	11		STATUS	Performance Status Assessment			
+TCGA-DU-A6S6	184		STATUS	Performance Status Assessment			
+TCGA-DU-A6S7	-14		STATUS	Performance Status Assessment			
+TCGA-DU-A6S8	14		STATUS	Performance Status Assessment			
+TCGA-DU-A76R	60		STATUS	Performance Status Assessment			
+TCGA-DU-A7T6	53		STATUS	Performance Status Assessment			
+TCGA-DU-A7T8	80		STATUS	Performance Status Assessment			
+TCGA-DU-A7TA	17		STATUS	Performance Status Assessment			
+TCGA-DU-A7TB	1111		STATUS	Performance Status Assessment			
+TCGA-DU-A7TD	170		STATUS	Performance Status Assessment			
+TCGA-DU-A7TG	59		STATUS	Performance Status Assessment			
+TCGA-E1-5302	1254		STATUS	Performance Status Assessment			
+TCGA-E1-5303	582		STATUS	Performance Status Assessment			
+TCGA-E1-5304	160		STATUS	Performance Status Assessment			
+TCGA-E1-5305	89		STATUS	Performance Status Assessment			
+TCGA-E1-5307	95		STATUS	Performance Status Assessment			
+TCGA-E1-5311	-8		STATUS	Performance Status Assessment			
+TCGA-E1-5318	362		STATUS	Performance Status Assessment			
+TCGA-E1-5319	936		STATUS	Performance Status Assessment			
+TCGA-E1-5322	3305		STATUS	Performance Status Assessment			
+TCGA-E1-A7YE	81		STATUS	Performance Status Assessment			
+TCGA-E1-A7YH	17		STATUS	Performance Status Assessment			
+TCGA-E1-A7YI	11		STATUS	Performance Status Assessment			
+TCGA-E1-A7YJ	12		STATUS	Performance Status Assessment			
+TCGA-E1-A7YK	6		STATUS	Performance Status Assessment			
+TCGA-E1-A7YL	14		STATUS	Performance Status Assessment			
+TCGA-E1-A7YM	11		STATUS	Performance Status Assessment			
+TCGA-E1-A7YN	20		STATUS	Performance Status Assessment			
+TCGA-E1-A7YO	1408		STATUS	Performance Status Assessment			
+TCGA-E1-A7YQ	346		STATUS	Performance Status Assessment			
+TCGA-E1-A7YS	16		STATUS	Performance Status Assessment			
+TCGA-E1-A7YV	6		STATUS	Performance Status Assessment			
+TCGA-E1-A7YW	13		STATUS	Performance Status Assessment			
+TCGA-E1-A7YY	428		STATUS	Performance Status Assessment			
+TCGA-E1-A7Z2	39		STATUS	Performance Status Assessment			
+TCGA-E1-A7Z4	974		STATUS	Performance Status Assessment			
+TCGA-E1-A7Z6	19		STATUS	Performance Status Assessment			
+TCGA-FG-5963	0		STATUS	Performance Status Assessment			
+TCGA-FG-5965	259		STATUS	Performance Status Assessment			
+TCGA-FG-6688	60		STATUS	Performance Status Assessment			
+TCGA-FG-6689	-10		STATUS	Performance Status Assessment			
+TCGA-FG-6690	-23		STATUS	Performance Status Assessment			
+TCGA-FG-6691	-9		STATUS	Performance Status Assessment			
+TCGA-FG-6692	42		STATUS	Performance Status Assessment			
+TCGA-FG-7636	-7		STATUS	Performance Status Assessment			
+TCGA-FG-7638	-13		STATUS	Performance Status Assessment			
+TCGA-FG-8181	-13		STATUS	Performance Status Assessment			
+TCGA-FG-8185	21		STATUS	Performance Status Assessment			
+TCGA-FG-8186	13		STATUS	Performance Status Assessment			
+TCGA-FG-8187	0		STATUS	Performance Status Assessment			
+TCGA-FG-8188	-15		STATUS	Performance Status Assessment			
+TCGA-FG-8189	83		STATUS	Performance Status Assessment			
+TCGA-FG-A4MT	499		STATUS	Performance Status Assessment			
+TCGA-FG-A4MW	141		STATUS	Performance Status Assessment			
+TCGA-FG-A4MX	-23		STATUS	Performance Status Assessment			
+TCGA-FG-A60J	-18		STATUS	Performance Status Assessment			
+TCGA-FG-A60L	8		STATUS	Performance Status Assessment			
+TCGA-FG-A6J1	27		STATUS	Performance Status Assessment			
+TCGA-FG-A6J3	106		STATUS	Performance Status Assessment			
+TCGA-FG-A711	871		STATUS	Performance Status Assessment			
+TCGA-FG-A713	13		STATUS	Performance Status Assessment			
+TCGA-FG-A87Q	174		STATUS	Performance Status Assessment			
+TCGA-HT-7468	8		STATUS	Performance Status Assessment			
+TCGA-HT-7470	133		STATUS	Performance Status Assessment			
+TCGA-HT-7477	24		STATUS	Performance Status Assessment			
+TCGA-HT-7485	24		STATUS	Performance Status Assessment			
+TCGA-HT-7607	8		STATUS	Performance Status Assessment			
+TCGA-HT-7609	1		STATUS	Performance Status Assessment			
+TCGA-HT-7689	8		STATUS	Performance Status Assessment			
+TCGA-HT-7692	29		STATUS	Performance Status Assessment			
+TCGA-HT-7693	200		STATUS	Performance Status Assessment			
+TCGA-HT-7694	182		STATUS	Performance Status Assessment			
+TCGA-HT-7854	208		STATUS	Performance Status Assessment			
+TCGA-HT-7875	0		STATUS	Performance Status Assessment			
+TCGA-HT-7884	112		STATUS	Performance Status Assessment			
+TCGA-HT-A4DV	14		STATUS	Performance Status Assessment			
+TCGA-HT-A5RA	244		STATUS	Performance Status Assessment			
+TCGA-HT-A615	271		STATUS	Performance Status Assessment			
+TCGA-HT-A617	486		STATUS	Performance Status Assessment			
+TCGA-HT-A618	62		STATUS	Performance Status Assessment			
+TCGA-HT-A61C	19		STATUS	Performance Status Assessment			
+TCGA-IK-7675	48		STATUS	Performance Status Assessment			
+TCGA-IK-8125	42		STATUS	Performance Status Assessment			
+TCGA-KT-A7W1	10		STATUS	Performance Status Assessment			
+TCGA-P5-A5EW	-2		STATUS	Performance Status Assessment			
+TCGA-QH-A65R	-10		STATUS	Performance Status Assessment			
+TCGA-QH-A65S	-7		STATUS	Performance Status Assessment			
+TCGA-QH-A65V	-9		STATUS	Performance Status Assessment			
+TCGA-QH-A65X	237		STATUS	Performance Status Assessment			
+TCGA-QH-A65Z	-10		STATUS	Performance Status Assessment			
+TCGA-QH-A6CS	-25		STATUS	Performance Status Assessment			
+TCGA-QH-A6CU	-13		STATUS	Performance Status Assessment			
+TCGA-QH-A6CV	-42		STATUS	Performance Status Assessment			
+TCGA-QH-A6CW	-8		STATUS	Performance Status Assessment			
+TCGA-QH-A6CX	-7		STATUS	Performance Status Assessment			
+TCGA-QH-A6CY	-26		STATUS	Performance Status Assessment			
+TCGA-QH-A6CZ	-51		STATUS	Performance Status Assessment			
+TCGA-QH-A6X3	16		STATUS	Performance Status Assessment			
+TCGA-QH-A6X4	192		STATUS	Performance Status Assessment			
+TCGA-QH-A6X5	119		STATUS	Performance Status Assessment			
+TCGA-QH-A6X8	144		STATUS	Performance Status Assessment			
+TCGA-QH-A6X9	58		STATUS	Performance Status Assessment			
+TCGA-QH-A6XA	7		STATUS	Performance Status Assessment			
+TCGA-QH-A6XC	153		STATUS	Performance Status Assessment			
+TCGA-QH-A86X	106		STATUS	Performance Status Assessment			
+TCGA-QH-A870	2		STATUS	Performance Status Assessment			
+TCGA-RY-A83Y	2		STATUS	Performance Status Assessment			
+TCGA-RY-A840	22		STATUS	Performance Status Assessment			
+TCGA-RY-A845	1		STATUS	Performance Status Assessment			
+TCGA-RY-A847	62		STATUS	Performance Status Assessment			
+TCGA-S9-A6TS	-10		STATUS	Performance Status Assessment			
+TCGA-S9-A6TU	-2		STATUS	Performance Status Assessment			
+TCGA-S9-A6TV	-14		STATUS	Performance Status Assessment			
+TCGA-S9-A6TW	-8		STATUS	Performance Status Assessment			
+TCGA-S9-A6TX	-34		STATUS	Performance Status Assessment			
+TCGA-S9-A6TY	-18		STATUS	Performance Status Assessment			
+TCGA-S9-A6TZ	-15		STATUS	Performance Status Assessment			
+TCGA-S9-A6U0	-18		STATUS	Performance Status Assessment			
+TCGA-S9-A6U1	-13		STATUS	Performance Status Assessment			
+TCGA-S9-A6U2	-6		STATUS	Performance Status Assessment			
+TCGA-S9-A6U5	-6		STATUS	Performance Status Assessment			
+TCGA-S9-A6U6	-3		STATUS	Performance Status Assessment			
+TCGA-S9-A6U8	-31		STATUS	Performance Status Assessment			
+TCGA-S9-A6UA	-6		STATUS	Performance Status Assessment			
+TCGA-S9-A6UB	-1		STATUS	Performance Status Assessment			
+TCGA-S9-A6WD	-2		STATUS	Performance Status Assessment			
+TCGA-S9-A6WE	-4		STATUS	Performance Status Assessment			
+TCGA-S9-A6WG	-12		STATUS	Performance Status Assessment			
+TCGA-S9-A6WH	-14		STATUS	Performance Status Assessment			
+TCGA-S9-A6WI	-1		STATUS	Performance Status Assessment			
+TCGA-S9-A6WL	-2		STATUS	Performance Status Assessment			
+TCGA-S9-A6WM	-9		STATUS	Performance Status Assessment			
+TCGA-S9-A6WN	-14		STATUS	Performance Status Assessment			
+TCGA-S9-A6WO	-4		STATUS	Performance Status Assessment			
+TCGA-S9-A6WP	-3		STATUS	Performance Status Assessment			
+TCGA-S9-A6WQ	-7		STATUS	Performance Status Assessment			
+TCGA-S9-A7IQ	-14		STATUS	Performance Status Assessment			
+TCGA-S9-A7IS	-2		STATUS	Performance Status Assessment			
+TCGA-S9-A7IX	-2		STATUS	Performance Status Assessment			
+TCGA-S9-A7IY	-6		STATUS	Performance Status Assessment			
+TCGA-S9-A7IZ	-5		STATUS	Performance Status Assessment			
+TCGA-S9-A7J0	-7		STATUS	Performance Status Assessment			
+TCGA-S9-A7J1	-17		STATUS	Performance Status Assessment			
+TCGA-S9-A7J2	-4		STATUS	Performance Status Assessment			
+TCGA-S9-A7J3	-14		STATUS	Performance Status Assessment			
+TCGA-S9-A7QW	-4		STATUS	Performance Status Assessment			
+TCGA-S9-A7QX	-3		STATUS	Performance Status Assessment			
+TCGA-S9-A7QY	-2		STATUS	Performance Status Assessment			
+TCGA-S9-A7QZ	-3		STATUS	Performance Status Assessment			
+TCGA-S9-A7R1	-122		STATUS	Performance Status Assessment			
+TCGA-S9-A7R2	-2		STATUS	Performance Status Assessment			
+TCGA-S9-A7R3	-2		STATUS	Performance Status Assessment			
+TCGA-S9-A7R4	-8		STATUS	Performance Status Assessment			
+TCGA-S9-A7R7	-8		STATUS	Performance Status Assessment			
+TCGA-S9-A7R8	-1		STATUS	Performance Status Assessment			
+TCGA-S9-A89V	-32		STATUS	Performance Status Assessment			
+TCGA-S9-A89Z	-10		STATUS	Performance Status Assessment			
+TCGA-TM-A7C3	0		STATUS	Performance Status Assessment			
+TCGA-TM-A7C4	0		STATUS	Performance Status Assessment			
+TCGA-TM-A7C5	0		STATUS	Performance Status Assessment			
+TCGA-TM-A7CA	0		STATUS	Performance Status Assessment			
+TCGA-TM-A7CF	0		STATUS	Performance Status Assessment			
+TCGA-TM-A84B	0		STATUS	Performance Status Assessment			
+TCGA-TM-A84C	0		STATUS	Performance Status Assessment			
+TCGA-TM-A84F	0		STATUS	Performance Status Assessment			
+TCGA-TM-A84G	0		STATUS	Performance Status Assessment			
+TCGA-TM-A84H	0		STATUS	Performance Status Assessment			
+TCGA-TM-A84I	0		STATUS	Performance Status Assessment			
+TCGA-TM-A84J	0		STATUS	Performance Status Assessment			
+TCGA-TM-A84L	0		STATUS	Performance Status Assessment			
+TCGA-TM-A84M	0		STATUS	Performance Status Assessment			
+TCGA-TM-A84O	0		STATUS	Performance Status Assessment			
+TCGA-TM-A84Q	0		STATUS	Performance Status Assessment			
+TCGA-TM-A84R	0		STATUS	Performance Status Assessment			
+TCGA-TM-A84S	0		STATUS	Performance Status Assessment			
+TCGA-TM-A84T	0		STATUS	Performance Status Assessment			
+TCGA-TQ-A7RG	-32		STATUS	Performance Status Assessment			
+TCGA-TQ-A7RK	-115		STATUS	Performance Status Assessment			
+TCGA-TQ-A7RM	45		STATUS	Performance Status Assessment			
+TCGA-TQ-A7RN	11		STATUS	Performance Status Assessment			
+TCGA-TQ-A7RO	123		STATUS	Performance Status Assessment			
+TCGA-TQ-A7RP	152		STATUS	Performance Status Assessment			
+TCGA-TQ-A7RQ	53		STATUS	Performance Status Assessment			
+TCGA-TQ-A7RR	31		STATUS	Performance Status Assessment			
+TCGA-TQ-A7RS	-1		STATUS	Performance Status Assessment			
+TCGA-TQ-A7RU	158		STATUS	Performance Status Assessment			
+TCGA-TQ-A7RV	-42		STATUS	Performance Status Assessment			
+TCGA-TQ-A7RW	529		STATUS	Performance Status Assessment			
+TCGA-TQ-A8XE	0		STATUS	Performance Status Assessment			
+TCGA-VM-A8C8	19		STATUS	Performance Status Assessment			
+TCGA-VM-A8CA	19		STATUS	Performance Status Assessment			
+TCGA-VM-A8CD	-43		STATUS	Performance Status Assessment			
+TCGA-VM-A8CE	15		STATUS	Performance Status Assessment			
+TCGA-VM-A8CF	26		STATUS	Performance Status Assessment			
+TCGA-VM-A8CH	-38		STATUS	Performance Status Assessment			
+TCGA-W9-A837	610		STATUS	Performance Status Assessment			
+TCGA-WH-A86K	20		STATUS	Performance Status Assessment			
+TCGA-WY-A858	45		STATUS	Performance Status Assessment			
+TCGA-WY-A859	293		STATUS	Performance Status Assessment			
+TCGA-WY-A85A	718		STATUS	Performance Status Assessment			
+TCGA-WY-A85E	311		STATUS	Performance Status Assessment			
+TCGA-CS-4938	0		STATUS	Initial Diagnosis			
+TCGA-CS-4941	0		STATUS	Initial Diagnosis			
+TCGA-CS-4942	0		STATUS	Initial Diagnosis			
+TCGA-CS-4943	0		STATUS	Initial Diagnosis			
+TCGA-CS-4944	0		STATUS	Initial Diagnosis			
+TCGA-CS-5390	0		STATUS	Initial Diagnosis			
+TCGA-CS-5393	0		STATUS	Initial Diagnosis			
+TCGA-CS-5394	0		STATUS	Initial Diagnosis			
+TCGA-CS-5395	0		STATUS	Initial Diagnosis			
+TCGA-CS-5396	0		STATUS	Initial Diagnosis			
+TCGA-CS-5397	0		STATUS	Initial Diagnosis			
+TCGA-CS-6186	0		STATUS	Initial Diagnosis			
+TCGA-CS-6188	0		STATUS	Initial Diagnosis			
+TCGA-CS-6290	0		STATUS	Initial Diagnosis			
+TCGA-CS-6665	0		STATUS	Initial Diagnosis			
+TCGA-CS-6666	0		STATUS	Initial Diagnosis			
+TCGA-CS-6667	0		STATUS	Initial Diagnosis			
+TCGA-CS-6668	0		STATUS	Initial Diagnosis			
+TCGA-CS-6669	0		STATUS	Initial Diagnosis			
+TCGA-CS-6670	0		STATUS	Initial Diagnosis			
+TCGA-DB-5270	0		STATUS	Initial Diagnosis			
+TCGA-DB-5273	0		STATUS	Initial Diagnosis			
+TCGA-DB-5274	0		STATUS	Initial Diagnosis			
+TCGA-DB-5275	0		STATUS	Initial Diagnosis			
+TCGA-DB-5276	0		STATUS	Initial Diagnosis			
+TCGA-DB-5277	0		STATUS	Initial Diagnosis			
+TCGA-DB-5278	0		STATUS	Initial Diagnosis			
+TCGA-DB-5279	0		STATUS	Initial Diagnosis			
+TCGA-DB-5280	0		STATUS	Initial Diagnosis			
+TCGA-DB-5281	0		STATUS	Initial Diagnosis			
+TCGA-DB-A4X9	0		STATUS	Initial Diagnosis			
+TCGA-DB-A4XA	0		STATUS	Initial Diagnosis			
+TCGA-DB-A4XB	0		STATUS	Initial Diagnosis			
+TCGA-DB-A4XC	0		STATUS	Initial Diagnosis			
+TCGA-DB-A4XD	0		STATUS	Initial Diagnosis			
+TCGA-DB-A4XE	0		STATUS	Initial Diagnosis			
+TCGA-DB-A4XF	0		STATUS	Initial Diagnosis			
+TCGA-DB-A4XG	0		STATUS	Initial Diagnosis			
+TCGA-DB-A4XH	0		STATUS	Initial Diagnosis			
+TCGA-DB-A64L	0		STATUS	Initial Diagnosis			
+TCGA-DB-A64O	0		STATUS	Initial Diagnosis			
+TCGA-DB-A64P	0		STATUS	Initial Diagnosis			
+TCGA-DB-A64Q	0		STATUS	Initial Diagnosis			
+TCGA-DB-A64R	0		STATUS	Initial Diagnosis			
+TCGA-DB-A64S	0		STATUS	Initial Diagnosis			
+TCGA-DB-A64U	0		STATUS	Initial Diagnosis			
+TCGA-DB-A64V	0		STATUS	Initial Diagnosis			
+TCGA-DB-A64W	0		STATUS	Initial Diagnosis			
+TCGA-DB-A64X	0		STATUS	Initial Diagnosis			
+TCGA-DB-A75K	0		STATUS	Initial Diagnosis			
+TCGA-DB-A75L	0		STATUS	Initial Diagnosis			
+TCGA-DB-A75M	0		STATUS	Initial Diagnosis			
+TCGA-DB-A75O	0		STATUS	Initial Diagnosis			
+TCGA-DB-A75P	0		STATUS	Initial Diagnosis			
+TCGA-DH-5140	0		STATUS	Initial Diagnosis			
+TCGA-DH-5141	0		STATUS	Initial Diagnosis			
+TCGA-DH-5142	0		STATUS	Initial Diagnosis			
+TCGA-DH-5143	0		STATUS	Initial Diagnosis			
+TCGA-DH-5144	0		STATUS	Initial Diagnosis			
+TCGA-DH-A669	0		STATUS	Initial Diagnosis			
+TCGA-DH-A66B	0		STATUS	Initial Diagnosis			
+TCGA-DH-A66D	0		STATUS	Initial Diagnosis			
+TCGA-DH-A66F	0		STATUS	Initial Diagnosis			
+TCGA-DH-A66G	0		STATUS	Initial Diagnosis			
+TCGA-DH-A7UR	0		STATUS	Initial Diagnosis			
+TCGA-DH-A7US	0		STATUS	Initial Diagnosis			
+TCGA-DH-A7UT	0		STATUS	Initial Diagnosis			
+TCGA-DH-A7UU	0		STATUS	Initial Diagnosis			
+TCGA-DH-A7UV	0		STATUS	Initial Diagnosis			
+TCGA-DU-5847	0		STATUS	Initial Diagnosis			
+TCGA-DU-5849	0		STATUS	Initial Diagnosis			
+TCGA-DU-5851	0		STATUS	Initial Diagnosis			
+TCGA-DU-5852	0		STATUS	Initial Diagnosis			
+TCGA-DU-5853	0		STATUS	Initial Diagnosis			
+TCGA-DU-5854	0		STATUS	Initial Diagnosis			
+TCGA-DU-5855	0		STATUS	Initial Diagnosis			
+TCGA-DU-5870	0		STATUS	Initial Diagnosis			
+TCGA-DU-5871	0		STATUS	Initial Diagnosis			
+TCGA-DU-5872	0		STATUS	Initial Diagnosis			
+TCGA-DU-5874	0		STATUS	Initial Diagnosis			
+TCGA-DU-6392	0		STATUS	Initial Diagnosis			
+TCGA-DU-6393	0		STATUS	Initial Diagnosis			
+TCGA-DU-6394	0		STATUS	Initial Diagnosis			
+TCGA-DU-6395	0		STATUS	Initial Diagnosis			
+TCGA-DU-6396	0		STATUS	Initial Diagnosis			
+TCGA-DU-6397	0		STATUS	Initial Diagnosis			
+TCGA-DU-6399	0		STATUS	Initial Diagnosis			
+TCGA-DU-6400	0		STATUS	Initial Diagnosis			
+TCGA-DU-6401	0		STATUS	Initial Diagnosis			
+TCGA-DU-6402	0		STATUS	Initial Diagnosis			
+TCGA-DU-6403	0		STATUS	Initial Diagnosis			
+TCGA-DU-6404	0		STATUS	Initial Diagnosis			
+TCGA-DU-6405	0		STATUS	Initial Diagnosis			
+TCGA-DU-6406	0		STATUS	Initial Diagnosis			
+TCGA-DU-6407	0		STATUS	Initial Diagnosis			
+TCGA-DU-6408	0		STATUS	Initial Diagnosis			
+TCGA-DU-6410	0		STATUS	Initial Diagnosis			
+TCGA-DU-6542	0		STATUS	Initial Diagnosis			
+TCGA-DU-7006	0		STATUS	Initial Diagnosis			
+TCGA-DU-7007	0		STATUS	Initial Diagnosis			
+TCGA-DU-7008	0		STATUS	Initial Diagnosis			
+TCGA-DU-7009	0		STATUS	Initial Diagnosis			
+TCGA-DU-7010	0		STATUS	Initial Diagnosis			
+TCGA-DU-7011	0		STATUS	Initial Diagnosis			
+TCGA-DU-7012	0		STATUS	Initial Diagnosis			
+TCGA-DU-7013	0		STATUS	Initial Diagnosis			
+TCGA-DU-7014	0		STATUS	Initial Diagnosis			
+TCGA-DU-7015	0		STATUS	Initial Diagnosis			
+TCGA-DU-7018	0		STATUS	Initial Diagnosis			
+TCGA-DU-7019	0		STATUS	Initial Diagnosis			
+TCGA-DU-7290	0		STATUS	Initial Diagnosis			
+TCGA-DU-7292	0		STATUS	Initial Diagnosis			
+TCGA-DU-7294	0		STATUS	Initial Diagnosis			
+TCGA-DU-7298	0		STATUS	Initial Diagnosis			
+TCGA-DU-7299	0		STATUS	Initial Diagnosis			
+TCGA-DU-7300	0		STATUS	Initial Diagnosis			
+TCGA-DU-7301	0		STATUS	Initial Diagnosis			
+TCGA-DU-7302	0		STATUS	Initial Diagnosis			
+TCGA-DU-7304	0		STATUS	Initial Diagnosis			
+TCGA-DU-7306	0		STATUS	Initial Diagnosis			
+TCGA-DU-7309	0		STATUS	Initial Diagnosis			
+TCGA-DU-8158	0		STATUS	Initial Diagnosis			
+TCGA-DU-8161	0		STATUS	Initial Diagnosis			
+TCGA-DU-8162	0		STATUS	Initial Diagnosis			
+TCGA-DU-8163	0		STATUS	Initial Diagnosis			
+TCGA-DU-8164	0		STATUS	Initial Diagnosis			
+TCGA-DU-8165	0		STATUS	Initial Diagnosis			
+TCGA-DU-8166	0		STATUS	Initial Diagnosis			
+TCGA-DU-8167	0		STATUS	Initial Diagnosis			
+TCGA-DU-8168	0		STATUS	Initial Diagnosis			
+TCGA-DU-A5TP	0		STATUS	Initial Diagnosis			
+TCGA-DU-A5TR	0		STATUS	Initial Diagnosis			
+TCGA-DU-A5TS	0		STATUS	Initial Diagnosis			
+TCGA-DU-A5TT	0		STATUS	Initial Diagnosis			
+TCGA-DU-A5TU	0		STATUS	Initial Diagnosis			
+TCGA-DU-A5TW	0		STATUS	Initial Diagnosis			
+TCGA-DU-A5TY	0		STATUS	Initial Diagnosis			
+TCGA-DU-A6S2	0		STATUS	Initial Diagnosis			
+TCGA-DU-A6S3	0		STATUS	Initial Diagnosis			
+TCGA-DU-A6S6	0		STATUS	Initial Diagnosis			
+TCGA-DU-A6S7	0		STATUS	Initial Diagnosis			
+TCGA-DU-A6S8	0		STATUS	Initial Diagnosis			
+TCGA-DU-A76K	0		STATUS	Initial Diagnosis			
+TCGA-DU-A76L	0		STATUS	Initial Diagnosis			
+TCGA-DU-A76O	0		STATUS	Initial Diagnosis			
+TCGA-DU-A76R	0		STATUS	Initial Diagnosis			
+TCGA-DU-A7T6	0		STATUS	Initial Diagnosis			
+TCGA-DU-A7T8	0		STATUS	Initial Diagnosis			
+TCGA-DU-A7TA	0		STATUS	Initial Diagnosis			
+TCGA-DU-A7TB	0		STATUS	Initial Diagnosis			
+TCGA-DU-A7TC	0		STATUS	Initial Diagnosis			
+TCGA-DU-A7TD	0		STATUS	Initial Diagnosis			
+TCGA-DU-A7TG	0		STATUS	Initial Diagnosis			
+TCGA-DU-A7TI	0		STATUS	Initial Diagnosis			
+TCGA-DU-A7TJ	0		STATUS	Initial Diagnosis			
+TCGA-E1-5302	0		STATUS	Initial Diagnosis			
+TCGA-E1-5303	0		STATUS	Initial Diagnosis			
+TCGA-E1-5304	0		STATUS	Initial Diagnosis			
+TCGA-E1-5305	0		STATUS	Initial Diagnosis			
+TCGA-E1-5307	0		STATUS	Initial Diagnosis			
+TCGA-E1-5311	0		STATUS	Initial Diagnosis			
+TCGA-E1-5318	0		STATUS	Initial Diagnosis			
+TCGA-E1-5319	0		STATUS	Initial Diagnosis			
+TCGA-E1-5322	0		STATUS	Initial Diagnosis			
+TCGA-E1-A7YD	0		STATUS	Initial Diagnosis			
+TCGA-E1-A7YE	0		STATUS	Initial Diagnosis			
+TCGA-E1-A7YH	0		STATUS	Initial Diagnosis			
+TCGA-E1-A7YI	0		STATUS	Initial Diagnosis			
+TCGA-E1-A7YJ	0		STATUS	Initial Diagnosis			
+TCGA-E1-A7YK	0		STATUS	Initial Diagnosis			
+TCGA-E1-A7YL	0		STATUS	Initial Diagnosis			
+TCGA-E1-A7YM	0		STATUS	Initial Diagnosis			
+TCGA-E1-A7YN	0		STATUS	Initial Diagnosis			
+TCGA-E1-A7YO	0		STATUS	Initial Diagnosis			
+TCGA-E1-A7YQ	0		STATUS	Initial Diagnosis			
+TCGA-E1-A7YS	0		STATUS	Initial Diagnosis			
+TCGA-E1-A7YU	0		STATUS	Initial Diagnosis			
+TCGA-E1-A7YV	0		STATUS	Initial Diagnosis			
+TCGA-E1-A7YW	0		STATUS	Initial Diagnosis			
+TCGA-E1-A7YY	0		STATUS	Initial Diagnosis			
+TCGA-E1-A7Z2	0		STATUS	Initial Diagnosis			
+TCGA-E1-A7Z3	0		STATUS	Initial Diagnosis			
+TCGA-E1-A7Z4	0		STATUS	Initial Diagnosis			
+TCGA-E1-A7Z6	0		STATUS	Initial Diagnosis			
+TCGA-EZ-7264	0		STATUS	Initial Diagnosis			
+TCGA-F6-A8O3	0		STATUS	Initial Diagnosis			
+TCGA-F6-A8O4	0		STATUS	Initial Diagnosis			
+TCGA-FG-5962	0		STATUS	Initial Diagnosis			
+TCGA-FG-5963	0		STATUS	Initial Diagnosis			
+TCGA-FG-5964	0		STATUS	Initial Diagnosis			
+TCGA-FG-5965	0		STATUS	Initial Diagnosis			
+TCGA-FG-6688	0		STATUS	Initial Diagnosis			
+TCGA-FG-6689	0		STATUS	Initial Diagnosis			
+TCGA-FG-6690	0		STATUS	Initial Diagnosis			
+TCGA-FG-6691	0		STATUS	Initial Diagnosis			
+TCGA-FG-6692	0		STATUS	Initial Diagnosis			
+TCGA-FG-7634	0		STATUS	Initial Diagnosis			
+TCGA-FG-7636	0		STATUS	Initial Diagnosis			
+TCGA-FG-7637	0		STATUS	Initial Diagnosis			
+TCGA-FG-7638	0		STATUS	Initial Diagnosis			
+TCGA-FG-7641	0		STATUS	Initial Diagnosis			
+TCGA-FG-7643	0		STATUS	Initial Diagnosis			
+TCGA-FG-8181	0		STATUS	Initial Diagnosis			
+TCGA-FG-8182	0		STATUS	Initial Diagnosis			
+TCGA-FG-8185	0		STATUS	Initial Diagnosis			
+TCGA-FG-8186	0		STATUS	Initial Diagnosis			
+TCGA-FG-8187	0		STATUS	Initial Diagnosis			
+TCGA-FG-8188	0		STATUS	Initial Diagnosis			
+TCGA-FG-8189	0		STATUS	Initial Diagnosis			
+TCGA-FG-8191	0		STATUS	Initial Diagnosis			
+TCGA-FG-A4MT	0		STATUS	Initial Diagnosis			
+TCGA-FG-A4MU	0		STATUS	Initial Diagnosis			
+TCGA-FG-A4MW	0		STATUS	Initial Diagnosis			
+TCGA-FG-A4MX	0		STATUS	Initial Diagnosis			
+TCGA-FG-A4MY	0		STATUS	Initial Diagnosis			
+TCGA-FG-A60J	0		STATUS	Initial Diagnosis			
+TCGA-FG-A60K	0		STATUS	Initial Diagnosis			
+TCGA-FG-A60L	0		STATUS	Initial Diagnosis			
+TCGA-FG-A6IZ	0		STATUS	Initial Diagnosis			
+TCGA-FG-A6J1	0		STATUS	Initial Diagnosis			
+TCGA-FG-A6J3	0		STATUS	Initial Diagnosis			
+TCGA-FG-A70Y	0		STATUS	Initial Diagnosis			
+TCGA-FG-A70Z	0		STATUS	Initial Diagnosis			
+TCGA-FG-A710	0		STATUS	Initial Diagnosis			
+TCGA-FG-A711	0		STATUS	Initial Diagnosis			
+TCGA-FG-A713	0		STATUS	Initial Diagnosis			
+TCGA-FG-A87N	0		STATUS	Initial Diagnosis			
+TCGA-FG-A87Q	0		STATUS	Initial Diagnosis			
+TCGA-FN-7833	0		STATUS	Initial Diagnosis			
+TCGA-HT-7467	0		STATUS	Initial Diagnosis			
+TCGA-HT-7468	0		STATUS	Initial Diagnosis			
+TCGA-HT-7469	0		STATUS	Initial Diagnosis			
+TCGA-HT-7470	0		STATUS	Initial Diagnosis			
+TCGA-HT-7471	0		STATUS	Initial Diagnosis			
+TCGA-HT-7472	0		STATUS	Initial Diagnosis			
+TCGA-HT-7473	0		STATUS	Initial Diagnosis			
+TCGA-HT-7474	0		STATUS	Initial Diagnosis			
+TCGA-HT-7475	0		STATUS	Initial Diagnosis			
+TCGA-HT-7476	0		STATUS	Initial Diagnosis			
+TCGA-HT-7477	0		STATUS	Initial Diagnosis			
+TCGA-HT-7478	0		STATUS	Initial Diagnosis			
+TCGA-HT-7479	0		STATUS	Initial Diagnosis			
+TCGA-HT-7480	0		STATUS	Initial Diagnosis			
+TCGA-HT-7481	0		STATUS	Initial Diagnosis			
+TCGA-HT-7482	0		STATUS	Initial Diagnosis			
+TCGA-HT-7483	0		STATUS	Initial Diagnosis			
+TCGA-HT-7485	0		STATUS	Initial Diagnosis			
+TCGA-HT-7601	0		STATUS	Initial Diagnosis			
+TCGA-HT-7602	0		STATUS	Initial Diagnosis			
+TCGA-HT-7603	0		STATUS	Initial Diagnosis			
+TCGA-HT-7604	0		STATUS	Initial Diagnosis			
+TCGA-HT-7605	0		STATUS	Initial Diagnosis			
+TCGA-HT-7606	0		STATUS	Initial Diagnosis			
+TCGA-HT-7607	0		STATUS	Initial Diagnosis			
+TCGA-HT-7608	0		STATUS	Initial Diagnosis			
+TCGA-HT-7609	0		STATUS	Initial Diagnosis			
+TCGA-HT-7610	0		STATUS	Initial Diagnosis			
+TCGA-HT-7611	0		STATUS	Initial Diagnosis			
+TCGA-HT-7616	0		STATUS	Initial Diagnosis			
+TCGA-HT-7620	0		STATUS	Initial Diagnosis			
+TCGA-HT-7676	0		STATUS	Initial Diagnosis			
+TCGA-HT-7677	0		STATUS	Initial Diagnosis			
+TCGA-HT-7680	0		STATUS	Initial Diagnosis			
+TCGA-HT-7681	0		STATUS	Initial Diagnosis			
+TCGA-HT-7684	0		STATUS	Initial Diagnosis			
+TCGA-HT-7686	0		STATUS	Initial Diagnosis			
+TCGA-HT-7687	0		STATUS	Initial Diagnosis			
+TCGA-HT-7688	0		STATUS	Initial Diagnosis			
+TCGA-HT-7689	0		STATUS	Initial Diagnosis			
+TCGA-HT-7690	0		STATUS	Initial Diagnosis			
+TCGA-HT-7691	0		STATUS	Initial Diagnosis			
+TCGA-HT-7692	0		STATUS	Initial Diagnosis			
+TCGA-HT-7693	0		STATUS	Initial Diagnosis			
+TCGA-HT-7694	0		STATUS	Initial Diagnosis			
+TCGA-HT-7695	0		STATUS	Initial Diagnosis			
+TCGA-HT-7854	0		STATUS	Initial Diagnosis			
+TCGA-HT-7855	0		STATUS	Initial Diagnosis			
+TCGA-HT-7856	0		STATUS	Initial Diagnosis			
+TCGA-HT-7857	0		STATUS	Initial Diagnosis			
+TCGA-HT-7858	0		STATUS	Initial Diagnosis			
+TCGA-HT-7860	0		STATUS	Initial Diagnosis			
+TCGA-HT-7873	0		STATUS	Initial Diagnosis			
+TCGA-HT-7874	0		STATUS	Initial Diagnosis			
+TCGA-HT-7875	0		STATUS	Initial Diagnosis			
+TCGA-HT-7877	0		STATUS	Initial Diagnosis			
+TCGA-HT-7879	0		STATUS	Initial Diagnosis			
+TCGA-HT-7880	0		STATUS	Initial Diagnosis			
+TCGA-HT-7881	0		STATUS	Initial Diagnosis			
+TCGA-HT-7882	0		STATUS	Initial Diagnosis			
+TCGA-HT-7884	0		STATUS	Initial Diagnosis			
+TCGA-HT-7902	0		STATUS	Initial Diagnosis			
+TCGA-HT-8010	0		STATUS	Initial Diagnosis			
+TCGA-HT-8011	0		STATUS	Initial Diagnosis			
+TCGA-HT-8012	0		STATUS	Initial Diagnosis			
+TCGA-HT-8013	0		STATUS	Initial Diagnosis			
+TCGA-HT-8015	0		STATUS	Initial Diagnosis			
+TCGA-HT-8018	0		STATUS	Initial Diagnosis			
+TCGA-HT-8019	0		STATUS	Initial Diagnosis			
+TCGA-HT-8104	0		STATUS	Initial Diagnosis			
+TCGA-HT-8105	0		STATUS	Initial Diagnosis			
+TCGA-HT-8106	0		STATUS	Initial Diagnosis			
+TCGA-HT-8107	0		STATUS	Initial Diagnosis			
+TCGA-HT-8108	0		STATUS	Initial Diagnosis			
+TCGA-HT-8109	0		STATUS	Initial Diagnosis			
+TCGA-HT-8110	0		STATUS	Initial Diagnosis			
+TCGA-HT-8111	0		STATUS	Initial Diagnosis			
+TCGA-HT-8113	0		STATUS	Initial Diagnosis			
+TCGA-HT-8114	0		STATUS	Initial Diagnosis			
+TCGA-HT-8558	0		STATUS	Initial Diagnosis			
+TCGA-HT-8563	0		STATUS	Initial Diagnosis			
+TCGA-HT-8564	0		STATUS	Initial Diagnosis			
+TCGA-HT-A4DS	0		STATUS	Initial Diagnosis			
+TCGA-HT-A4DV	0		STATUS	Initial Diagnosis			
+TCGA-HT-A5R5	0		STATUS	Initial Diagnosis			
+TCGA-HT-A5R7	0		STATUS	Initial Diagnosis			
+TCGA-HT-A5R9	0		STATUS	Initial Diagnosis			
+TCGA-HT-A5RA	0		STATUS	Initial Diagnosis			
+TCGA-HT-A5RB	0		STATUS	Initial Diagnosis			
+TCGA-HT-A5RC	0		STATUS	Initial Diagnosis			
+TCGA-HT-A614	0		STATUS	Initial Diagnosis			
+TCGA-HT-A615	0		STATUS	Initial Diagnosis			
+TCGA-HT-A616	0		STATUS	Initial Diagnosis			
+TCGA-HT-A617	0		STATUS	Initial Diagnosis			
+TCGA-HT-A618	0		STATUS	Initial Diagnosis			
+TCGA-HT-A61A	0		STATUS	Initial Diagnosis			
+TCGA-HT-A61B	0		STATUS	Initial Diagnosis			
+TCGA-HT-A61C	0		STATUS	Initial Diagnosis			
+TCGA-HT-A74H	0		STATUS	Initial Diagnosis			
+TCGA-HT-A74J	0		STATUS	Initial Diagnosis			
+TCGA-HT-A74K	0		STATUS	Initial Diagnosis			
+TCGA-HT-A74L	0		STATUS	Initial Diagnosis			
+TCGA-HT-A74O	0		STATUS	Initial Diagnosis			
+TCGA-HW-7486	0		STATUS	Initial Diagnosis			
+TCGA-HW-7487	0		STATUS	Initial Diagnosis			
+TCGA-HW-7489	0		STATUS	Initial Diagnosis			
+TCGA-HW-7490	0		STATUS	Initial Diagnosis			
+TCGA-HW-7491	0		STATUS	Initial Diagnosis			
+TCGA-HW-7493	0		STATUS	Initial Diagnosis			
+TCGA-HW-7495	0		STATUS	Initial Diagnosis			
+TCGA-HW-8319	0		STATUS	Initial Diagnosis			
+TCGA-HW-8320	0		STATUS	Initial Diagnosis			
+TCGA-HW-8321	0		STATUS	Initial Diagnosis			
+TCGA-HW-8322	0		STATUS	Initial Diagnosis			
+TCGA-HW-A5KJ	0		STATUS	Initial Diagnosis			
+TCGA-HW-A5KK	0		STATUS	Initial Diagnosis			
+TCGA-HW-A5KL	0		STATUS	Initial Diagnosis			
+TCGA-HW-A5KM	0		STATUS	Initial Diagnosis			
+TCGA-IK-7675	0		STATUS	Initial Diagnosis			
+TCGA-IK-8125	0		STATUS	Initial Diagnosis			
+TCGA-KT-A74X	0		STATUS	Initial Diagnosis			
+TCGA-KT-A7W1	0		STATUS	Initial Diagnosis			
+TCGA-P5-A5ET	0		STATUS	Initial Diagnosis			
+TCGA-P5-A5EU	0		STATUS	Initial Diagnosis			
+TCGA-P5-A5EV	0		STATUS	Initial Diagnosis			
+TCGA-P5-A5EW	0		STATUS	Initial Diagnosis			
+TCGA-P5-A5EX	0		STATUS	Initial Diagnosis			
+TCGA-P5-A5EY	0		STATUS	Initial Diagnosis			
+TCGA-P5-A5EZ	0		STATUS	Initial Diagnosis			
+TCGA-P5-A5F0	0		STATUS	Initial Diagnosis			
+TCGA-P5-A5F1	0		STATUS	Initial Diagnosis			
+TCGA-P5-A5F2	0		STATUS	Initial Diagnosis			
+TCGA-P5-A5F4	0		STATUS	Initial Diagnosis			
+TCGA-P5-A5F6	0		STATUS	Initial Diagnosis			
+TCGA-P5-A72U	0		STATUS	Initial Diagnosis			
+TCGA-P5-A72W	0		STATUS	Initial Diagnosis			
+TCGA-P5-A72X	0		STATUS	Initial Diagnosis			
+TCGA-P5-A72Z	0		STATUS	Initial Diagnosis			
+TCGA-P5-A730	0		STATUS	Initial Diagnosis			
+TCGA-P5-A731	0		STATUS	Initial Diagnosis			
+TCGA-P5-A733	0		STATUS	Initial Diagnosis			
+TCGA-P5-A735	0		STATUS	Initial Diagnosis			
+TCGA-P5-A736	0		STATUS	Initial Diagnosis			
+TCGA-P5-A737	0		STATUS	Initial Diagnosis			
+TCGA-P5-A77W	0		STATUS	Initial Diagnosis			
+TCGA-P5-A77X	0		STATUS	Initial Diagnosis			
+TCGA-P5-A780	0		STATUS	Initial Diagnosis			
+TCGA-P5-A781	0		STATUS	Initial Diagnosis			
+TCGA-QH-A65R	0		STATUS	Initial Diagnosis			
+TCGA-QH-A65S	0		STATUS	Initial Diagnosis			
+TCGA-QH-A65V	0		STATUS	Initial Diagnosis			
+TCGA-QH-A65X	0		STATUS	Initial Diagnosis			
+TCGA-QH-A65Z	0		STATUS	Initial Diagnosis			
+TCGA-QH-A6CS	0		STATUS	Initial Diagnosis			
+TCGA-QH-A6CU	0		STATUS	Initial Diagnosis			
+TCGA-QH-A6CV	0		STATUS	Initial Diagnosis			
+TCGA-QH-A6CW	0		STATUS	Initial Diagnosis			
+TCGA-QH-A6CX	0		STATUS	Initial Diagnosis			
+TCGA-QH-A6CY	0		STATUS	Initial Diagnosis			
+TCGA-QH-A6CZ	0		STATUS	Initial Diagnosis			
+TCGA-QH-A6X3	0		STATUS	Initial Diagnosis			
+TCGA-QH-A6X4	0		STATUS	Initial Diagnosis			
+TCGA-QH-A6X5	0		STATUS	Initial Diagnosis			
+TCGA-QH-A6X8	0		STATUS	Initial Diagnosis			
+TCGA-QH-A6X9	0		STATUS	Initial Diagnosis			
+TCGA-QH-A6XA	0		STATUS	Initial Diagnosis			
+TCGA-QH-A6XC	0		STATUS	Initial Diagnosis			
+TCGA-QH-A86X	0		STATUS	Initial Diagnosis			
+TCGA-QH-A870	0		STATUS	Initial Diagnosis			
+TCGA-R8-A6MK	0		STATUS	Initial Diagnosis			
+TCGA-R8-A6ML	0		STATUS	Initial Diagnosis			
+TCGA-R8-A6MO	0		STATUS	Initial Diagnosis			
+TCGA-RY-A83X	0		STATUS	Initial Diagnosis			
+TCGA-RY-A83Y	0		STATUS	Initial Diagnosis			
+TCGA-RY-A83Z	0		STATUS	Initial Diagnosis			
+TCGA-RY-A840	0		STATUS	Initial Diagnosis			
+TCGA-RY-A843	0		STATUS	Initial Diagnosis			
+TCGA-RY-A845	0		STATUS	Initial Diagnosis			
+TCGA-RY-A847	0		STATUS	Initial Diagnosis			
+TCGA-S9-A6TS	0		STATUS	Initial Diagnosis			
+TCGA-S9-A6TU	0		STATUS	Initial Diagnosis			
+TCGA-S9-A6TV	0		STATUS	Initial Diagnosis			
+TCGA-S9-A6TW	0		STATUS	Initial Diagnosis			
+TCGA-S9-A6TX	0		STATUS	Initial Diagnosis			
+TCGA-S9-A6TY	0		STATUS	Initial Diagnosis			
+TCGA-S9-A6TZ	0		STATUS	Initial Diagnosis			
+TCGA-S9-A6U0	0		STATUS	Initial Diagnosis			
+TCGA-S9-A6U1	0		STATUS	Initial Diagnosis			
+TCGA-S9-A6U2	0		STATUS	Initial Diagnosis			
+TCGA-S9-A6U5	0		STATUS	Initial Diagnosis			
+TCGA-S9-A6U6	0		STATUS	Initial Diagnosis			
+TCGA-S9-A6U8	0		STATUS	Initial Diagnosis			
+TCGA-S9-A6U9	0		STATUS	Initial Diagnosis			
+TCGA-S9-A6UA	0		STATUS	Initial Diagnosis			
+TCGA-S9-A6UB	0		STATUS	Initial Diagnosis			
+TCGA-S9-A6WD	0		STATUS	Initial Diagnosis			
+TCGA-S9-A6WE	0		STATUS	Initial Diagnosis			
+TCGA-S9-A6WG	0		STATUS	Initial Diagnosis			
+TCGA-S9-A6WH	0		STATUS	Initial Diagnosis			
+TCGA-S9-A6WI	0		STATUS	Initial Diagnosis			
+TCGA-S9-A6WL	0		STATUS	Initial Diagnosis			
+TCGA-S9-A6WM	0		STATUS	Initial Diagnosis			
+TCGA-S9-A6WN	0		STATUS	Initial Diagnosis			
+TCGA-S9-A6WO	0		STATUS	Initial Diagnosis			
+TCGA-S9-A6WP	0		STATUS	Initial Diagnosis			
+TCGA-S9-A6WQ	0		STATUS	Initial Diagnosis			
+TCGA-S9-A7IQ	0		STATUS	Initial Diagnosis			
+TCGA-S9-A7IS	0		STATUS	Initial Diagnosis			
+TCGA-S9-A7IX	0		STATUS	Initial Diagnosis			
+TCGA-S9-A7IY	0		STATUS	Initial Diagnosis			
+TCGA-S9-A7IZ	0		STATUS	Initial Diagnosis			
+TCGA-S9-A7J0	0		STATUS	Initial Diagnosis			
+TCGA-S9-A7J1	0		STATUS	Initial Diagnosis			
+TCGA-S9-A7J2	0		STATUS	Initial Diagnosis			
+TCGA-S9-A7J3	0		STATUS	Initial Diagnosis			
+TCGA-S9-A7QW	0		STATUS	Initial Diagnosis			
+TCGA-S9-A7QX	0		STATUS	Initial Diagnosis			
+TCGA-S9-A7QY	0		STATUS	Initial Diagnosis			
+TCGA-S9-A7QZ	0		STATUS	Initial Diagnosis			
+TCGA-S9-A7R1	0		STATUS	Initial Diagnosis			
+TCGA-S9-A7R2	0		STATUS	Initial Diagnosis			
+TCGA-S9-A7R3	0		STATUS	Initial Diagnosis			
+TCGA-S9-A7R4	0		STATUS	Initial Diagnosis			
+TCGA-S9-A7R7	0		STATUS	Initial Diagnosis			
+TCGA-S9-A7R8	0		STATUS	Initial Diagnosis			
+TCGA-S9-A89V	0		STATUS	Initial Diagnosis			
+TCGA-S9-A89Z	0		STATUS	Initial Diagnosis			
+TCGA-TM-A7C3	0		STATUS	Initial Diagnosis			
+TCGA-TM-A7C4	0		STATUS	Initial Diagnosis			
+TCGA-TM-A7C5	0		STATUS	Initial Diagnosis			
+TCGA-TM-A7CA	0		STATUS	Initial Diagnosis			
+TCGA-TM-A7CF	0		STATUS	Initial Diagnosis			
+TCGA-TM-A84B	0		STATUS	Initial Diagnosis			
+TCGA-TM-A84C	0		STATUS	Initial Diagnosis			
+TCGA-TM-A84F	0		STATUS	Initial Diagnosis			
+TCGA-TM-A84G	0		STATUS	Initial Diagnosis			
+TCGA-TM-A84H	0		STATUS	Initial Diagnosis			
+TCGA-TM-A84I	0		STATUS	Initial Diagnosis			
+TCGA-TM-A84J	0		STATUS	Initial Diagnosis			
+TCGA-TM-A84L	0		STATUS	Initial Diagnosis			
+TCGA-TM-A84M	0		STATUS	Initial Diagnosis			
+TCGA-TM-A84O	0		STATUS	Initial Diagnosis			
+TCGA-TM-A84Q	0		STATUS	Initial Diagnosis			
+TCGA-TM-A84R	0		STATUS	Initial Diagnosis			
+TCGA-TM-A84S	0		STATUS	Initial Diagnosis			
+TCGA-TM-A84T	0		STATUS	Initial Diagnosis			
+TCGA-TQ-A7RF	0		STATUS	Initial Diagnosis			
+TCGA-TQ-A7RG	0		STATUS	Initial Diagnosis			
+TCGA-TQ-A7RH	0		STATUS	Initial Diagnosis			
+TCGA-TQ-A7RI	0		STATUS	Initial Diagnosis			
+TCGA-TQ-A7RJ	0		STATUS	Initial Diagnosis			
+TCGA-TQ-A7RK	0		STATUS	Initial Diagnosis			
+TCGA-TQ-A7RM	0		STATUS	Initial Diagnosis			
+TCGA-TQ-A7RN	0		STATUS	Initial Diagnosis			
+TCGA-TQ-A7RO	0		STATUS	Initial Diagnosis			
+TCGA-TQ-A7RP	0		STATUS	Initial Diagnosis			
+TCGA-TQ-A7RQ	0		STATUS	Initial Diagnosis			
+TCGA-TQ-A7RR	0		STATUS	Initial Diagnosis			
+TCGA-TQ-A7RS	0		STATUS	Initial Diagnosis			
+TCGA-TQ-A7RU	0		STATUS	Initial Diagnosis			
+TCGA-TQ-A7RV	0		STATUS	Initial Diagnosis			
+TCGA-TQ-A7RW	0		STATUS	Initial Diagnosis			
+TCGA-TQ-A8XE	0		STATUS	Initial Diagnosis			
+TCGA-VM-A8C8	0		STATUS	Initial Diagnosis			
+TCGA-VM-A8C9	0		STATUS	Initial Diagnosis			
+TCGA-VM-A8CA	0		STATUS	Initial Diagnosis			
+TCGA-VM-A8CB	0		STATUS	Initial Diagnosis			
+TCGA-VM-A8CD	0		STATUS	Initial Diagnosis			
+TCGA-VM-A8CE	0		STATUS	Initial Diagnosis			
+TCGA-VM-A8CF	0		STATUS	Initial Diagnosis			
+TCGA-VM-A8CH	0		STATUS	Initial Diagnosis			
+TCGA-VV-A829	0		STATUS	Initial Diagnosis			
+TCGA-VV-A86M	0		STATUS	Initial Diagnosis			
+TCGA-VW-A7QS	0		STATUS	Initial Diagnosis			
+TCGA-VW-A8FI	0		STATUS	Initial Diagnosis			
+TCGA-W9-A837	0		STATUS	Initial Diagnosis			
+TCGA-WH-A86K	0		STATUS	Initial Diagnosis			
+TCGA-WY-A858	0		STATUS	Initial Diagnosis			
+TCGA-WY-A859	0		STATUS	Initial Diagnosis			
+TCGA-WY-A85A	0		STATUS	Initial Diagnosis			
+TCGA-WY-A85B	0		STATUS	Initial Diagnosis			
+TCGA-WY-A85C	0		STATUS	Initial Diagnosis			
+TCGA-WY-A85D	0		STATUS	Initial Diagnosis			
+TCGA-WY-A85E	0		STATUS	Initial Diagnosis			
+TCGA-CS-4938	3574		STATUS	Last Follow Up	With Tumor		Alive
+TCGA-CS-4944	1828		STATUS	Last Follow Up	With Tumor		Alive
+TCGA-CS-5393	1222		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-CS-5394	8		STATUS	Last Follow Up			Alive
+TCGA-CS-5396	1631		STATUS	Last Follow Up	With Tumor		Alive
+TCGA-CS-6665	1568		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-CS-6666	1428		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-CS-6667	1469		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-CS-6668	1519		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-CS-6669	1494		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-CS-6670	1426		STATUS	Last Follow Up	With Tumor		Alive
+TCGA-DB-5270	3733		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-DB-5273	2493		STATUS	Last Follow Up		Complete Remission/Response	Alive
+TCGA-DB-5274	2289		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-DB-5275	1458		STATUS	Last Follow Up		Complete Remission/Response	Alive
+TCGA-DB-5276	2218		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-DB-5278	2772		STATUS	Last Follow Up		Stable Disease	Alive
+TCGA-DB-5279	1354		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-DB-5280	1112		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-DB-5281	2381		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-DB-A4X9	1412		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-DB-A4XA	573		STATUS	Last Follow Up		Stable Disease	Alive
+TCGA-DB-A4XB	919		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-DB-A4XC	1421		STATUS	Last Follow Up	Tumor Free	Partial Remission/Response	Alive
+TCGA-DB-A4XD	1210		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-DB-A4XE	1139		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-DB-A4XF	1021		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-DB-A4XG	2219		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-DB-A4XH	962		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-DB-A64L	736		STATUS	Last Follow Up	With Tumor	Complete Remission/Response	Alive
+TCGA-DB-A64P	916		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-DB-A64Q	182		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-DB-A64R	955		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-DB-A64S	835		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-DB-A64U	846		STATUS	Last Follow Up			
+TCGA-DB-A64V	889		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-DB-A64X	563		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-DB-A75K	368		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-DB-A75L	342		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-DB-A75M	544		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-DB-A75O	935		STATUS	Last Follow Up			
+TCGA-DB-A75P	492		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-DH-5141	968		STATUS	Last Follow Up		Stable Disease	Alive
+TCGA-DH-5142	1943		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-DH-5143	1401		STATUS	Last Follow Up		Stable Disease	Alive
+TCGA-DH-5144	748		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-DH-A7UR	1650		STATUS	Last Follow Up			Alive
+TCGA-DH-A7US	706		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-DH-A7UU	417		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-DH-A7UV	566		STATUS	Last Follow Up		Stable Disease	Alive
+TCGA-DH-A66B	1279		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-DH-A66D	846		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-DH-A66F	523		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-DH-A66G	523		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-DU-5847	548		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-DU-5849	443		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-DU-5851	531		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-DU-5853	407		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-DU-5854	257		STATUS	Last Follow Up	With Tumor	Progressive Disease	Alive
+TCGA-DU-5855	207		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-DU-5870	5546		STATUS	Last Follow Up	With Tumor	Progressive Disease	Alive
+TCGA-DU-5871	576		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-DU-5872	532		STATUS	Last Follow Up	With Tumor	Progressive Disease	Alive
+TCGA-DU-5874	461		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-DU-6392	6423		STATUS	Last Follow Up	Tumor Free	Progressive Disease	Alive
+TCGA-DU-6410	242		STATUS	Last Follow Up	With Tumor		Alive
+TCGA-DU-6542	73		STATUS	Last Follow Up			
+TCGA-DU-7008	4752		STATUS	Last Follow Up	Tumor Free	Progressive Disease	Alive
+TCGA-DU-7015	2761		STATUS	Last Follow Up	With Tumor	Progressive Disease	Alive
+TCGA-DU-7019	800		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-DU-7294	2869		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-DU-7302	1834		STATUS	Last Follow Up	With Tumor	Progressive Disease	Alive
+TCGA-DU-7306	1277		STATUS	Last Follow Up	With Tumor	Progressive Disease	Alive
+TCGA-DU-7309	84		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-DU-8163	629		STATUS	Last Follow Up	With Tumor	Progressive Disease	Alive
+TCGA-DU-8164	651		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-DU-8165	582		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-DU-8166	516		STATUS	Last Follow Up	With Tumor	Progressive Disease	Alive
+TCGA-DU-8167	471		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-DU-8168	431		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-DU-A5TP	1012		STATUS	Last Follow Up	Tumor Free		Alive
+TCGA-DU-A5TR	908		STATUS	Last Follow Up	Tumor Free		Alive
+TCGA-DU-A5TS	964		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-DU-A5TT	743		STATUS	Last Follow Up	With Tumor		Alive
+TCGA-DU-A5TU	796		STATUS	Last Follow Up	With Tumor	Progressive Disease	Alive
+TCGA-DU-A5TW	760		STATUS	Last Follow Up	With Tumor	Progressive Disease	Alive
+TCGA-DU-A6S2	777		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-DU-A6S3	656		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-DU-A6S6	2893		STATUS	Last Follow Up	Tumor Free		Alive
+TCGA-DU-A6S7	638		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-DU-A6S8	678		STATUS	Last Follow Up	With Tumor	Progressive Disease	Alive
+TCGA-DU-A7TA	2565		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-DU-A7TB	1567		STATUS	Last Follow Up	Tumor Free	Progressive Disease	Alive
+TCGA-DU-A7TC	1137		STATUS	Last Follow Up	With Tumor		Alive
+TCGA-DU-A7TJ	17		STATUS	Last Follow Up			Alive
+TCGA-DU-A76O	522		STATUS	Last Follow Up			Alive
+TCGA-EZ-7264	1201		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-F6-A8O3	7		STATUS	Last Follow Up			
+TCGA-F6-A8O4	6		STATUS	Last Follow Up			
+TCGA-FG-5962	1453		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-FG-5964	1588		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-FG-6688	571		STATUS	Last Follow Up	With Tumor	Progressive Disease	Alive
+TCGA-FG-6689	454		STATUS	Last Follow Up	With Tumor	Progressive Disease	Alive
+TCGA-FG-6690	1294		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-FG-6691	1257		STATUS	Last Follow Up	With Tumor	Complete Remission/Response	Alive
+TCGA-FG-7634	467		STATUS	Last Follow Up		Stable Disease	Alive
+TCGA-FG-7636	544		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-FG-7637	1219		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-FG-7638	686		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-FG-7641	627		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-FG-7643	611		STATUS	Last Follow Up	With Tumor	Progressive Disease	Alive
+TCGA-FG-8181	862		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-FG-8182	416		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-FG-8185	433		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-FG-8186	487		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-FG-8187	611		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-FG-8188	455		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-FG-8189	685		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-FG-8191	992		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-FG-A4MT	1164		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-FG-A4MU	326		STATUS	Last Follow Up			Alive
+TCGA-FG-A4MX	569		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-FG-A4MY	721		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-FG-A6IZ	457		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-FG-A6J1	500		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-FG-A6J3	677		STATUS	Last Follow Up	With Tumor	Progressive Disease	Alive
+TCGA-FG-A60J	449		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-FG-A60K	542		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-FG-A60L	655		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-FG-A70Y	868		STATUS	Last Follow Up	With Tumor	Complete Remission/Response	Alive
+TCGA-FG-A70Z	328		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-FG-A87N	567		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-FG-A87Q	174		STATUS	Last Follow Up		Complete Remission/Response	Alive
+TCGA-FG-A710	1115		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-FG-A713	622		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-FN-7833	837		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-HT-7467	3		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-HT-7468	203		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-HT-7471	4		STATUS	Last Follow Up			
+TCGA-HT-7472	1		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-HT-7473	503		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-HT-7474	114		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-HT-7475	530		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-HT-7476	199		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-HT-7477	738		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-HT-7478	194		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-HT-7479	1227		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-HT-7480	2287		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-HT-7481	2918		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-HT-7482	3253		STATUS	Last Follow Up	Tumor Free	Partial Remission/Response	Alive
+TCGA-HT-7483	5255		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-HT-7485	122		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-HT-7601	153		STATUS	Last Follow Up	Tumor Free	Partial Remission/Response	Alive
+TCGA-HT-7602	908		STATUS	Last Follow Up			Alive
+TCGA-HT-7603	705		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-HT-7604	3725		STATUS	Last Follow Up		Partial Remission/Response	Alive
+TCGA-HT-7605	139		STATUS	Last Follow Up			Alive
+TCGA-HT-7606	526		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-HT-7608	671		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-HT-7609	1399		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-HT-7610	1706		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-HT-7611	1752		STATUS	Last Follow Up	Tumor Free		Alive
+TCGA-HT-7620	434		STATUS	Last Follow Up		Complete Remission/Response	Alive
+TCGA-HT-7676	5		STATUS	Last Follow Up	Tumor Free		Alive
+TCGA-HT-7677	494		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-HT-7680	23		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-HT-7681	1359		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-HT-7684	184		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-HT-7686	1300		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-HT-7687	3		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-HT-7688	964		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-HT-7689	455		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-HT-7690	3		STATUS	Last Follow Up	Tumor Free		Alive
+TCGA-HT-7691	3		STATUS	Last Follow Up	Tumor Free		Alive
+TCGA-HT-7692	90		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-HT-7693	533		STATUS	Last Follow Up	Tumor Free	Partial Remission/Response	Alive
+TCGA-HT-7694	210		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-HT-7695	442		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-HT-7854	1201		STATUS	Last Follow Up			Alive
+TCGA-HT-7855	585		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-HT-7856	1189		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-HT-7857	7		STATUS	Last Follow Up	Tumor Free		Alive
+TCGA-HT-7858	1540		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-HT-7860	15		STATUS	Last Follow Up	Tumor Free		Alive
+TCGA-HT-7873	718		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-HT-7874	1130		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-HT-7875	10		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-HT-7877	4		STATUS	Last Follow Up	Tumor Free		Alive
+TCGA-HT-7879	112		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-HT-7880	162		STATUS	Last Follow Up	Tumor Free		Alive
+TCGA-HT-7881	1079		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-HT-7884	343		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-HT-7902	956		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-HT-8010	50		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-HT-8011	494		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-HT-8012	286		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-HT-8015	3		STATUS	Last Follow Up			
+TCGA-HT-8019	1004		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-HT-8104	372		STATUS	Last Follow Up	Tumor Free		Alive
+TCGA-HT-8105	190		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-HT-8106	3		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-HT-8107	14		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-HT-8108	76		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-HT-8109	169		STATUS	Last Follow Up			Alive
+TCGA-HT-8110	419		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-HT-8111	7		STATUS	Last Follow Up			Alive
+TCGA-HT-8113	900		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-HT-8114	1040		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-HT-8558	418		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-HT-8563	860		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-HT-8564	478		STATUS	Last Follow Up	With Tumor	Progressive Disease	Alive
+TCGA-HT-A4DS	7		STATUS	Last Follow Up			
+TCGA-HT-A4DV	792		STATUS	Last Follow Up	Tumor Free	Partial Remission/Response	Alive
+TCGA-HT-A5R5	4		STATUS	Last Follow Up			Alive
+TCGA-HT-A5R7	615		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-HT-A5R9	2		STATUS	Last Follow Up			
+TCGA-HT-A5RA	832		STATUS	Last Follow Up		Partial Remission/Response	Alive
+TCGA-HT-A5RB	3		STATUS	Last Follow Up			
+TCGA-HT-A61A	194		STATUS	Last Follow Up			
+TCGA-HT-A61B	533		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-HT-A74H	74		STATUS	Last Follow Up			
+TCGA-HT-A74J	320		STATUS	Last Follow Up			
+TCGA-HT-A74K	467		STATUS	Last Follow Up			
+TCGA-HT-A74L	336		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-HT-A74O	3		STATUS	Last Follow Up			
+TCGA-HT-A614	82		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-HT-A615	515		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-HT-A616	55		STATUS	Last Follow Up			
+TCGA-HT-A617	491		STATUS	Last Follow Up			
+TCGA-HT-A618	512		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-HW-7486	1721		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-HW-7487	1382		STATUS	Last Follow Up	With Tumor	Progressive Disease	Alive
+TCGA-HW-7490	1387		STATUS	Last Follow Up	With Tumor	Progressive Disease	Alive
+TCGA-HW-7491	2078		STATUS	Last Follow Up	With Tumor	Progressive Disease	Alive
+TCGA-HW-7493	2107		STATUS	Last Follow Up		Stable Disease	Alive
+TCGA-HW-7495	1078		STATUS	Last Follow Up	With Tumor	Progressive Disease	Alive
+TCGA-HW-8320	1217		STATUS	Last Follow Up		Stable Disease	Alive
+TCGA-HW-8321	1294		STATUS	Last Follow Up		Stable Disease	Alive
+TCGA-HW-8322	758		STATUS	Last Follow Up		Stable Disease	Alive
+TCGA-HW-A5KL	878		STATUS	Last Follow Up		Stable Disease	Alive
+TCGA-HW-A5KM	630		STATUS	Last Follow Up	With Tumor	Progressive Disease	Alive
+TCGA-IK-8125	1301		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-KT-A7W1	438		STATUS	Last Follow Up	Tumor Free	Progressive Disease	Alive
+TCGA-KT-A74X	438		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-P5-A5ET	-10		STATUS	Last Follow Up			Alive
+TCGA-P5-A5EU	0		STATUS	Last Follow Up			Alive
+TCGA-P5-A5EV	7		STATUS	Last Follow Up			Alive
+TCGA-P5-A5EW	204		STATUS	Last Follow Up			Alive
+TCGA-P5-A5EX	243		STATUS	Last Follow Up	Tumor Free	Partial Remission/Response	Alive
+TCGA-P5-A5EY	72		STATUS	Last Follow Up			Alive
+TCGA-P5-A5EZ	70		STATUS	Last Follow Up			Alive
+TCGA-P5-A5F0	287		STATUS	Last Follow Up	Tumor Free	Partial Remission/Response	Alive
+TCGA-P5-A5F1	179		STATUS	Last Follow Up			Alive
+TCGA-P5-A5F2	242		STATUS	Last Follow Up		Partial Remission/Response	Alive
+TCGA-P5-A5F4	231		STATUS	Last Follow Up	Tumor Free	Partial Remission/Response	Alive
+TCGA-P5-A5F6	39		STATUS	Last Follow Up			Alive
+TCGA-P5-A72U	7		STATUS	Last Follow Up		Complete Remission/Response	Alive
+TCGA-P5-A72W	317		STATUS	Last Follow Up			Alive
+TCGA-P5-A72X	403		STATUS	Last Follow Up			Alive
+TCGA-P5-A72Z	354		STATUS	Last Follow Up			Alive
+TCGA-P5-A77W	584		STATUS	Last Follow Up			Alive
+TCGA-P5-A77X	105		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-P5-A730	333		STATUS	Last Follow Up		Complete Remission/Response	Alive
+TCGA-P5-A731	274		STATUS	Last Follow Up			Alive
+TCGA-P5-A733	414		STATUS	Last Follow Up			Alive
+TCGA-P5-A735	292		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-P5-A736	230		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-P5-A737	372		STATUS	Last Follow Up			Alive
+TCGA-P5-A780	72		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-P5-A781	134		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-QH-A6CS	588		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-QH-A6CU	451		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-QH-A6CV	442		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-QH-A6CW	414		STATUS	Last Follow Up	Tumor Free	Partial Remission/Response	Alive
+TCGA-QH-A6CY	408		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-QH-A6CZ	279		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-QH-A6X3	313		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-QH-A6X4	442		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-QH-A6X5	497		STATUS	Last Follow Up			Alive
+TCGA-QH-A6X8	509		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-QH-A6X9	58		STATUS	Last Follow Up			Alive
+TCGA-QH-A6XA	502		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-QH-A6XC	508		STATUS	Last Follow Up	With Tumor		Alive
+TCGA-QH-A65R	461		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-QH-A65S	77		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-QH-A65V	384		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-QH-A65X	482		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-QH-A65Z	427		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-QH-A86X	337		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-QH-A870	395		STATUS	Last Follow Up	With Tumor	Complete Remission/Response	Alive
+TCGA-R8-A6MK	2702		STATUS	Last Follow Up			
+TCGA-R8-A6ML	2860		STATUS	Last Follow Up			
+TCGA-R8-A6MO	993		STATUS	Last Follow Up			
+TCGA-RY-A83X	939		STATUS	Last Follow Up			Alive
+TCGA-RY-A83Y	166		STATUS	Last Follow Up			
+TCGA-RY-A83Z	301		STATUS	Last Follow Up			
+TCGA-RY-A840	854		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-RY-A843	63		STATUS	Last Follow Up			Alive
+TCGA-RY-A845	596		STATUS	Last Follow Up	Tumor Free		Alive
+TCGA-RY-A847	933		STATUS	Last Follow Up			Alive
+TCGA-S9-A6TU	2650		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-S9-A6TV	571		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-S9-A6TW	1250		STATUS	Last Follow Up	Tumor Free	Partial Remission/Response	Alive
+TCGA-S9-A6TX	1245		STATUS	Last Follow Up	With Tumor	Complete Remission/Response	Alive
+TCGA-S9-A6TY	1076		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-S9-A6TZ	1120		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-S9-A6U1	785		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-S9-A6U2	908		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-S9-A6U5	992		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-S9-A6U6	1069		STATUS	Last Follow Up		Complete Remission/Response	Alive
+TCGA-S9-A6U9	2918		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-S9-A6UB	3761		STATUS	Last Follow Up		Complete Remission/Response	Alive
+TCGA-S9-A6WD	2289		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-S9-A6WE	4113		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-S9-A6WG	2602		STATUS	Last Follow Up	With Tumor	Progressive Disease	Alive
+TCGA-S9-A6WH	1173		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-S9-A6WI	2585		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-S9-A6WL	946		STATUS	Last Follow Up	With Tumor	Progressive Disease	Alive
+TCGA-S9-A6WM	604		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-S9-A6WN	805		STATUS	Last Follow Up	With Tumor	Progressive Disease	Alive
+TCGA-S9-A6WO	566		STATUS	Last Follow Up	With Tumor	Progressive Disease	Alive
+TCGA-S9-A6WP	567		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-S9-A6WQ	428		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-S9-A7IQ	1099		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-S9-A7IY	715		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-S9-A7IZ	608		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-S9-A7J0	609		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-S9-A7J1	249		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-S9-A7J2	62		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-S9-A7J3	629		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-S9-A7QW	458		STATUS	Last Follow Up	With Tumor	Complete Remission/Response	Alive
+TCGA-S9-A7QX	564		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-S9-A7QY	863		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-S9-A7QZ	826		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-S9-A7R3	3013		STATUS	Last Follow Up	Tumor Free	Partial Remission/Response	Alive
+TCGA-S9-A7R4	914		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-S9-A7R7	3000		STATUS	Last Follow Up	With Tumor	Progressive Disease	Alive
+TCGA-S9-A89V	569		STATUS	Last Follow Up	With Tumor	Progressive Disease	Alive
+TCGA-S9-A89Z	623		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-TM-A7C4	1470		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-TM-A7C5	1500		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-TM-A7CA	1058		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-TM-A7CF	1989		STATUS	Last Follow Up	With Tumor	Complete Remission/Response	Alive
+TCGA-TM-A84F	1796		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-TM-A84G	1236		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-TM-A84H	926		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-TM-A84I	854		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-TM-A84J	735		STATUS	Last Follow Up	With Tumor	Progressive Disease	Alive
+TCGA-TM-A84M	754		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-TM-A84Q	772		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-TM-A84R	566		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-TM-A84S	454		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-TM-A84T	724		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-TQ-A7RF	650		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-TQ-A7RG	599		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-TQ-A7RH	486		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-TQ-A7RI	62		STATUS	Last Follow Up	Tumor Free		Alive
+TCGA-TQ-A7RJ	1229		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-TQ-A7RK	1341		STATUS	Last Follow Up		Complete Remission/Response	Alive
+TCGA-TQ-A7RM	1116		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-TQ-A7RN	1026		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-TQ-A7RO	949		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-TQ-A7RP	914		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-TQ-A7RQ	795		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-TQ-A7RR	787		STATUS	Last Follow Up	Tumor Free	Partial Remission/Response	Alive
+TCGA-TQ-A7RS	-1		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-TQ-A7RU	1032		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-TQ-A7RV	1868		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-VM-A8C8	1397		STATUS	Last Follow Up			Alive
+TCGA-VM-A8C9	1314		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-VM-A8CA	411		STATUS	Last Follow Up	With Tumor		Alive
+TCGA-VM-A8CB	3		STATUS	Last Follow Up	Tumor Free		Alive
+TCGA-VM-A8CE	1191		STATUS	Last Follow Up			Alive
+TCGA-VM-A8CF	609		STATUS	Last Follow Up	Tumor Free		Alive
+TCGA-VM-A8CH	714		STATUS	Last Follow Up		Complete Remission/Response	Alive
+TCGA-VV-A86M	487		STATUS	Last Follow Up	Tumor Free		Alive
+TCGA-VV-A829	1127		STATUS	Last Follow Up	Tumor Free	Stable Disease	Alive
+TCGA-VW-A7QS	706		STATUS	Last Follow Up			
+TCGA-W9-A837	1553		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-WH-A86K	405		STATUS	Last Follow Up	With Tumor	Stable Disease	Alive
+TCGA-WY-A85A	1320		STATUS	Last Follow Up			
+TCGA-WY-A85B	1393		STATUS	Last Follow Up	Tumor Free	Complete Remission/Response	Alive
+TCGA-WY-A85C	1426		STATUS	Last Follow Up	With Tumor	Progressive Disease	Alive
+TCGA-WY-A85D	1147		STATUS	Last Follow Up			
+TCGA-WY-A85E	633		STATUS	Last Follow Up	With Tumor	Partial Remission/Response	Alive
+TCGA-WY-A858	1337		STATUS	Last Follow Up			
+TCGA-WY-A859	1213		STATUS	Last Follow Up			
