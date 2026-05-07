@@ -1,102 +1,155 @@
-'''
-This script transforms copy number alteration data from a wide matrix into a normalized ...
-long format where each row represents a unique gene–sample pair with its corresponding CNA value.
+"""
+This script transforms copy number alteration data from a wide matrix format
+into a normalized long-format table.
+
+Each output row represents one unique gene-sample pair with its corresponding
+numeric CNA value and biological CNA status.
 
 What this script does:
 - Reads the CNA input file from Desktop
-- Ensures consistent data types for gene identifiers
-- Converts wide matrix (samples as columns) into long format (one row per gene–sample pair)
-- Converts CNA values into numeric format
-- Maps numeric CNA values to biologically meaningful labels
-- Handles missing values explicitly as "unknown"
-- Removes exact duplicate rows while preserving original structure
-- Saves a clean CSV file ready for downstream integration and analysis
-'''
+- Standardizes gene identifiers
+- Converts the CNA dataset from wide format to long format
+- Stores numeric CNA values in CNA_Value
+- Converts CNA values to numeric format
+- Maps numeric CNA values to biological labels in CNA_Status
+- Handles missing or invalid CNA values as "unknown"
+- Removes exact duplicate rows
+- Reports the number of removed duplicate rows
+- Saves a clean CSV file for downstream database integration and analysis
+"""
 
 import pandas as pd
 from pathlib import Path
 
+
 # =========================
-# 1. READ FILE
+# 1. READ INPUT FILE
 # =========================
-# Define file path (Desktop)
+
+# Define input file path
 file_path = Path.home() / "Desktop" / "data_cna.txt"
 
-# Read tab-separated CNA file into DataFrame
+# Read tab-separated CNA file
 df = pd.read_csv(file_path, sep="\t")
 
-# Ensure Entrez Gene IDs are numeric (nullable integer type)
-df["Entrez_Gene_Id"] = pd.to_numeric(df["Entrez_Gene_Id"], errors="coerce").astype("Int64")
 
-# Ensure gene symbols are treated as strings
+# =========================
+# 2. STANDARDIZE IDENTIFIERS
+# =========================
+
+# Convert Entrez Gene ID to nullable integer format
+df["Entrez_Gene_Id"] = pd.to_numeric(
+    df["Entrez_Gene_Id"],
+    errors="coerce"
+).astype("Int64")
+
+# Convert Hugo gene symbol to string format
 df["Hugo_Symbol"] = df["Hugo_Symbol"].astype(str)
 
 
 # =========================
-# 2. MELT (WIDE → LONG)
+# 3. CONVERT WIDE FORMAT TO LONG FORMAT
 # =========================
-# Convert wide matrix into long format:
-# Each row will represent one gene–sample pair
+
+# Convert sample columns into rows
 df_long = df.melt(
-    id_vars=["Hugo_Symbol", "Entrez_Gene_Id"],  # columns to keep fixed
-    var_name="Sample_ID",                      # new column for sample names
-    value_name="CNA_Status"                    # new column for CNA values
+    id_vars=["Hugo_Symbol", "Entrez_Gene_Id"],
+    var_name="Sample_ID",
+    value_name="CNA_Value"
 )
 
 
 # =========================
-# 3. ENSURE NUMERIC
+# 4. CONVERT CNA VALUES TO NUMERIC
 # =========================
-# Convert CNA values to numeric format (invalid values become NaN)
-df_long["CNA_Status"] = pd.to_numeric(df_long["CNA_Status"], errors="coerce")
+
+# Convert CNA values to numeric format
+# Invalid values become NaN
+df_long["CNA_Value"] = pd.to_numeric(
+    df_long["CNA_Value"],
+    errors="coerce"
+)
 
 
 # =========================
-# 4. CREATE LABELS
+# 5. CREATE BIOLOGICAL CNA STATUS LABELS
 # =========================
-# Map numeric CNA values to biological interpretation
-def cna_label(x):
-    if pd.isna(x):
-        return "unknown"          # Missing or invalid values
-    elif x == -2:
-        return "deep_loss"        # Homozygous deletion
-    elif x == -1:
-        return "loss"             # Single copy loss
-    elif x == 0:
-        return "neutral"          # Normal copy number
-    elif x == 1:
-        return "gain"             # Low-level gain
-    elif x == 2:
-        return "amplification"    # High-level amplification
 
-# Apply labeling function
-df_long["CNA_Label"] = df_long["CNA_Status"].apply(cna_label)
+def map_cna_status(value):
+    """
+    Convert numeric CNA values into biological CNA status labels.
+    """
+
+    if pd.isna(value):
+        return "unknown"
+
+    elif value == -2:
+        return "deep_loss"
+
+    elif value == -1:
+        return "loss"
+
+    elif value == 0:
+        return "neutral"
+
+    elif value == 1:
+        return "gain"
+
+    elif value == 2:
+        return "amplification"
+
+    else:
+        return "unknown"
+
+
+# Apply CNA status mapping
+df_long["CNA_Status"] = df_long["CNA_Value"].apply(map_cna_status)
 
 
 # =========================
-# 5. REMOVE DUPLICATES
+# 6. REORDER COLUMNS
 # =========================
+
+df_long = df_long[
+    [
+        "Hugo_Symbol",
+        "Entrez_Gene_Id",
+        "Sample_ID",
+        "CNA_Value",
+        "CNA_Status"
+    ]
+]
+
+
+# =========================
+# 7. REMOVE EXACT DUPLICATES
+# =========================
+
 # Count rows before duplicate removal
 before = len(df_long)
 
 # Remove exact duplicate rows
 df_long = df_long.drop_duplicates()
 
-# Count rows after cleaning
+# Count rows after duplicate removal
 after = len(df_long)
 
-# Print how many rows were removed
+# Print duplicate removal summary
+print("Number_of_CNA_Rows_Before_Duplicate_Removal:", before)
+print("Number_of_CNA_Rows_After_Duplicate_Removal:", after)
 print("Number_of_CNA_Rows_Removed:", before - after)
 
 
 # =========================
-# 6. SAVE OUTPUT
+# 8. SAVE OUTPUT FILE
 # =========================
+
 # Define output file path
 output_path = Path.home() / "Desktop" / "cna_long.csv"
 
-# Save cleaned long-format table
+# Save clean CNA long-format table
 df_long.to_csv(output_path, index=False)
 
 # Confirmation message
-print("CNA long table ready.")
+print("CNA long-format table is ready.")
+print("Output file saved to:", output_path)
