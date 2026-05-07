@@ -369,8 +369,6 @@ These outputs are ready for SQL table generation, database ingestion, graph data
 
 The scripts assume that the repository folder structure has not been changed.
 
-All scripts should be run from the project root directory unless otherwise specified.
-
 The core pipeline does not change the biological meaning of the data. It focuses on cleaning, standardization, validation, sample matching, gene matching, HGNC-based identifier mapping, and final database-ready formatting.
 
 `SQL_generation_for_populating_the_data.py` is not part of `run_pipeline.py`. It is executed separately after the final harmonized datasets are available.
