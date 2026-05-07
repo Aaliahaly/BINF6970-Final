@@ -819,7 +819,7 @@ The final validation confirms consistency between the processed datasets and the
 
 ---
 
-## Documentation
+## Documentation (i.e, Project writeup)
 
 The documentation includes:
 
@@ -868,9 +868,7 @@ Future development could include:
 
 ## Final Note
 
-This project reduces one of the most time-consuming barriers in cancer bioinformatics:
-
-**data preparation.**
+This project reduces one of the most time-consuming barriers in cancer bioinformatics: **data preparation.**
 
 The final system provides clean, integrated, validated, and biologically interpretable data that can be queried directly using MySQL and explored further using Neo4j.
 
