@@ -4,7 +4,7 @@
 
 ---
 
-## Executive Overview
+## Overview
 
 This project builds a fully reproducible, gene-centered multi-omics database for Brain Lower Grade Glioma (LGG) using TCGA PanCancer Atlas data.
 
