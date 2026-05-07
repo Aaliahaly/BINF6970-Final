@@ -564,7 +564,7 @@ mysql -u root -p Database < 02_load_cleaned_data.sql
 ### Export the populated database as a MySQL dump
 
 ```bash
-mysqldump --single-transaction -h 127.0.0.1 -P 3306 -u root -p Database > mydump.sql
+mysqldump --single-transaction -h 127.0.0.1 -P 3306 -u root -p Database > 03_mydump.sql
 ```
 
 ---
