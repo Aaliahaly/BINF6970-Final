@@ -1,89 +1,169 @@
 # Scripts
 
-This folder contains all Python scripts used to execute the full multi-omics data processing pipeline.
+This directory contains all Python scripts used to execute the TCGA Lower Grade Glioma multi-omics data processing pipeline.
 
-## Overview
-
-The scripts follow a structured workflow from raw data processing to final dataset generation and validation. Each script represents a distinct stage and uses the output of the previous step.
-
-The pipeline can be executed step-by-step or fully using a single script.
+The scripts support the full workflow from selected pipeline input files to cleaned, validated, harmonized, HGNC-mapped, final database-ready datasets, and final proof reporting.
 
 ---
 
-## Pipeline Steps
+## Overview
 
-1. Data cleaning  
-2. Data validation  
-3. Sample-level harmonization  
-4. Gene-level harmonization  
-5. HGNC-based gene identifier mapping  
-6. Final dataset integration  
-7. Validation and reporting  
+The pipeline is organized as a sequence of structured processing stages. Each script performs one major task and uses the output from the previous stage as its input.
+
+The full pipeline can be executed automatically using `run_pipeline.py`, or each script can be run separately for step-by-step inspection, debugging, and verification.
+
+All referenced Python scripts are available in this `scripts/` directory.
+
+---
+
+## Pipeline Stages
+
+1. Data cleaning and transformation
+2. Dataset validation
+3. Sample-level harmonization
+4. Gene-level harmonization
+5. HGNC-based gene identifier mapping
+6. Final harmonization
+7. Final proof report generation
 
 ---
 
 ## Scripts and Their Roles
 
-- clean_clinical_sample.py: Cleans and standardizes clinical and sample data  
-- clean_cna.py: Transforms and cleans CNA data  
-- clean_expression.py: Transforms and cleans gene expression data  
-- clean_mutations.py: Cleans mutation data and computes VAF  
-- validator.py: Validates datasets and checks required fields  
-- sample_harmonization.py: Matches samples across all datasets  
-- gene_harmonization.py: Matches genes across datasets  
-- hgnc_mapping.py: Standardizes gene identifiers using HGNC reference  
-- finalize.py: Produces final integrated datasets  
-- report.py: Generates validation metrics and summary report  
-- run_pipeline.py: Executes the entire pipeline in the correct order  
-
+| Script | Role |
+|---|---|
+| `01_clean_clinical_sample.py` | Cleans and standardizes clinical and sample data. |
+| `02_clean_cna.py` | Transforms CNA data from wide format to long format and standardizes CNA values. |
+| `03_clean_expression.py` | Transforms mRNA expression data from wide format to long format and cleans expression values. |
+| `04_clean_mutations.py` | Cleans mutation data, standardizes annotations, selects severe consequences, and calculates Variant Allele Frequency. |
+| `05_validator.py` | Validates cleaned datasets by checking required fields, identifiers, formats, and HGNC reference structure. |
+| `06_sample_harmonization.py` | Harmonizes datasets at the sample level by retaining samples shared across clinical, expression, CNA, and mutation datasets. |
+| `07_gene_harmonization.py` | Harmonizes molecular datasets at the gene level by retaining genes shared across expression, CNA, and mutation datasets. |
+| `08_hgnc_mapping.py` | Standardizes gene identifiers using HGNC-approved symbols, aliases, previous gene names, and Entrez Gene IDs. |
+| `09_finalize.py` | Performs final sample-level and gene-level alignment across all processed datasets. |
+| `10_report.py` | Generates the final proof report with dataset metrics and integrity checks. |
+| `run_pipeline.py` | Executes the complete pipeline in the correct order. |
 ---
 
-## How to Run
+## Full Pipeline Execution
 
-Run full pipeline:
+To run the complete pipeline, execute the following command from the project root directory:
 
+```bash
 python run_pipeline.py
+```
 
-Run step-by-step:
-
-python clean_clinical_sample.py  
-python clean_cna.py  
-python clean_expression.py  
-python clean_mutations.py  
-python validator.py  
-python sample_harmonization.py  
-python gene_harmonization.py  
-python hgnc_mapping.py  
-python finalize.py  
-python report.py  
+This command runs all processing stages in the correct order, from data cleaning to final proof report generation.
 
 ---
 
-## Input and Output
+## Step-by-Step Execution
 
-Input data is read from the `data/` folder.  
-Each script writes its output to the corresponding step folder inside `data/`.  
+The scripts can also be run individually in the following order:
 
-Final datasets are stored in:
-- `data/06_Final_Curated_Data/`
-- `data/07_Validation_Report/`
+```bash
+python 01_clean_clinical_sample.py
+python 02_clean_cna.py
+python 03_clean_expression.py
+python 04_clean_mutations.py
+python 05_validator.py
+python 06_sample_harmonization.py
+python 07_gene_harmonization.py
+python 08_hgnc_mapping.py
+python 09_finalize.py
+python report.py
+```
+
+This option is useful when checking intermediate outputs, reviewing the effect of each stage, or debugging errors.
+
+---
+
+## Input and Output Structure
+
+The pipeline reads input files from the project `data/` directory.
+
+Each script writes its output to the corresponding stage-specific folder inside `data/`.
+
+| Folder | Content |
+|---|---|
+| `data/Python_Pipeline_Input_Files/` | Selected input files used as the starting point for the Python pipeline. |
+| `data/01_Cleaned_Data/` | Cleaned and transformed datasets. |
+| `data/02_Validated_Data/` | Structurally validated datasets. |
+| `data/03_Sample_Harmonized_Data/` | Sample-level harmonized datasets. |
+| `data/04_Gene_Harmonized_Data/` | Gene-level harmonized datasets. |
+| `data/05_HGNC_Mapped_Data/` | HGNC-mapped molecular datasets. |
+| `data/06_Final_Harmonized_Data/` | Final harmonized database-ready datasets. |
+| `data/07_Final_Proof_Report/` | Final validation and proof report. |
+
+---
+
+## Required Input Files
+
+The pipeline starts from the selected Python pipeline input files.
+
+Required files include:
+
+```text
+Clinical&Sample(1).xlsx
+data_cna.txt
+data_mrna_seq_v2_rsem.txt
+Mutation(1).xlsx
+hgnc_complete_set.txt
+```
+
+The HGNC reference file is required for the gene identifier mapping stage.
+
+Large datasets are hosted externally on Figshare and should be downloaded before running the full pipeline.
+
+---
+
+## Processing Workflow
+
+The workflow begins with selected TCGA LGG pipeline input files.
+
+The clinical and sample data are cleaned and standardized. CNA and mRNA expression matrices are transformed from wide format into long format. Mutation data are cleaned, standardized, and used to calculate Variant Allele Frequency.
+
+After cleaning, the datasets are validated to confirm the presence of required identifiers, expected columns, consistent formatting, and usable HGNC reference fields.
+
+The validated datasets are then harmonized at the sample level. Only samples shared across the clinical, expression, CNA, and mutation datasets are retained.
+
+The molecular datasets are then harmonized at the gene level. Only genes shared across expression, CNA, and mutation datasets are retained.
+
+The gene identifiers are then standardized using HGNC-approved symbols, aliases, previous names, and Entrez Gene IDs.
+
+The final harmonization step aligns all processed datasets across both shared samples and shared standardized genes.
+
+The final proof report summarizes dataset metrics and confirms that the outputs are complete, consistent, and ready for database construction.
+
+---
+
+## Expected Final Outputs
+
+After successful execution, the pipeline generates the final harmonized datasets:
+
+```text
+expr_FINAL.csv
+cna_FINAL.csv
+mut_FINAL.xlsx
+clin_FINAL.xlsx
+```
+
+The pipeline also generates the final proof report:
+
+```text
+final_proof_report.txt
+```
+
+These outputs are ready for SQL table generation, database ingestion, graph database construction, and downstream multi-omics analysis.
 
 ---
 
 ## Notes
 
-- All scripts assume the folder structure defined in this repository  
-- Large datasets may need to be downloaded separately  
-- The HGNC reference file is required for gene mapping  
+The scripts assume that the repository folder structure has not been changed.
 
----
+All scripts should be run from the project root directory unless otherwise specified.
 
-## Expected Result
+The pipeline does not change the biological meaning of the data. It focuses on cleaning, standardization, validation, sample matching, gene matching, HGNC-based identifier mapping, and final database-ready formatting.
 
-After running the pipeline:
-
-- Data is fully cleaned and validated  
-- Samples and genes are harmonized across all datasets  
-- Gene identifiers are standardized  
-- Final datasets are ready for database integration  
-- A validation report confirms data consistency and completeness  
+Large datasets are stored on Figshare because some files are too large for direct GitHub storage.
