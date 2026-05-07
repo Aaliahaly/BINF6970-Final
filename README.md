@@ -149,7 +149,7 @@ The `Gene` table acts as a central reference entity for mutation, CNA, and expre
 ```text
 project_root/
 
-├── data/
+├── data (Hosted on Figshare) /
 │   ├── TCGA_LGG_Original_Source_Data/
 │   ├── TCGA_LGG_Original_Unused_Source_Files/
 │   ├── TCGA_LGG_Original_Used_Source_Files/
@@ -178,7 +178,7 @@ project_root/
 │   ├── SQL_generation_for_populating_the_data.py
 │   └── Neo4j.py
 │
-├── sql/
+├── sql (Hosted on Figshare)/
 │   ├── 01_create_database_schema.sql
 │   ├── 02_load_cleaned_data.sql
 │   └── 03_mydump.sql
@@ -190,7 +190,9 @@ project_root/
 ├── docs/
 │   ├── final_project_writeup.pdf
 │
+├── .gitignore
 └── README.md
+
 ```
 
 ---
