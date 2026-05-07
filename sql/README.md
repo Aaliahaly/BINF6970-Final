@@ -2,7 +2,6 @@
 
 This directory documents the SQL database files used to create, populate, export, and reconstruct the relational database for the TCGA Lower Grade Glioma multi-omics database project.
 
-All large SQL files are hosted externally on Figshare to keep the GitHub repository lightweight and reproducible.
 
 ---
 
