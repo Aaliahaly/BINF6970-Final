@@ -150,7 +150,7 @@ It generates:
 FINAL_POPULATE.sql
 ```
 
-The generated SQL file contains structured `INSERT` statements used to populate the MySQL database.
+The generated SQL file contains structured `INSERT` statements used to populate the database.
 
 In the SQL directory and Figshare dataset, this generated loading file is documented as:
 
