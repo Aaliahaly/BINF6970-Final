@@ -82,6 +82,50 @@ Optional Neo4j Graph-Based Analysis
 ```
 
 ---
+## Tools and Technologies
+
+- Database management system: MySQL
+- Graph database platform: Neo4j
+- Programming language: Python
+- Main Python libraries: pandas, NumPy, openpyxl
+- Data source platform: cBioPortal
+- Gene identifier reference: HGNC
+- External data hosting: Figshare
+- Development environment: Local Mac environment and virtual machine for MySQL database implementation
+
+---
+
+## Setup Requirements
+
+To reproduce the project, the following tools are required:
+
+- Python 3.x
+- MySQL Server
+- Neo4j Desktop or Neo4j Browser
+- Python packages required by the scripts:
+
+```text
+pandas
+numpy
+openpyxl
+```
+
+Before running the pipeline, download the required Figshare datasets and place them in the corresponding local `data/` folders.
+
+The core Python pipeline can then be executed using:
+
+```bash
+python run_pipeline.py
+```
+
+The MySQL database can be rebuilt using the schema file and SQL loading file provided in the `sql/` directory.
+
+The populated database can also be reconstructed directly from:
+
+```text
+03_mydump.sql
+```
+---
 
 ## Design Principle
 
