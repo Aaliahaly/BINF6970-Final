@@ -82,6 +82,7 @@ Optional Neo4j Graph-Based Analysis
 ```
 
 ---
+
 ## Tools and Technologies
 
 - Database management system: MySQL
@@ -125,6 +126,7 @@ The populated database can also be reconstructed directly from:
 ```text
 03_mydump.sql
 ```
+
 ---
 
 ## Design Principle
