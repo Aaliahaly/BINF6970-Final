@@ -17,10 +17,10 @@ The core processing pipeline can be executed automatically using `run_pipeline.p
 Two additional post-pipeline scripts are also included:
 
 1. `SQL_generation_for_populating_the_data.py`  
-   Generates the SQL population script used to load the final harmonized datasets into MySQL.
+   Generates the SQL population script used to load the final harmonized datasets into my database using MySQL.
 
 2. `Neo4j.py`  
-   Generates the Neo4j Cypher import script from the graph-ready CSV file.
+   Generates the Neo4j Cypher import script from the CSV file.
 
 All referenced Python scripts are available in this `scripts/` directory.
 
@@ -67,7 +67,7 @@ The post-pipeline database implementation stages are executed separately:
 | `10_report.py` | Generates the final proof report with dataset metrics and integrity checks. |
 | `run_pipeline.py` | Executes the core processing pipeline in the correct order. |
 | `SQL_generation_for_populating_the_data.py` | Generates the SQL population script from the final harmonized datasets. |
-| `Neo4j.py` | Generates the Neo4j Cypher import script from the graph-ready CSV file. |
+| `Neo4j.py` | Generates the Neo4j Cypher import script from the CSV file has been prepared from SQL-based exploratory query outputs |
 
 ---
 
@@ -153,12 +153,6 @@ FINAL_POPULATE.sql
 The generated SQL file contains structured `INSERT` statements used to populate the MySQL database.
 
 In the SQL directory and Figshare dataset, this generated loading file is documented as:
-
-```text
-02_load_cleaned_data.sql
-```
-
-or compressed as:
 
 ```text
 02_load_cleaned_data.sql.zip
