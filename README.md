@@ -266,7 +266,7 @@ It performs:
 - Sample-level harmonization
 - Gene-level harmonization
 - HGNC-based gene identifier mapping
-- Final dataset integration
+- Final harmonization
 - Final validation reporting
 
 The pipeline does not create or populate the MySQL database.
@@ -466,7 +466,7 @@ Outputs:
 
 ---
 
-### 6. Final Integration
+### 6. Final Harmonization
 
 Python file:
 
@@ -514,7 +514,7 @@ final_proof_report.txt
 
 ## Final Dataset Summary
 
-The final harmonized dataset contains:
+The final harmonized datasets contain:
 
 | Metric | Count |
 |---|---:|
@@ -778,7 +778,7 @@ This step performs:
 3. Sample-level harmonization
 4. Gene-level harmonization
 5. HGNC-based gene identifier mapping
-6. Final dataset integration
+6. Final harmonization
 7. Final validation reporting
 
 This step produces the final harmonized datasets needed for database construction.
@@ -952,4 +952,3 @@ This project converts fragmented TCGA LGG multi-omics files into a clean, valida
 It reduces one of the most time-consuming barriers in cancer bioinformatics: data preparation.
 
 The final system allows users to move directly into clinical-genomic analysis using MySQL, with Neo4j available as an additional graph-based exploration layer.
-
