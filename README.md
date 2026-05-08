@@ -8,7 +8,7 @@
 
 This project builds a fully reproducible, gene-centered multi-omics database for Brain Lower Grade Glioma (LGG) using TCGA PanCancer Atlas data.
 
-Cancer multi-omics data are usually distributed across separate files. Clinical information, mutations, copy number alterations, mRNA expression, and derived clinical features often have different structures and identifiers. This makes integration difficult and forces researchers to spend significant time on preprocessing before they can ask biological questions.
+Cancer multi-omics data are commonly distributed across separate files. Clinical information, mutations, copy number alterations, mRNA expression, and derived clinical features often have different structures, identifiers, and formats. This makes integration difficult and forces researchers to spend substantial time on data preprocessing before biological questions can be addressed.
 
 This project solves that problem by converting selected TCGA LGG datasets into a clean, validated, harmonized, and database-ready system.
 
@@ -22,8 +22,8 @@ The final system supports:
 
 - Relational database querying using MySQL
 - Graph-based exploration using Neo4j
-- Reproducible Python-based data processing
-- Structured SQL database population
+- Reproducible Python-based data cleaning and harmonization
+- Structured SQL database construction and population
 - Biological interpretation of key LGG-associated genes
 
 ---
@@ -41,14 +41,14 @@ https://github.com/Aaliahaly/BINF6970-Final.git
 ## Core Contributions
 
 - Built a gene-centered multi-omics database for TCGA LGG data.
-- Integrated clinical, mutation, CNA, and mRNA expression datasets.
+- Integrated clinical, mutation, CNA, mRNA expression, and hypoxia-derived sample features.
 - Applied deterministic Python-based cleaning, validation, and harmonization.
 - Standardized sample identifiers and gene identifiers across all omics layers.
 - Used HGNC mapping to resolve gene symbol inconsistencies.
 - Designed a relational database schema normalized up to Fifth Normal Form.
-- Generated SQL scripts for database creation and population.
-- Built a populated MySQL database inside a virtual machine.
-- Created SQL queries for retrieval, filtering, and biological analysis.
+- Generated SQL scripts for database schema creation and data population.
+- Built and populated a MySQL database inside a virtual machine.
+- Created SQL queries for retrieval, filtering, validation, and biological analysis.
 - Extended the analysis using Neo4j graph database modeling.
 - Annotated key mutated genes using GeneCards, COSMIC, cBioPortal, OncoKB, and ClinVar.
 - Documented the full workflow for reproducibility.
@@ -60,27 +60,27 @@ https://github.com/Aaliahaly/BINF6970-Final.git
 ### Data Flow
 
 ```text
-Selected TCGA LGG Data
+Selected TCGA LGG Source Data
         ↓
-Python Cleaning
+Python Data Cleaning
         ↓
-Validation
+Dataset Validation
         ↓
 Sample-Level Harmonization
         ↓
 Gene-Level Harmonization
         ↓
-HGNC Gene Mapping
+HGNC-Based Gene Mapping
         ↓
-Final Harmonization of all Datasets
+Final Harmonized Database-Ready Datasets
         ↓
-MySQL Relational Database
+SQL Population Script Generation
         ↓
-SQL Population Script
+MySQL Database Construction and Population
         ↓
-SQL Queries
+SQL Querying and Relational Analysis
         ↓
-Neo4j Graph Analysis
+Optional Neo4j Graph-Based Analysis
 ```
 
 ---
@@ -95,6 +95,8 @@ Each molecular record must connect to:
 2. A valid `Gene_ID`
 
 This design allows clinical, mutation, CNA, and expression data to connect through a consistent relational structure.
+
+It also prevents ambiguous molecular records and supports reliable multi-omics querying.
 
 ---
 
@@ -119,7 +121,7 @@ The major entities are:
 
 The schema separates patient-level, diagnosis-level, sample-level, gene-level, and molecular-level information.
 
-This reduces redundancy and preserves biological meaning.
+This structure reduces redundancy, preserves biological meaning, and supports future expansion.
 
 ---
 
@@ -142,6 +144,8 @@ The `Sample_Mutation` table resolves the many-to-many relationship between sampl
 
 The `Gene` table acts as a central reference entity for mutation, CNA, and expression records.
 
+The `Feature_Definition` and `Sample_Feature` tables provide a flexible structure for derived sample-level features such as hypoxia scores.
+
 ---
 
 ## Repository Structure
@@ -149,7 +153,7 @@ The `Gene` table acts as a central reference entity for mutation, CNA, and expre
 ```text
 project_root/
 
-├── data (Hosted on Figshare) /
+├── data (Hosted on Figshare)/
 │   ├── TCGA_LGG_Original_Source_Data/
 │   ├── TCGA_LGG_Original_Unused_Source_Files/
 │   ├── TCGA_LGG_Original_Used_Source_Files/
@@ -159,8 +163,8 @@ project_root/
 │   ├── 03_Sample_Harmonized_Data/
 │   ├── 04_Gene_Harmonized_Data/
 │   ├── 05_HGNC_Mapped_Data/
-│   ├── 06_Final_Curated_Data/
-│   └── 07_Validation_Report/
+│   ├── 06_Final_Harmonized_Data/
+│   ├── 07_Validation_Report/
 │   └── Neo4j_Graph_Database_Files/
 │
 ├── scripts/
@@ -188,11 +192,10 @@ project_root/
 │   └── logical_model_erd.png
 │
 ├── docs/
-│   ├── final_project_writeup.pdf
+│   └── final_project_writeup.pdf
 │
 ├── .gitignore
 └── README.md
-
 ```
 
 ---
@@ -203,9 +206,9 @@ Large project files are hosted externally on Figshare to keep the GitHub reposit
 
 | Dataset Stage | Figshare Dataset Title | Link |
 |---|---|---|
-| Original Full Source Data| `TCGA_LGG_Original_Source_Data` | https://doi.org/10.6084/m9.figshare.32190318|
-| Original Unused Source Files| `TCGA_LGG_Original_Unused_Source_Files` | https://doi.org/10.6084/m9.figshare.32190459|
-| Original Used Source Files| `TCGA_LGG_Original_Used_Source_Files` | https://doi.org/10.6084/m9.figshare.32190600|
+| Original Full Source Data | `TCGA_LGG_Original_Source_Data` | https://doi.org/10.6084/m9.figshare.32190318 |
+| Original Unused Source Files | `TCGA_LGG_Original_Unused_Source_Files` | https://doi.org/10.6084/m9.figshare.32190459 |
+| Original Used Source Files | `TCGA_LGG_Original_Used_Source_Files` | https://doi.org/10.6084/m9.figshare.32190600 |
 | Python Pipeline Input Files | `TCGA_LGG_Python_Pipeline_Input_Files` | https://doi.org/10.6084/m9.figshare.32194455 |
 | Cleaned Data | `01_Cleaned_Data` | https://doi.org/10.6084/m9.figshare.32194497 |
 | Validated Data | `02_Validated_Data` | https://doi.org/10.6084/m9.figshare.32194545 |
@@ -235,15 +238,42 @@ The selected source files include:
 
 Not all files from the original TCGA LGG download were used.
 
-Files that did not fit the gene-centered design were excluded, including arm-level CNA, segment-level CNA, methylation, proteomics, structural variants, timeline files, resource files, case list files, and metadata files.
+Files that did not fit the gene-centered design were excluded, including:
+
+- Arm-level CNA files
+- Segment-level CNA files
+- Methylation files
+- Proteomics files
+- Structural variant files
+- Treatment timeline files
+- Sample acquisition timeline files
+- Resource files
+- Case list files
+- Metadata files
+
+These exclusions were made to preserve a focused gene-centered structure based on records that can be linked directly to genes and samples.
 
 ---
 
-## Python Pipeline
+## Python Data Cleaning and Harmonization Pipeline
 
-The Python pipeline performs data cleaning, validation, harmonization, and final proof reporting.
+The Python pipeline prepares the datasets for database construction.
 
-Steps 1 to 7 can be run together using:
+It performs:
+
+- Data cleaning
+- Dataset validation
+- Sample-level harmonization
+- Gene-level harmonization
+- HGNC-based gene identifier mapping
+- Final dataset integration
+- Final validation reporting
+
+The pipeline does not create or populate the MySQL database.
+
+Database schema creation and database population are performed separately using SQL scripts after the final harmonized datasets are generated.
+
+Run the data cleaning and harmonization pipeline using:
 
 ```bash
 python run_pipeline.py
@@ -268,11 +298,12 @@ Python file:
 Main tasks:
 
 - Standardizes clinical and sample column names.
-- Renames survival variables.
+- Renames survival variables into readable clinical terms.
 - Converts survival status codes into readable labels.
 - Rounds survival time variables.
 - Standardizes cancer type and cancer site.
 - Extracts IDH status and 1p/19q codeletion status.
+- Standardizes hypoxia score variables.
 - Produces a clean clinical and sample dataset.
 
 #### CNA Transformation and Cleaning
@@ -287,8 +318,10 @@ Main tasks:
 
 - Converts CNA data from wide format to long format.
 - Creates one row per gene-sample pair.
+- Standardizes gene identifiers.
 - Stores numeric copy number values in `CNA_Value`.
 - Maps numeric CNA values into biological categories in `CNA_Status`.
+- Removes duplicate records.
 
 CNA status mapping:
 
@@ -312,6 +345,7 @@ Main tasks:
 
 - Converts mRNA expression data from wide format to long format.
 - Creates one row per gene-sample pair.
+- Standardizes gene identifiers.
 - Converts expression values to numeric format.
 - Rounds expression values.
 - Removes zero-expression records.
@@ -330,6 +364,7 @@ Main tasks:
 - Standardizes mutation fields.
 - Renames consequence and impact columns.
 - Selects the most severe consequence using VEP severity ranking.
+- Standardizes mutation annotation text.
 - Converts read counts into numeric format.
 - Calculates Variant Allele Frequency.
 
@@ -466,7 +501,7 @@ Main tasks:
 
 - Generates a final proof report.
 - Confirms dataset counts.
-- Confirms patient, sample, gene, mutation, CNA, and expression consistency.
+- Confirms patient, sample, gene, mutation, CNA, expression, and feature consistency.
 - Verifies readiness for database population.
 
 Output:
@@ -486,19 +521,20 @@ The final harmonized dataset contains:
 | Patients | 499 |
 | Samples | 499 |
 | Diagnosis | 499 |
-| Survival  | 499 |
+| Survival | 499 |
 | Genes | 12,311 |
 | Mutations | 33,653 |
-| Sample_Mutation | 34,282|
-| Expression  | 5,514,987 |
-| CNA  | 1,150,724 |
-| Feature_Definition| 3 |
-| Sample_Feature | 1497 |
+| Sample_Mutation | 34,282 |
+| Expression | 5,514,987 |
+| CNA | 1,150,724 |
+| Feature_Definition | 3 |
+| Sample_Feature | 1,497 |
+
 ---
 
-## SQL Database Population
+## SQL Population Script Generation
 
-SQL population is performed after the Python pipeline.
+SQL population script generation is performed after the Python data cleaning and harmonization pipeline.
 
 This step is not part of `run_pipeline.py`.
 
@@ -526,22 +562,34 @@ This script converts the final harmonized datasets into structured SQL `INSERT` 
 It also:
 
 - Standardizes inserted values.
-- Maps relationships between patients, samples, genes, and mutations.
+- Maps relationships between patients, diagnoses, samples, genes, and mutations.
 - Deduplicates records.
 - Aligns records with database constraints.
 - Produces a ready-to-run SQL population script.
 
-In the SQL directory and Figshare archive, this file is documented as:
+In the SQL directory and Figshare archive, this file is provided as:
 
 ```text
-02_load_cleaned_data.sql.zip
+02_load_cleaned_data.sql
 ```
 
 ---
 
-## MySQL Database Construction
+## MySQL Database Implementation
 
-The MySQL database is built and populated inside the virtual machine.
+The MySQL database is implemented after the Python processing steps are completed.
+
+This stage uses:
+
+- `01_create_database_schema.sql`
+- `02_load_cleaned_data.sql`
+- `03_mydump.sql`
+
+The schema file creates the database structure.
+
+The load file populates the database with the final harmonized data.
+
+The dump file allows direct reconstruction of the populated database.
 
 Database name:
 
@@ -711,27 +759,33 @@ The integrated database and graph analysis support known LGG subtype patterns:
 
 ---
 
-## Workflow - Detailed
+## Detailed Workflow
 
-The project workflow was carried out in four main stages.
+The project workflow is organized into six main stages.
 
-### 1. Run Python data processing locally on the Mac
+### 1. Run Python data cleaning and harmonization locally on the Mac
 
-Steps 1 to 7 can be run together using:
+Run:
 
 ```bash
 python run_pipeline.py
 ```
 
-This includes:
+This step performs:
 
 1. Data cleaning
 2. Dataset validation
-3. Sample harmonization
-4. Gene harmonization
-5. HGNC mapping
-6. Final integration
-7. Final validation report
+3. Sample-level harmonization
+4. Gene-level harmonization
+5. HGNC-based gene identifier mapping
+6. Final dataset integration
+7. Final validation reporting
+
+This step produces the final harmonized datasets needed for database construction.
+
+It does not create the MySQL database and does not populate the database.
+
+---
 
 ### 2. Generate the SQL population script
 
@@ -740,6 +794,10 @@ Run separately after the main pipeline:
 ```bash
 python SQL_generation_for_populating_the_data.py
 ```
+
+This step generates the SQL insert script used to populate the MySQL database.
+
+---
 
 ### 3. Transfer SQL scripts to the virtual machine
 
@@ -751,23 +809,37 @@ Example shared folder:
 /media/sf_DB-Final/
 ```
 
+---
+
 ### 4. Build and populate the database inside the virtual machine
 
-Run:
+Build the schema:
 
 ```bash
 mysql -u root -p < 01_create_database_schema.sql
 ```
 
-Then run:
+Populate the database:
 
 ```bash
 mysql -u root -p Database < 02_load_cleaned_data.sql
 ```
 
+Export the populated database:
+
+```bash
+mysqldump --single-transaction -h 127.0.0.1 -P 3306 -u root -p Database > 03_mydump.sql
+```
+
+---
+
 ### 5. Run SQL queries
 
 SQL queries can be executed inside the virtual machine after the database is populated.
+
+The queries validate the relational structure and support integrated clinical-genomic analysis.
+
+---
 
 ### 6. Perform optional Neo4j analysis
 
@@ -795,10 +867,15 @@ The project is reproducible because it includes:
 - SQL population file
 - SQL dump file
 - Final harmonized datasets
-- Validation report
+- Final validation report
 - Neo4j input and Cypher output files
 - Documentation of all major processing decisions
 - Clear execution steps
+- External Figshare archives for large files
+
+The workflow separates data processing, SQL generation, database implementation, SQL analysis, and graph analysis into distinct steps.
+
+This makes the project easier to reproduce, inspect, debug, and extend.
 
 ---
 
@@ -817,11 +894,13 @@ The final project includes validation at multiple levels:
 
 The final validation confirms consistency between the processed datasets and the populated database.
 
+The validation report confirms the final counts for patients, samples, genes, mutations, expression records, CNA records, and sample features.
+
 ---
 
-## Documentation (i.e, Project writeup)
+## Documentation
 
-The documentation includes:
+The project writeup includes:
 
 - Project overview
 - Data source screening table
@@ -866,9 +945,11 @@ Future development could include:
 
 ---
 
-## Final Note
+## Project Significance
 
-This project reduces one of the most time-consuming barriers in cancer bioinformatics: **data preparation.**
+This project converts fragmented TCGA LGG multi-omics files into a clean, validated, gene-centered, and query-ready database system.
 
-The final system provides clean, integrated, validated, and biologically interpretable data that can be queried directly using MySQL and explored further using Neo4j.
+It reduces one of the most time-consuming barriers in cancer bioinformatics: data preparation.
+
+The final system allows users to move directly into clinical-genomic analysis using MySQL, with Neo4j available as an additional graph-based exploration layer.
 
