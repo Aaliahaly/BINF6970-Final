@@ -36,8 +36,8 @@ The final project writeup includes:
 
 | Directory | Purpose |
 |---|---|
-| `data/` | Documents Figshare links for input, intermediate, final, SQL, and graph database files. |
-| `scripts/` | Contains Python scripts for cleaning, harmonization, SQL generation, and Neo4j generation. |
+| `data/` | Documents Figshare links for input, intermediate, final, SQL, and Neo4j files. |
+| `scripts/` | Contains Python scripts for cleaning, harmonization, SQL generation, and Neo4j Cypher generation. |
 | `sql/` | Documents SQL schema, SQL loading file, and SQL dump file. |
 | `diagrams/` | Contains database diagrams and ERD files. |
 | `docs/` | Contains the final project writeup. |
