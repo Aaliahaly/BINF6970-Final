@@ -12,9 +12,7 @@ Cancer multi-omics data are commonly distributed across separate files. Clinical
 
 This project solves that problem by converting selected TCGA LGG datasets into a clean, validated, harmonized, and database-ready system.
 
-The central design rule is:
-
-**Every molecular observation must map to both a gene and a sample.**
+The central design rule is: **Every molecular observation must map to both a gene and a sample.**
 
 This rule ensures that mutation, CNA, and expression records can be integrated consistently and queried directly.
 
