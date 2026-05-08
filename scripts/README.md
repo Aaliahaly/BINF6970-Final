@@ -17,10 +17,10 @@ The core processing pipeline can be executed automatically using `run_pipeline.p
 Two additional post-pipeline scripts are also included:
 
 1. `SQL_generation_for_populating_the_data.py`  
-   Generates the SQL population script used to load the final harmonized datasets into my database using MySQL.
+   Generates the SQL population script used to load the final harmonized datasets into the MySQL database.
 
 2. `Neo4j.py`  
-   Generates the Neo4j Cypher import script from the CSV file.
+   Generates the Neo4j Cypher import script from a CSV file prepared from SQL-based exploratory query outputs.
 
 All referenced Python scripts are available in this `scripts/` directory.
 
@@ -58,7 +58,7 @@ The post-pipeline database implementation stages are executed separately:
 | `01_clean_clinical_sample.py` | Cleans and standardizes clinical and sample data. |
 | `02_clean_cna.py` | Transforms CNA data from wide format to long format and standardizes CNA values. |
 | `03_clean_expression.py` | Transforms mRNA expression data from wide format to long format and cleans expression values. |
-| `04_clean_mutations.py` | Cleans mutation data, standardizes annotations, selects severe consequences, and calculates Variant Allele Frequency. |
+| `04_clean_mutations.py` | Cleans mutation data, standardizes annotations, selects the most severe consequence, and calculates Variant Allele Frequency. |
 | `05_validator.py` | Validates cleaned datasets by checking required fields, identifiers, formats, and HGNC reference structure. |
 | `06_sample_harmonization.py` | Harmonizes datasets at the sample level by retaining samples shared across clinical, expression, CNA, and mutation datasets. |
 | `07_gene_harmonization.py` | Harmonizes molecular datasets at the gene level by retaining genes shared across expression, CNA, and mutation datasets. |
@@ -67,7 +67,7 @@ The post-pipeline database implementation stages are executed separately:
 | `10_report.py` | Generates the final proof report with dataset metrics and integrity checks. |
 | `run_pipeline.py` | Executes the core processing pipeline in the correct order. |
 | `SQL_generation_for_populating_the_data.py` | Generates the SQL population script from the final harmonized datasets. |
-| `Neo4j.py` | Generates the Neo4j Cypher import script from the CSV file has been prepared from SQL-based exploratory query outputs |
+| `Neo4j.py` | Generates the Neo4j Cypher import script from a CSV file prepared from SQL-based exploratory query outputs. |
 
 ---
 
@@ -155,10 +155,10 @@ The generated SQL file contains structured `INSERT` statements used to populate 
 In the SQL directory and Figshare dataset, this generated loading file is documented as:
 
 ```text
-02_load_cleaned_data.sql.zip
+02_load_cleaned_data.sql
 ```
 
-This script standardizes inserted values, maps relationships between patients, samples, genes, mutations, CNA records, and expression records, and removes duplicate records to match database constraints.
+This script standardizes inserted values, maps relationships between patients, diagnoses, samples, genes, mutations, CNA records, and expression records, and removes duplicate records to match database constraints.
 
 ---
 
@@ -217,7 +217,7 @@ The expected folder structure is:
 | `data/04_Gene_Harmonized_Data/` | Gene-level harmonized datasets. |
 | `data/05_HGNC_Mapped_Data/` | HGNC-mapped molecular datasets. |
 | `data/06_Final_Harmonized_Data/` | Final harmonized database-ready datasets. |
-| `data/07_Final_Proof_Report/` | Final validation and proof report. |
+| `data/07_Validation_Report/` | Final validation and proof report. |
 
 These folders and their associated files are available through the Figshare links provided in `data/README.md`.
 
