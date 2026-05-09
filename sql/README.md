@@ -1,7 +1,6 @@
 # SQL Database Files
 
-This directory documents the SQL database files used to create, populate, export, and reconstruct the relational database for the TCGA Lower Grade Glioma multi-omics database project.
-
+This directory documents the SQL files used to build, populate, export, and reconstruct the MySQL relational database for the TCGA Lower Grade Glioma multi-omics database project.
 
 ---
 
@@ -17,9 +16,9 @@ This directory documents the SQL database files used to create, populate, export
 
 The SQL files represent the relational database implementation stage of the project.
 
-After the TCGA LGG datasets were cleaned, validated, sample-harmonized, gene-harmonized, HGNC-mapped, and finally harmonized, the resulting database-ready files were used to construct a structured MySQL database.
+After the TCGA LGG datasets were cleaned, validated, sample-harmonized, gene-harmonized, HGNC-mapped, and fully integrated, the final database-ready files were used to construct a structured MySQL database.
 
-The SQL database was designed to support integrated querying across patients, diagnoses, samples, genes, clinical features, mutations, copy number alteration records, and mRNA expression records.
+The SQL database was designed to support integrated querying across patients, diagnoses, samples, genes, clinical features, mutations, copy number alteration records, mRNA expression records, survival outcomes, and sample-level molecular features.
 
 ---
 
@@ -30,8 +29,8 @@ The complete SQL dataset contains the following files:
 | File | Description |
 |---|---|
 | `01_create_database_schema.sql` | Creates the database schema, including tables, fields, primary keys, foreign keys, and relationships. |
-| `02_load_cleaned_data.sql.zip` | Compressed SQL file used to load the cleaned and harmonized data into the database. |
-| `03_mydump.sql.zip` | Compressed SQL dump file used to reconstruct the populated database directly. |
+| `02_load_cleaned_data.sql.zip` | Compressed SQL loading file used to populate the database after the schema has been created. |
+| `03_mydump.sql.zip` | Compressed MySQL dump file used to reconstruct the complete populated database directly. |
 
 ---
 
@@ -39,54 +38,54 @@ The complete SQL dataset contains the following files:
 
 The purpose of these SQL files is to make the relational database fully reproducible.
 
-The schema file defines the database structure. It specifies how patients, diagnoses, samples, genes, clinical records, mutation records, CNA records, expression records, survival records, and sample features are stored and connected.
+Users can recreate the database in one of two ways.
 
-The loading file supports population of the database using the final harmonized datasets.
+The first option is to build and populate the database step by step. This option uses the schema file first, then uses the SQL loading file to insert the cleaned and harmonized data.
 
-The dump file provides a complete database reconstruction option for users who want to recreate the populated database directly without rerunning the data-loading process.
+The second option is to reconstruct the already populated database directly from the MySQL dump file.
 
----
-
-## Database Construction Workflow
-
-The SQL database construction follows these steps:
-
-1. Download the SQL files from the Figshare link above.
-2. Unzip the compressed SQL files.
-3. Create the database schema using `01_create_database_schema.sql`.
-4. Load the harmonized data using `02_load_cleaned_data.sql`.
-
-Alternatively, users can reconstruct the populated database directly using `03_mydump.sql`.
+Both options produce the same final relational database.
 
 ---
 
-## How to Use
+## Database Reconstruction Options
 
-After downloading the SQL files from Figshare, you can rebuild the database in two ways.
-
-You can either create the schema and load the cleaned and harmonized data manually, or you can download and use the SQL dump file to reconstruct the populated database directly.
+After downloading the SQL files from Figshare and unzipping the compressed files, the database can be recreated using one of the following two options.
 
 ---
 
-### Option 1: Create the schema and load the cleaned data
+## Option 1: Build and Populate the Database
 
-To create the database schema, run:
+Use this option if you want to recreate the database construction process step by step.
+
+This option uses:
+
+- `01_create_database_schema.sql`
+- `02_load_cleaned_data.sql`
+
+First, create the database schema:
 
 ```bash
 mysql -u root -p < 01_create_database_schema.sql
 ```
 
-To load the cleaned and harmonized data into the database, run:
+Then, populate the database using the cleaned and harmonized data-loading file:
 
 ```bash
 mysql -u root -p Database < 02_load_cleaned_data.sql
 ```
 
+This option creates the relational structure first and then loads the processed TCGA LGG multi-omics data into the database.
+
 ---
 
-### Option 2: Reconstruct the populated database from the SQL dump
+## Option 2: Reconstruct the Populated Database from the SQL Dump
 
-You can also download the SQL dump file from Figshare and use it to reconstruct the populated database directly.
+Use this option if you want to recreate the complete populated database directly.
+
+This option uses:
+
+- `03_mydump.sql`
 
 To restore the populated database from the dump file, run:
 
@@ -94,13 +93,13 @@ To restore the populated database from the dump file, run:
 mysql -u root -p Database < 03_mydump.sql
 ```
 
+This option restores the complete populated database without running the separate schema-creation and data-loading steps.
+
 ---
 
 ## Exporting the Database as a MySQL Dump
 
-After building and populating the database, you can export the populated database as a MySQL dump file.
-
-Run:
+After building and populating the database, the populated MySQL database can be exported as a dump file using:
 
 ```bash
 mysqldump --single-transaction -h 127.0.0.1 -P 3306 -u root -p Database > 03_mydump.sql
@@ -112,7 +111,7 @@ This command creates a dump file named:
 03_mydump.sql
 ```
 
-This file can be used later to reconstruct the populated database directly.
+The dump file can be used later to reconstruct the complete populated database directly.
 
 ---
 
@@ -122,13 +121,13 @@ This file can be used later to reconstruct the populated database directly.
 
 If you use a different database name in your local MySQL environment, replace `Database` with your own database name.
 
-For example:
+For example, to load the database using a different database name:
 
 ```bash
 mysql -u root -p YourDatabaseName < 02_load_cleaned_data.sql
 ```
 
-or:
+Or, to restore the dump using a different database name:
 
 ```bash
 mysql -u root -p YourDatabaseName < 03_mydump.sql
@@ -152,25 +151,38 @@ The resulting database supports structured queries involving:
 - Copy number alterations
 - mRNA expression records
 - Survival outcomes
-- Sample-level features
+- Sample-level molecular features
 
 ---
 
 ## Reproducibility
 
-This SQL directory supports reproducibility by providing three database reconstruction options:
+This SQL directory supports reproducibility by providing two database reconstruction routes.
 
-1. Rebuild the database schema from `01_create_database_schema.sql`.
-2. Populate the database using `02_load_cleaned_data.sql`.
-3. Restore the populated database directly using `03_mydump.sql`.
+### Route 1: Build and Populate
 
-This ensures that users can recreate the database either from the structured loading file or from the complete SQL dump.
+This route uses:
+
+- `01_create_database_schema.sql`
+- `02_load_cleaned_data.sql`
+
+This route is useful for users who want to inspect the database structure and understand how the cleaned and harmonized data are loaded into the relational database.
+
+### Route 2: Direct Reconstruction from Dump
+
+This route uses:
+
+- `03_mydump.sql`
+
+This route is useful for users who want to restore the complete populated database directly.
+
+Both routes allow the same final SQL database to be recreated.
 
 ---
 
 ## Notes
 
-The SQL files themselves are hosted on Figshare because some files are too large to store directly in GitHub.
+The SQL files are hosted on Figshare because some files are too large to store directly in GitHub.
 
 The SQL database is intended to support relational querying of the final harmonized TCGA LGG multi-omics data.
 
