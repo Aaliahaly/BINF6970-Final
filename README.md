@@ -100,7 +100,7 @@ Optional Neo4j Graph-Based Analysis
 
 To reproduce the project, the following tools are required:
 
-- Python 3.14
+- Python 3.13
 - MySQL Server
 - Neo4j Desktop or Neo4j Browser
 - Python packages required by the scripts:
