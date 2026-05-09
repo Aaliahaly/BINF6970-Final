@@ -239,7 +239,7 @@ project_root/
 │   ├── conceptual_model.png
 │   └── logical_model_erd.png
 │
-├── docs/
+├── doc/
 │   ├── Final Project Writeup.pdf
 │   └── README.md
 │
@@ -654,6 +654,8 @@ This stage uses:
 03_mydump.sql
 ```
 
+The files `02_load_cleaned_data.sql` and `03_mydump.sql` are provided on Figshare as compressed `.zip` files and should be unzipped before running the MySQL commands.
+
 The schema file creates the database structure.
 
 The loading file populates the database with the final harmonized data.
@@ -908,6 +910,8 @@ Example shared folder:
 
 ### 4. Build and Populate the Database Inside the Virtual Machine
 
+Before running the MySQL commands, unzip the compressed SQL files downloaded from Figshare.
+
 Build the schema:
 
 ```bash
@@ -998,7 +1002,7 @@ The validation report confirms the final counts for patients, samples, genes, mu
 The final project writeup is located in:
 
 ```text
-docs/Final Project Writeup.pdf
+doc/Final Project Writeup.pdf
 ```
 
 The writeup includes:
@@ -1021,7 +1025,7 @@ Additional README files are provided in:
 data/README.md
 scripts/README.md
 sql/README.md
-docs/README.md
+doc/README.md
 ```
 
 ---
