@@ -22,13 +22,13 @@ The core pipeline performs:
 6. Final harmonization
 7. Final proof-of-integrity report generation
 
-The core pipeline can be executed automatically using:
+The core pipeline can be executed automatically from the project root directory using:
 
 ```bash
-python run_pipeline.py
+python scripts/run_pipeline.py
 ```
 
-or each script can be executed separately for inspection, debugging, and verification.
+The scripts can also be executed separately for inspection, debugging, and verification.
 
 Two additional post-pipeline scripts are included:
 
@@ -67,7 +67,7 @@ The SQL and Neo4j scripts are not part of `run_pipeline.py`. They are executed s
 To run the full core pipeline, execute the following command from the project root directory:
 
 ```bash
-python run_pipeline.py
+python scripts/run_pipeline.py
 ```
 
 This command runs the scripts in the correct order, from initial data cleaning to final proof-of-integrity reporting.
@@ -91,19 +91,21 @@ After successful execution, the pipeline generates the final database-ready data
 
 ## Step-by-Step Core Pipeline Execution
 
-The core pipeline scripts can also be run individually in the following order:
+The core pipeline scripts can also be run individually.
+
+From the project root directory, use:
 
 ```bash
-python 01_clean_clinical_sample.py
-python 02_clean_cna.py
-python 03_clean_expression.py
-python 04_clean_mutations.py
-python 05_validator.py
-python 06_sample_harmonization.py
-python 07_gene_harmonization.py
-python 08_hgnc_mapping.py
-python 09_finalize.py
-python 10_report.py
+python scripts/01_clean_clinical_sample.py
+python scripts/02_clean_cna.py
+python scripts/03_clean_expression.py
+python scripts/04_clean_mutations.py
+python scripts/05_validator.py
+python scripts/06_sample_harmonization.py
+python scripts/07_gene_harmonization.py
+python scripts/08_hgnc_mapping.py
+python scripts/09_finalize.py
+python scripts/10_report.py
 ```
 
 This option is useful when reviewing intermediate outputs, checking the effect of each processing stage, or debugging errors.
@@ -126,7 +128,7 @@ These scripts support:
 Use this script after the final harmonized datasets have been generated:
 
 ```bash
-python SQL_generation_for_populating_the_data.py
+python scripts/SQL_generation_for_populating_the_data.py
 ```
 
 This script uses the final harmonized datasets:
@@ -175,7 +177,7 @@ The script also standardizes inserted values, removes duplicate records, and pre
 Use this script after the graph-ready CSV file has been prepared from SQL-based exploratory query outputs:
 
 ```bash
-python Neo4j.py
+python scripts/Neo4j.py
 ```
 
 This script uses:
@@ -424,9 +426,9 @@ These outputs are ready for:
 
 | Task | Command |
 |---|---|
-| Run full core pipeline | `python run_pipeline.py` |
-| Generate SQL population script | `python SQL_generation_for_populating_the_data.py` |
-| Generate Neo4j Cypher script | `python Neo4j.py` |
+| Run full core pipeline | `python scripts/run_pipeline.py` |
+| Generate SQL population script | `python scripts/SQL_generation_for_populating_the_data.py` |
+| Generate Neo4j Cypher script | `python scripts/Neo4j.py` |
 
 ---
 
