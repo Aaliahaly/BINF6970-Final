@@ -8,11 +8,15 @@
 
 This project builds a fully reproducible, gene-centered multi-omics database for Brain Lower Grade Glioma (LGG) using TCGA PanCancer Atlas data.
 
-Cancer multi-omics data are commonly distributed across separate files. Clinical information, mutations, copy number alterations, mRNA expression, and derived clinical features often have different structures, identifiers, and formats. This makes integration difficult and forces researchers to spend substantial time on data preprocessing before biological questions can be addressed.
+Cancer multi-omics data are commonly distributed across separate files. Clinical information, mutation records, copy number alteration data, mRNA expression matrices, and derived clinical features often use different structures, identifiers, and formats. This makes integration difficult and forces researchers to spend substantial time on data preprocessing before biological questions can be addressed.
 
 This project solves that problem by converting selected TCGA LGG datasets into a clean, validated, harmonized, and database-ready system.
 
-The central design rule is: **Every molecular observation must map to both a gene and a sample.**
+The central design rule is:
+
+```text
+Every molecular observation must map to both a gene and a sample.
+```
 
 This rule ensures that mutation, CNA, and expression records can be integrated consistently and queried directly.
 
@@ -27,8 +31,6 @@ The final system supports:
 ---
 
 ## GitHub Repository
-
-GitHub repository link:
 
 ```text
 https://github.com/Aaliahaly/BINF6970-Final.git
@@ -54,8 +56,6 @@ https://github.com/Aaliahaly/BINF6970-Final.git
 ---
 
 ## System Architecture
-
-### Data Flow
 
 ```text
 Selected TCGA LGG Source Data
@@ -85,14 +85,16 @@ Optional Neo4j Graph-Based Analysis
 
 ## Tools and Technologies
 
-- Database management system: MySQL
-- Graph database platform: Neo4j
-- Programming language: Python
-- Main Python libraries: pandas, NumPy, openpyxl
-- Data source platform: cBioPortal
-- Gene identifier reference: HGNC
-- External data hosting: Figshare
-- Development environment: Local Mac environment and virtual machine for MySQL database implementation
+| Category | Tools |
+|---|---|
+| Data source | TCGA PanCancer Atlas through cBioPortal |
+| Programming language | Python |
+| Python libraries | pandas, NumPy, openpyxl |
+| Relational database | MySQL |
+| Graph database | Neo4j |
+| Gene reference | HGNC |
+| External data hosting | Figshare |
+| Development environment | Local Mac environment and virtual machine for MySQL implementation |
 
 ---
 
@@ -103,7 +105,7 @@ To reproduce the project, the following tools are required:
 - Python 3.13
 - MySQL Server
 - Neo4j Desktop or Neo4j Browser
-- Python packages required by the scripts:
+- Required Python packages:
 
 ```text
 pandas
@@ -111,21 +113,37 @@ numpy
 openpyxl
 ```
 
-Before running the pipeline, download the required Figshare datasets and place them in the corresponding local `data/` folders.
-
-The core Python pipeline can then be executed using:
+Install the required Python packages using:
 
 ```bash
-python run_pipeline.py
+pip install pandas numpy openpyxl
 ```
 
-The MySQL database can be rebuilt using the schema file and SQL loading file provided in the `sql/` directory.
+Before running the pipeline, download the required Figshare datasets and place them in the corresponding local `data/` folders.
 
-The populated database can also be reconstructed directly from:
+---
 
-```text
-03_mydump.sql
+## Quick Start
+
+Run the core Python pipeline from the project root directory:
+
+```bash
+python scripts/run_pipeline.py
 ```
+
+Generate the SQL population script after the final harmonized datasets are available:
+
+```bash
+python scripts/SQL_generation_for_populating_the_data.py
+```
+
+Generate the Neo4j Cypher import script after the graph-ready CSV file is available:
+
+```bash
+python scripts/Neo4j.py
+```
+
+Build and populate the MySQL database using the SQL files documented in the `sql/` directory.
 
 ---
 
@@ -196,20 +214,8 @@ The `Feature_Definition` and `Sample_Feature` tables provide a flexible structur
 
 ```text
 project_root/
-
-├── data (Hosted on Figshare)/
-│   ├── TCGA_LGG_Original_Source_Data/
-│   ├── TCGA_LGG_Original_Unused_Source_Files/
-│   ├── TCGA_LGG_Original_Used_Source_Files/
-│   ├── TCGA_LGG_Python_Pipeline_Input_Files/
-│   ├── 01_Cleaned_Data/
-│   ├── 02_Validated_Data/
-│   ├── 03_Sample_Harmonized_Data/
-│   ├── 04_Gene_Harmonized_Data/
-│   ├── 05_HGNC_Mapped_Data/
-│   ├── 06_Final_Harmonized_Data/
-│   ├── 07_Validation_Report/
-│   └── Neo4j_Graph_Database_Files/
+├── data/
+│   └── README.md
 │
 ├── scripts/
 │   ├── 01_clean_clinical_sample.py
@@ -226,21 +232,22 @@ project_root/
 │   ├── SQL_generation_for_populating_the_data.py
 │   └── Neo4j.py
 │
-├── sql (Hosted on Figshare)/
-│   ├── 01_create_database_schema.sql
-│   ├── 02_load_cleaned_data.sql
-│   └── 03_mydump.sql
+├── sql/
+│   └── README.md
 │
 ├── diagrams/
 │   ├── conceptual_model.png
 │   └── logical_model_erd.png
 │
 ├── docs/
-│   └── final_project_writeup.pdf
+│   ├── Final Project Writeup.pdf
+│   └── README.md
 │
 ├── .gitignore
 └── README.md
 ```
+
+Large datasets, SQL loading files, SQL dump files, and Neo4j graph files are hosted externally on Figshare. Their access links are provided in the `data/README.md` file and in the External Data Availability section below.
 
 ---
 
@@ -262,7 +269,7 @@ Large project files are hosted externally on Figshare to keep the GitHub reposit
 | Final Harmonized Data | `06_Final_Harmonized_Data` | https://doi.org/10.6084/m9.figshare.32194689 |
 | Final Proof Report | `07_Validation_Report` | https://doi.org/10.6084/m9.figshare.32194704 |
 | SQL Database Files | `SQL_database_files` | https://doi.org/10.6084/m9.figshare.32204706 |
-| Graph Database Files | `Neo4j_Graph_Database_Files` | https://doi.org/10.6084/m9.figshare.32206935 |
+| Neo4j Graph Database Files | `Neo4j_Graph_Database_Files` | https://doi.org/10.6084/m9.figshare.32206935 |
 
 ---
 
@@ -295,7 +302,7 @@ Files that did not fit the gene-centered design were excluded, including:
 - Case list files
 - Metadata files
 
-These exclusions were made to preserve a focused gene-centered structure based on records that can be linked directly to genes and samples.
+These exclusions preserve a focused gene-centered structure based on records that can be linked directly to genes and samples.
 
 ---
 
@@ -317,10 +324,10 @@ The pipeline does not create or populate the MySQL database.
 
 Database schema creation and database population are performed separately using SQL scripts after the final harmonized datasets are generated.
 
-Run the data cleaning and harmonization pipeline using:
+Run the data cleaning and harmonization pipeline from the project root directory:
 
 ```bash
-python run_pipeline.py
+python scripts/run_pipeline.py
 ```
 
 ---
@@ -336,7 +343,7 @@ The cleaning stage prepares the clinical, sample, mutation, CNA, and expression 
 Python file:
 
 ```text
-01_clean_clinical_sample.py
+scripts/01_clean_clinical_sample.py
 ```
 
 Main tasks:
@@ -355,7 +362,7 @@ Main tasks:
 Python file:
 
 ```text
-02_clean_cna.py
+scripts/02_clean_cna.py
 ```
 
 Main tasks:
@@ -382,7 +389,7 @@ CNA status mapping:
 Python file:
 
 ```text
-03_clean_expression.py
+scripts/03_clean_expression.py
 ```
 
 Main tasks:
@@ -400,7 +407,7 @@ Main tasks:
 Python file:
 
 ```text
-04_clean_mutations.py
+scripts/04_clean_mutations.py
 ```
 
 Main tasks:
@@ -425,7 +432,7 @@ VAF = t_alt_count / (t_ref_count + t_alt_count)
 Python file:
 
 ```text
-05_validator.py
+scripts/05_validator.py
 ```
 
 Main tasks:
@@ -444,7 +451,7 @@ Main tasks:
 Python file:
 
 ```text
-06_sample_harmonization.py
+scripts/06_sample_harmonization.py
 ```
 
 Main tasks:
@@ -456,10 +463,12 @@ Main tasks:
 
 Outputs:
 
-- `clin_step1.xlsx`
-- `expr_step1.csv`
-- `cna_step1.csv`
-- `mut_step1.xlsx`
+```text
+clin_step1.xlsx
+expr_step1.csv
+cna_step1.csv
+mut_step1.xlsx
+```
 
 ---
 
@@ -468,7 +477,7 @@ Outputs:
 Python file:
 
 ```text
-07_gene_harmonization.py
+scripts/07_gene_harmonization.py
 ```
 
 Main tasks:
@@ -480,9 +489,11 @@ Main tasks:
 
 Outputs:
 
-- `expr_step2.csv`
-- `cna_step2.csv`
-- `mut_step2.xlsx`
+```text
+expr_step2.csv
+cna_step2.csv
+mut_step2.xlsx
+```
 
 ---
 
@@ -491,7 +502,7 @@ Outputs:
 Python file:
 
 ```text
-08_hgnc_mapping.py
+scripts/08_hgnc_mapping.py
 ```
 
 Main tasks:
@@ -504,9 +515,11 @@ Main tasks:
 
 Outputs:
 
-- `expr_step3.csv`
-- `cna_step3.csv`
-- `mut_step3.xlsx`
+```text
+expr_step3.csv
+cna_step3.csv
+mut_step3.xlsx
+```
 
 ---
 
@@ -515,7 +528,7 @@ Outputs:
 Python file:
 
 ```text
-09_finalize.py
+scripts/09_finalize.py
 ```
 
 Main tasks:
@@ -526,10 +539,12 @@ Main tasks:
 
 Outputs:
 
-- `clin_FINAL.xlsx`
-- `mut_FINAL.xlsx`
-- `cna_FINAL.csv`
-- `expr_FINAL.csv`
+```text
+clin_FINAL.xlsx
+mut_FINAL.xlsx
+cna_FINAL.csv
+expr_FINAL.csv
+```
 
 ---
 
@@ -538,12 +553,12 @@ Outputs:
 Python file:
 
 ```text
-10_report.py
+scripts/10_report.py
 ```
 
 Main tasks:
 
-- Generates a final proof report.
+- Generates a final proof-of-integrity report.
 - Confirms dataset counts.
 - Confirms patient, sample, gene, mutation, CNA, expression, and feature consistency.
 - Verifies readiness for database population.
@@ -564,15 +579,15 @@ The final harmonized datasets contain:
 |---|---:|
 | Patients | 499 |
 | Samples | 499 |
-| Diagnosis | 499 |
-| Survival | 499 |
+| Diagnoses | 499 |
+| Survival records | 499 |
 | Genes | 12,311 |
 | Mutations | 33,653 |
-| Sample_Mutation | 34,282 |
-| Expression | 5,514,987 |
-| CNA | 1,150,724 |
-| Feature_Definition | 3 |
-| Sample_Feature | 1,497 |
+| Sample_Mutation records | 34,282 |
+| Expression records | 5,514,987 |
+| CNA records | 1,150,724 |
+| Feature definitions | 3 |
+| Sample feature records | 1,497 |
 
 ---
 
@@ -585,15 +600,17 @@ This step is not part of `run_pipeline.py`.
 Python file:
 
 ```text
-SQL_generation_for_populating_the_data.py
+scripts/SQL_generation_for_populating_the_data.py
 ```
 
 Input files:
 
-- `clin_FINAL.xlsx`
-- `mut_FINAL.xlsx`
-- `cna_FINAL.csv`
-- `expr_FINAL.csv`
+```text
+clin_FINAL.xlsx
+mut_FINAL.xlsx
+cna_FINAL.csv
+expr_FINAL.csv
+```
 
 Output file:
 
@@ -617,6 +634,12 @@ In the SQL directory and Figshare archive, this file is provided as:
 02_load_cleaned_data.sql
 ```
 
+Run the script from the project root directory:
+
+```bash
+python scripts/SQL_generation_for_populating_the_data.py
+```
+
 ---
 
 ## MySQL Database Implementation
@@ -625,35 +648,47 @@ The MySQL database is implemented after the Python processing steps are complete
 
 This stage uses:
 
-- `01_create_database_schema.sql`
-- `02_load_cleaned_data.sql`
-- `03_mydump.sql`
+```text
+01_create_database_schema.sql
+02_load_cleaned_data.sql
+03_mydump.sql
+```
 
 The schema file creates the database structure.
 
-The load file populates the database with the final harmonized data.
+The loading file populates the database with the final harmonized data.
 
 The dump file allows direct reconstruction of the populated database.
 
-Database name:
+Database name used in this project:
 
 ```text
 Database
 ```
 
-### Build the database schema
+### Option 1: Build and Populate the Database
+
+Create the schema:
 
 ```bash
 mysql -u root -p < 01_create_database_schema.sql
 ```
 
-### Populate the database
+Populate the database:
 
 ```bash
 mysql -u root -p Database < 02_load_cleaned_data.sql
 ```
 
-### Export the populated database as a MySQL dump
+### Option 2: Reconstruct the Populated Database from the Dump
+
+Restore the populated database directly:
+
+```bash
+mysql -u root -p Database < 03_mydump.sql
+```
+
+### Export the Populated Database as a MySQL Dump
 
 ```bash
 mysqldump --single-transaction -h 127.0.0.1 -P 3306 -u root -p Database > 03_mydump.sql
@@ -675,26 +710,32 @@ SQL database files are hosted externally on Figshare:
 https://doi.org/10.6084/m9.figshare.32204706
 ```
 
+Detailed SQL reconstruction instructions are provided in:
+
+```text
+sql/README.md
+```
+
 ---
 
 ## SQL Analysis
 
 The database supports structured SQL queries for:
 
-- Retrieving samples for selected patients.
-- Counting mutation impact levels.
-- Mapping mutated genes in selected samples.
-- Retrieving CNA states by gene and sample.
-- Retrieving survival outcomes.
-- Filtering high-VAF mutations.
-- Ranking samples by mutation burden.
-- Retrieving hypoxia-related sample features.
-- Identifying samples with gene amplifications.
-- Connecting patients, samples, mutations, genes, and VAF values.
-- Ranking the most frequently mutated genes.
-- Identifying samples with high average VAF.
-- Counting amplification burden.
-- Ranking patients by survival time.
+- Retrieving samples for selected patients
+- Counting mutation impact levels
+- Mapping mutated genes in selected samples
+- Retrieving CNA states by gene and sample
+- Retrieving survival outcomes
+- Filtering high-VAF mutations
+- Ranking samples by mutation burden
+- Retrieving hypoxia-related sample features
+- Identifying samples with gene amplifications
+- Connecting patients, samples, mutations, genes, and VAF values
+- Ranking the most frequently mutated genes
+- Identifying samples with high average VAF
+- Counting amplification burden
+- Ranking patients by survival time
 
 These queries demonstrate that the relational schema supports integrated clinical and molecular analysis.
 
@@ -707,7 +748,7 @@ Neo4j is used as an analytical extension, not as the primary storage system.
 Python file:
 
 ```text
-Neo4j.py
+scripts/Neo4j.py
 ```
 
 Input file:
@@ -736,6 +777,12 @@ Graph database files are hosted externally on Figshare:
 
 ```text
 https://doi.org/10.6084/m9.figshare.32206935
+```
+
+Run the script from the project root directory:
+
+```bash
+python scripts/Neo4j.py
 ```
 
 ---
@@ -767,10 +814,12 @@ https://doi.org/10.6084/m9.figshare.32206935
 
 The project focuses on key LGG-associated genes, including:
 
-- `TP53`
-- `ATRX`
-- `CIC`
-- `FUBP1`
+```text
+TP53
+ATRX
+CIC
+FUBP1
+```
 
 These genes were examined using major bioinformatics and cancer genomics databases, including:
 
@@ -793,26 +842,28 @@ The analysis captures:
 
 ## Key Biological Findings
 
-The integrated database and graph analysis support known LGG subtype patterns:
+The observed patterns are consistent with known LGG molecular subtype biology.
 
-- `TP53` and `ATRX` are enriched in IDH-mutant astrocytoma.
-- `CIC` and `FUBP1` are enriched in IDH-mutant, 1p/19q-codeleted oligodendroglioma.
+Key findings include:
+
+- `TP53` and `ATRX` alterations are associated with IDH-mutant astrocytoma patterns.
+- `CIC` and `FUBP1` alterations are associated with IDH-mutant, 1p/19q-codeleted oligodendroglioma patterns.
 - `TP53` and `ATRX` tend to co-occur.
 - `CIC` and `FUBP1` tend to co-occur.
-- `TP53/ATRX` alterations are largely distinct from `CIC/FUBP1` and 1p/19q-codeleted tumors.
+- `TP53/ATRX` alteration patterns are largely distinct from `CIC/FUBP1` and 1p/19q-codeleted tumor patterns.
 
 ---
 
-## Detailed Workflow
+## Detailed Reproduction Workflow
 
 The project workflow is organized into six main stages.
 
-### 1. Run Python data cleaning and harmonization locally on the Mac
+### 1. Run Python Data Cleaning and Harmonization
 
-Run:
+Run from the project root directory:
 
 ```bash
-python run_pipeline.py
+python scripts/run_pipeline.py
 ```
 
 This step performs:
@@ -831,21 +882,21 @@ It does not create the MySQL database and does not populate the database.
 
 ---
 
-### 2. Generate the SQL population script
+### 2. Generate the SQL Population Script
 
 Run separately after the main pipeline:
 
 ```bash
-python SQL_generation_for_populating_the_data.py
+python scripts/SQL_generation_for_populating_the_data.py
 ```
 
 This step generates the SQL insert script used to populate the MySQL database.
 
 ---
 
-### 3. Transfer SQL scripts to the virtual machine
+### 3. Transfer SQL Scripts to the Virtual Machine
 
-The schema and population scripts are transferred to the virtual machine using the shared folder.
+The schema and population scripts can be transferred to the virtual machine using the shared folder.
 
 Example shared folder:
 
@@ -855,7 +906,7 @@ Example shared folder:
 
 ---
 
-### 4. Build and populate the database inside the virtual machine
+### 4. Build and Populate the Database Inside the Virtual Machine
 
 Build the schema:
 
@@ -877,7 +928,7 @@ mysqldump --single-transaction -h 127.0.0.1 -P 3306 -u root -p Database > 03_myd
 
 ---
 
-### 5. Run SQL queries
+### 5. Run SQL Queries
 
 SQL queries can be executed inside the virtual machine after the database is populated.
 
@@ -885,12 +936,12 @@ The queries validate the relational structure and support integrated clinical-ge
 
 ---
 
-### 6. Perform optional Neo4j analysis
+### 6. Perform Optional Neo4j Analysis
 
 After exporting selected SQL query results into `For Neo4j.csv`, run:
 
 ```bash
-python Neo4j.py
+python scripts/Neo4j.py
 ```
 
 Then import or execute the generated Cypher script in Neo4j:
@@ -913,7 +964,7 @@ The project is reproducible because it includes:
 - Final harmonized datasets
 - Final validation report
 - Neo4j input and Cypher output files
-- Documentation of all major processing decisions
+- Documentation of major processing decisions
 - Clear execution steps
 - External Figshare archives for large files
 
@@ -931,7 +982,7 @@ The final project includes validation at multiple levels:
 - Sample-level consistency checks
 - Gene-level consistency checks
 - HGNC identifier validation
-- Final proof report
+- Final proof-of-integrity report
 - Database population verification
 - SQL query output verification
 - Neo4j graph output verification
@@ -944,7 +995,13 @@ The validation report confirms the final counts for patients, samples, genes, mu
 
 ## Documentation
 
-The project writeup includes:
+The final project writeup is located in:
+
+```text
+docs/Final Project Writeup.pdf
+```
+
+The writeup includes:
 
 - Project overview
 - Data source screening table
@@ -957,6 +1014,15 @@ The project writeup includes:
 - Biological gene annotation table
 - Reproduction steps
 - Limitations and future work
+
+Additional README files are provided in:
+
+```text
+data/README.md
+scripts/README.md
+sql/README.md
+docs/README.md
+```
 
 ---
 
