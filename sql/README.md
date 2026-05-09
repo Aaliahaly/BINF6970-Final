@@ -32,6 +32,16 @@ The complete SQL dataset contains the following files:
 | `02_load_cleaned_data.sql.zip` | Compressed SQL loading file used to populate the database after the schema has been created. |
 | `03_mydump.sql.zip` | Compressed MySQL dump file used to reconstruct the complete populated database directly. |
 
+After downloading the compressed SQL files from Figshare, unzip them before running the MySQL commands.
+
+After unzipping, the files should be available as:
+
+```text
+01_create_database_schema.sql
+02_load_cleaned_data.sql
+03_mydump.sql
+```
+
 ---
 
 ## Purpose
@@ -183,6 +193,8 @@ Both routes allow the same final SQL database to be recreated.
 ## Notes
 
 The SQL files are hosted on Figshare because some files are too large to store directly in GitHub.
+
+The compressed SQL files must be unzipped before use.
 
 The SQL database is intended to support relational querying of the final harmonized TCGA LGG multi-omics data.
 
