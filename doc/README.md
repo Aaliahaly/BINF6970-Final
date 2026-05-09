@@ -1,6 +1,6 @@
 # Documentation
 
-This directory contains the main written documentation for the TCGA Lower Grade Glioma multi-omics database project.
+This `doc/` directory contains the main written documentation for the TCGA Lower Grade Glioma multi-omics database project.
 
 The documentation provides the formal project report that explains the scientific rationale, data source selection, database design, processing workflow, SQL implementation, Neo4j graph analysis, biological interpretation, reproducibility steps, limitations, and future work.
 
@@ -57,7 +57,7 @@ The other repository directories provide the files and instructions needed to re
 | `data/` | Provides Figshare links for selected inputs, intermediate outputs, final harmonized datasets, SQL files, and Neo4j files. |
 | `scripts/` | Contains Python scripts for data cleaning, validation, harmonization, HGNC mapping, SQL population script generation, and Neo4j Cypher generation. |
 | `sql/` | Documents the SQL schema file, SQL loading file, and SQL dump file used to build, populate, or reconstruct the MySQL database. |
-| `diagrams/` | Contains database design diagrams, including the entity-relationship diagram. |
+| `diagrams/` | Contains database design diagrams, including the conceptual model and logical ERD. |
 
 ---
 
